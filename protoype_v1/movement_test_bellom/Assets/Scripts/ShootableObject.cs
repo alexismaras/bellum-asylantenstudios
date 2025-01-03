@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class ShootableObject : MonoBehaviour
 {
-    float health = 3;
-    float hardness = 0.4f;
-    float health_before;
+    public float health = 4;
+    public float hardness = 0.4f;
     SpriteRenderer spriteR;
     public GameSounds gamesounds;
     // Start is called before the first frame update
@@ -18,17 +17,12 @@ public class ShootableObject : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (health_before <= health)
-        {
-            spriteR.material.color = new Color(1.0f, 0.5f * health, 0.0f, 1.0f);
-        }
+        spriteR.material.color = new Color(1.0f, 0.25f * health, 0.0f, 1.0f);
+
         if (health <= 0)
         {
             Destroy(gameObject);
         }
-
-        
-        health_before = health;
     }
 
     void OnCollisionEnter2D(Collision2D collision)
