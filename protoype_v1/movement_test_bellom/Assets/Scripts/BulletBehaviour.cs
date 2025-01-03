@@ -11,16 +11,22 @@ public class BulletBehaviour : MonoBehaviour
 
     public Vector3 bulletDir;
 
+
+    Rigidbody2D bullet_rb;
+
     public PlayerMovement playerMovement;
     // Start is called before the first frame update
     void Start()
     {
         if (gameObject.tag =="ProjectileInstance")
         {
+            bullet_rb = GetComponent<Rigidbody2D>();
             StartCoroutine(BulletLifetime());
             bulletDir = playerMovement.viewDir;
             transform.position = player.transform.position;
+            transform.rotation = Quaternion.LookRotation(Vector3.forward, bulletDir);
             volume = 1;
+            bullet_rb.AddForce(bulletDir * bullet_speed * 100);
         }
         
     }
@@ -30,21 +36,10 @@ public class BulletBehaviour : MonoBehaviour
     {
         if (gameObject.tag =="ProjectileInstance")
         {
-            
-            MoveBullet();
             if (volume <= 0)
             {
                 Destroy(gameObject);
             }
-        }
-    }
-
-
-    public void MoveBullet()
-    {
-        for (var i = 0; i < bullet_speed; i++)
-        {
-            transform.position = transform.position + bulletDir * 0.1f;
         }
     }
     IEnumerator BulletLifetime()
