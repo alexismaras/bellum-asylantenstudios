@@ -8,6 +8,8 @@ public class ShootableObject : MonoBehaviour
     public float hardness = 0.4f;
     SpriteRenderer spriteR;
     public GameSounds gamesounds;
+
+    public MainManager mainManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +40,11 @@ public class ShootableObject : MonoBehaviour
         }
 
         
+    }
+
+    private void OnDestroy()
+    {
+        mainManager.level_completed = true;
     }
 
 

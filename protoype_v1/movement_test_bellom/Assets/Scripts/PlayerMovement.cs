@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
     LayerMask layerMask;
 
-    public Animator animator;
+    // public Animator animator;
 
     [Header("Movement")]
     public float moveSpeed;
@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
         {
             verticalInput = 0;
         }
-        animator.SetBool("moving", moving);
+        // animator.SetBool("moving", moving);
 
 
         // Move in Viewdirection
@@ -127,6 +127,6 @@ public class PlayerMovement : MonoBehaviour
         {
             bulletManager.shooting = false;
         }
-        animator.SetBool("shooting", bulletManager.shooting);
+        // animator.SetBool("shooting", bulletManager.shooting);
     }
 }
