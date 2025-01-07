@@ -14,6 +14,10 @@ public class BulletManager : MonoBehaviour
 
     public float shooting_interval;
 
+    public float bullet_speed;
+
+    public float volume;
+
     [Header("FX")]
     public float muzzleFlashTime;
     // Start is called before the first frame update

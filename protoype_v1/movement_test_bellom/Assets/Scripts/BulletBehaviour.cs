@@ -6,29 +6,37 @@ public class BulletBehaviour : MonoBehaviour
 {
     public GameObject player;
 
-    public float bullet_speed;
-    public float volume;
+    public BulletManager bulletManager;
+
+    public PlayerMovement playerMovement;
 
     public GameSounds gamesounds;
 
+    public float bullet_speed;
+    public float volume;
+
+    
+
     public Vector3 bulletDir;
-
-    public bool bulletHasSpray;
-
-    public int randomValue;
-    public Color rancolor;
 
     public Vector3 previousPosition;
     public Vector3 currentPosition;
 
+    
+    public bool bulletHasSpray;
+    public int randomValue;
+    public Color rancolor;
+
     LayerMask layerMask;
 
-    public PlayerMovement playerMovement;
+    
     // Start is called before the first frame update
     void Start()
     {
         if (gameObject.tag =="ProjectileInstance")
-        {
+        {   
+            bullet_speed = bulletManager.bullet_speed;
+            volume = bulletManager.volume;
             layerMask = LayerMask.GetMask("Entity");
             StartCoroutine(BulletLifetime());
             bulletDir = playerMovement.viewDir;
@@ -70,17 +78,27 @@ public class BulletBehaviour : MonoBehaviour
     {
         previousPosition = currentPosition;
         transform.position = transform.position + bulletDir * bullet_speed;
-        Debug.Log(bulletDir);
         currentPosition = transform.position;
         Debug.DrawRay(previousPosition, currentPosition-previousPosition, Color.red, 0f, false); 
         RaycastHit2D hit = Physics2D.Raycast(previousPosition, currentPosition-previousPosition, bullet_speed, layerMask);
         if (hit)
         {  
-            gamesounds.PlayHitmarker();
-            ShootableObject shootableObject = hit.collider.GetComponent<ShootableObject>();
-            shootableObject.health -= volume;
-            volume -= shootableObject.hardness;
-            Debug.DrawRay(previousPosition, currentPosition-previousPosition, Color.white, 10f, false);  
+            if (hit.collider.tag == "Enemy")
+            {
+                gamesounds.PlayHitmarker();
+                ShootableObject shootableObject = hit.collider.GetComponent<ShootableObject>();
+                shootableObject.health -= volume;
+                volume -= shootableObject.hardness;
+                Debug.DrawRay(previousPosition, currentPosition-previousPosition, Color.white, 10f, false); 
+            }
+            else if (hit.collider.tag == "NPC")
+            {
+                gamesounds.PlayHitmarker();
+                GoreNPC goreNPC = hit.collider.GetComponent<GoreNPC>();
+                goreNPC.health -= volume;
+                volume -= goreNPC.hardness;
+                Debug.DrawRay(previousPosition, currentPosition-previousPosition, Color.white, 10f, false); 
+            }
         }
     }
     IEnumerator BulletLifetime()

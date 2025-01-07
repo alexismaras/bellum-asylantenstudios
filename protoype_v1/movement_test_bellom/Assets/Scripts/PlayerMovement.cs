@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     public BulletManager bulletManager;
 
-    public float enemyHits;
+    public float goremeter_multiplier;
 
 
     LayerMask layerMask;
@@ -39,7 +39,6 @@ public class PlayerMovement : MonoBehaviour
     {
         fastRollSpeed = 10;
         layerMask = LayerMask.GetMask("Entity");
-        enemyHits = 0;
     }
 
 
@@ -62,36 +61,21 @@ public class PlayerMovement : MonoBehaviour
         {
             verticalInput = 0;
         }
-        // animator.SetBool("moving", moving);
-
-
-        // Move in Viewdirection
+        
         inputDir = orientation.up * verticalInput;
         viewDir = orientation.up * 1f;
 
 
 
         Debug.DrawRay(transform.position, viewDir * 20f, Color.white, 0.0f, false);
-        // bool hit;
-        // if (Physics2D.Raycast(transform.position, viewDir, 20f, layerMask))
-        // {  
-        //     Debug.Log("hit");
-        //     Debug.DrawRay(transform.position, viewDir * 20f, Color.red, 0.0f, false);
-        //     if (Input.GetMouseButtonDown(0))
-        //     {   
-        //         // enemyHits += 1;
-        //         // if (enemyHits == 3)
-        //         // {
-        //         // Destroy(enemy);
-        //         // }
-        //     }        
-        // }
    
     }
     private void MovePlayer()
     {
-        transform.position = transform.position + inputDir * moveSpeed * (fastRollPerforming? fastRollSpeed : 1) * (bulletManager.shooting? walkingShootMultiplier : 1);
+        transform.position = transform.position + inputDir * (moveSpeed+(moveSpeed*goremeter_multiplier)) * (fastRollPerforming? fastRollSpeed : 1) * (bulletManager.shooting? walkingShootMultiplier : 1);
         camera.transform.position = new Vector3(transform.position.x, transform.position.y, camera.transform.position.z);
+
+        Debug.Log(goremeter_multiplier);
         
     }
 

@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 232400665}
   m_Layer: 3
   m_Name: Nemey
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -502,6 +502,8 @@ MonoBehaviour:
   shooting: 0
   performing: 0
   shooting_interval: 0.1
+  bullet_speed: 3
+  volume: 1
   muzzleFlashTime: 0.03
 --- !u!4 &438638629
 Transform:
@@ -511,12 +513,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 438638627}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9559692, y: -3.504339, z: 0.06289409}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.645964, y: -2.7444916, z: 0.08206522}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 885980497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &470877744
 GameObject:
@@ -1131,11 +1133,45 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851383827}
   serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 885980497}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &885980496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 885980497}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &885980497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885980496}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.6019335, y: -0.7598475, z: -0.019171128}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 851383829}
+  - {fileID: 1783375182}
+  - {fileID: 438638629}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1113841104
@@ -1189,7 +1225,7 @@ MonoBehaviour:
   viewDir: {x: 0, y: 0, z: 0}
   camera: {fileID: 519420028}
   bulletManager: {fileID: 438638628}
-  enemyHits: 0
+  goremeter_multiplier: 0
   moveSpeed: 0.08
   fastRollSpeed: 0
   walkingShootMultiplier: 0.5
@@ -1394,16 +1430,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1113841104}
-  bullet_speed: 3
-  volume: 0
+  bulletManager: {fileID: 438638628}
+  playerMovement: {fileID: 1113841108}
   gamesounds: {fileID: 590881037}
+  bullet_speed: 0
+  volume: 0
   bulletDir: {x: 0, y: 0, z: 0}
+  previousPosition: {x: 0, y: 0, z: 0}
+  currentPosition: {x: 0, y: 0, z: 0}
   bulletHasSpray: 0
   randomValue: 0
   rancolor: {r: 0, g: 0, b: 0, a: 0}
-  previousPosition: {x: 0, y: 0, z: 0}
-  currentPosition: {x: 0, y: 0, z: 0}
-  playerMovement: {fileID: 1113841108}
 --- !u!4 &1777654232
 Transform:
   m_ObjectHideFlags: 0
@@ -1509,12 +1546,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1783375180}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.6019335, y: -0.7598475, z: -0.019171128}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 885980497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1837573516
 GameObject:
@@ -1725,13 +1762,11 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 851383829}
-  - {fileID: 1783375182}
+  - {fileID: 885980497}
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 1113841107}
   - {fileID: 232400662}
   - {fileID: 1777654232}
-  - {fileID: 438638629}
   - {fileID: 590881036}
   - {fileID: 1886668036}
