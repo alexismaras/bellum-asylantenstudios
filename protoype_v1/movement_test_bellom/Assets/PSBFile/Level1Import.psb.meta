@@ -1,0 +1,2911 @@
+fileFormatVersion: 2
+guid: 7dfed27643e624b41965a511bde07ccc
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 400
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData:
+  - name: HolzWand+Boden Ecke
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 5680
+      width: 728
+      height: 831
+    spriteID: 67c74998598037e4b91d04d46d7eda15
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 5680}
+    spritePosition: {x: 2316, y: 2923}
+  - name: HolzWand+Boden
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 6519
+      width: 726
+      height: 831
+    spriteID: 01b82eef4e97df642801242baf096212
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 6519}
+    spritePosition: {x: 2675, y: 2723}
+  - name: HolzWand
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3608
+      y: 840
+      width: 368
+      height: 627
+    spriteID: 9dbfb84a29611a1499f00c5777d31826
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3608, y: 840}
+    spritePosition: {x: 3033, y: 3326}
+  - name: Bett
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3271
+      y: 3568
+      width: 811
+      height: 774
+    spriteID: 6d60ae5371d87a04c8566ceb785fc474
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3271, y: 3568}
+    spritePosition: {x: 1685, y: 2916}
+  - name: StacheldrahtSchere
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1851
+      y: 2382
+      width: 209
+      height: 130
+    spriteID: 01d2250486d63ab47826cb4e0335a0c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1851, y: 2382}
+    spritePosition: {x: 1818, y: 928}
+  - name: AntiPersonellMine
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1851
+      y: 2108
+      width: 247
+      height: 266
+    spriteID: cce3bc268a906944b9607aee851dbf3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1851, y: 2108}
+    spritePosition: {x: 1368, y: 888}
+  - name: StacheldrahtStock SchiefSpiegel
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3984
+      y: 840
+      width: 89
+      height: 431
+    spriteID: f7e3d10bf35b4064d83da8d00f8aa0cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3984, y: 840}
+    spritePosition: {x: 1193, y: 1253}
+  - name: StacheldrahtStock Schief
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2049
+      y: 6622
+      width: 110
+      height: 422
+    spriteID: 7b2ea842a15ee5f4b9dc32eef3675967
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2049, y: 6622}
+    spritePosition: {x: 830, y: 1054}
+  - name: Stacheldraht
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3608
+      y: 4
+      width: 412
+      height: 641
+    spriteID: e6ef2dc8bbc354a4381b41ab34bc7d82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3608, y: 4}
+    spritePosition: {x: 855, y: 1057}
+  - name: Lautsprecher
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3271
+      y: 4624
+      width: 325
+      height: 1377
+    spriteID: a7a35c0d355b6ed47bc9f29d832c1a17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3271, y: 4624}
+    spritePosition: {x: 1872, y: 1229}
+  - name: PapiereAufTisch
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1447
+      y: 7155
+      width: 467
+      height: 261
+    spriteID: baf891460f8175d4091b77b0079130a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1447, y: 7155}
+    spritePosition: {x: 2382, y: 1565}
+  - name: Tisch
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1447
+      y: 6622
+      width: 594
+      height: 525
+    spriteID: 2a5a863eb0cdf1f4cab0b0df847c6f01
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1447, y: 6622}
+    spritePosition: {x: 2270, y: 1292}
+  - name: GewehrAufTisch
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1271
+      y: 2108
+      width: 572
+      height: 415
+    spriteID: 8c6963e023db37947ace49db10beb52b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1271, y: 2108}
+    spritePosition: {x: 1740, y: 1669}
+  - name: CharacterMC
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1453
+      y: 4939
+      width: 488
+      height: 779
+    spriteID: cdfd3d1c7c84525418cf0c2f39920878
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1453, y: 4939}
+    spritePosition: {x: 1413, y: 1254}
+  - name: TrenchesDeckeDepthSeiteSpiegel
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1271
+      y: 1267
+      width: 886
+      height: 833
+    spriteID: cb4f82f0c8be7e74a831732e0d7d1770
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1271, y: 1267}
+    spritePosition: {x: 0, y: 227}
+  - name: TrenchesDeckeDepthEckeInnen
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2533
+      width: 2155
+      height: 646
+    spriteID: 8e7fc89b07fdc53428f10df217923566
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2533}
+    spritePosition: {x: 169, y: 0}
+  - name: "TrenchesDeckeDepthEckeAu\xDFen"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4939
+      width: 1441
+      height: 834
+    spriteID: a6b37907355470440874e5c31bcc2566
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4939}
+    spritePosition: {x: 2311, y: 646}
+  - name: TrenchesDeckeDepthSeite
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5781
+      width: 1434
+      height: 833
+    spriteID: eb6883f459bf8e1429e85bf1ed68eadd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 5781}
+    spritePosition: {x: 1599, y: 231}
+  - name: TrenchesDecke
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6622
+      width: 1435
+      height: 829
+    spriteID: b905135c6ecb63d4d831a6bbe3282b5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 6622}
+    spritePosition: {x: 168, y: 2302}
+  - name: "S\xE4cke2"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 7459
+      width: 840
+      height: 538
+    spriteID: 7d622dfee480e294ebd07da62f5667c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 7459}
+    spritePosition: {x: 2029, y: 1787}
+  - name: "S\xE4cke1"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 7358
+      width: 885
+      height: 619
+    spriteID: 78289160f59218d4b96614fd14af548c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 7358}
+    spritePosition: {x: 2761, y: 1355}
+  - name: TrenchesWandMitteGelbeMarkierungSpiegel
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 2512
+      width: 1095
+      height: 1048
+    spriteID: e4077b4cb558d2948ae311c499e5966d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 2512}
+    spritePosition: {x: 2685, y: 2909}
+  - name: TrenchesWandMitteGelbeMarkierung
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 3568
+      width: 1095
+      height: 1048
+    spriteID: 3eaa364aa060537459a55c197801f9f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 3568}
+    spritePosition: {x: 1229, y: 2718}
+  - name: "TrenchesWandEckeAu\xDFen"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1267
+      width: 1259
+      height: 1258
+    spriteID: 01ca772263e3a0c4ba5278f363862292
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1267}
+    spritePosition: {x: 0, y: 1263}
+  - name: TrenchesWandEckeInnen
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 2156
+      height: 1255
+    spriteID: b8ee7bfe81223d64a9ad1568560a4ad3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 1599, y: 2091}
+  - name: TrenchesWandSpiegel
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3271
+      y: 2512
+      width: 717
+      height: 1046
+    spriteID: 8c984f70197389d49a6815ad636edefc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3271, y: 2510}
+    spritePosition: {x: 3379, y: 1685}
+  - name: TrenchesWand
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 4624
+      width: 1095
+      height: 1048
+    spriteID: 50c9254c51d831b40a03483359086ac4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 4624}
+    spritePosition: {x: 883, y: 1678}
+  - name: MitteBoden4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 4
+      width: 1432
+      height: 828
+    spriteID: 51b765660d2d00845a3e2ef6f21114b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 4}
+    spritePosition: {x: 529, y: 855}
+  - name: MitteBoden3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 840
+      width: 1432
+      height: 828
+    spriteID: a5a91738f43e3ab43bcdea982d48b759
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 840}
+    spritePosition: {x: 1243, y: 1269}
+  - name: MitteBoden2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 1676
+      width: 1432
+      height: 828
+    spriteID: 29ef23381aa036442b7b61e6b88ce23b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 1676}
+    spritePosition: {x: 1959, y: 855}
+  - name: MitteBodenGelbeMarkierung
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3187
+      width: 1433
+      height: 868
+    spriteID: 642a621a9d020f9488e67225dca01d7f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3187}
+    spritePosition: {x: 175, y: 3089}
+  - name: MitteBoden1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4063
+      width: 1433
+      height: 868
+    spriteID: 022090ac32e188c41ba1b94020628975
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4063}
+    spritePosition: {x: 1243, y: 402}
+  rigSpriteImportData:
+  - name: HolzWand+Boden Ecke
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 5680
+      width: 728
+      height: 831
+    spriteID: 16be0e7ab65dda042888e54adec64c32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 5680}
+    spritePosition: {x: 2316, y: 2923}
+  - name: HolzWand+Boden
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 6519
+      width: 726
+      height: 831
+    spriteID: 9aa05403108a557489cbe6086be095b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 6519}
+    spritePosition: {x: 2675, y: 2723}
+  - name: HolzWand
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3608
+      y: 840
+      width: 368
+      height: 627
+    spriteID: 48c2e00776865d8478114e59dc8e9604
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3608, y: 840}
+    spritePosition: {x: 3033, y: 3326}
+  - name: Bett
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3271
+      y: 3568
+      width: 811
+      height: 774
+    spriteID: eedd6b12d8c7f8c4c98d5b8d6e05e435
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3271, y: 3568}
+    spritePosition: {x: 1685, y: 2916}
+  - name: StacheldrahtSchere
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1851
+      y: 2382
+      width: 209
+      height: 130
+    spriteID: 6186028e37d9a6144a75109f7f5d9907
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1851, y: 2382}
+    spritePosition: {x: 1818, y: 928}
+  - name: AntiPersonellMine
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1851
+      y: 2108
+      width: 247
+      height: 266
+    spriteID: cd51a7a14bae0904eab7cab6543c47da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1851, y: 2108}
+    spritePosition: {x: 1368, y: 888}
+  - name: StacheldrahtStock SchiefSpiegel
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3984
+      y: 840
+      width: 89
+      height: 431
+    spriteID: 1d5cce8986cda1b4b82524fa0b83dc7d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3984, y: 840}
+    spritePosition: {x: 1193, y: 1253}
+  - name: StacheldrahtStock Schief
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2049
+      y: 6622
+      width: 110
+      height: 422
+    spriteID: 55705d1bd2f95454f8751d26ce16ac85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2049, y: 6622}
+    spritePosition: {x: 830, y: 1054}
+  - name: Stacheldraht
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3608
+      y: 4
+      width: 412
+      height: 641
+    spriteID: d9f0210416331e542bd1264266a1afc1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3608, y: 4}
+    spritePosition: {x: 855, y: 1057}
+  - name: Lautsprecher
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3271
+      y: 4624
+      width: 325
+      height: 1377
+    spriteID: a9adf10d664240140935c9f9ee5eea9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3271, y: 4624}
+    spritePosition: {x: 1872, y: 1229}
+  - name: PapiereAufTisch
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1447
+      y: 7155
+      width: 467
+      height: 261
+    spriteID: 4d4207957a909f842932c3d3b914cb42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1447, y: 7155}
+    spritePosition: {x: 2382, y: 1565}
+  - name: Tisch
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1447
+      y: 6622
+      width: 594
+      height: 525
+    spriteID: 2628a1eb69791d3459ca509352e18ecb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1447, y: 6622}
+    spritePosition: {x: 2270, y: 1292}
+  - name: GewehrAufTisch
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1271
+      y: 2108
+      width: 572
+      height: 415
+    spriteID: 00411d55d0871094bb6e87c06e829d48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1271, y: 2108}
+    spritePosition: {x: 1740, y: 1669}
+  - name: CharacterMC
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1453
+      y: 4939
+      width: 488
+      height: 779
+    spriteID: a673424929dae9f438684f1829048147
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1453, y: 4939}
+    spritePosition: {x: 1413, y: 1254}
+  - name: TrenchesDeckeDepthSeiteSpiegel
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1271
+      y: 1267
+      width: 886
+      height: 833
+    spriteID: 23918c8e466601a40af22eb254791ba0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1271, y: 1267}
+    spritePosition: {x: 0, y: 227}
+  - name: TrenchesDeckeDepthEckeInnen
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2533
+      width: 2155
+      height: 646
+    spriteID: 54c7dc3061d2c014589764404779141a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2533}
+    spritePosition: {x: 169, y: 0}
+  - name: "TrenchesDeckeDepthEckeAu\xDFen"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4939
+      width: 1441
+      height: 834
+    spriteID: 6d53e9e8fd1402a42bc433a7a10d6141
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4939}
+    spritePosition: {x: 2311, y: 646}
+  - name: TrenchesDeckeDepthSeite
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5781
+      width: 1434
+      height: 833
+    spriteID: a79a63c42ff3c6447819917f60bc4b90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 5781}
+    spritePosition: {x: 1599, y: 231}
+  - name: TrenchesDecke
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6622
+      width: 1435
+      height: 829
+    spriteID: f1cc1c722a1463a448e6e4f1bdb81821
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 6622}
+    spritePosition: {x: 168, y: 2302}
+  - name: "S\xE4cke2"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 7459
+      width: 840
+      height: 538
+    spriteID: e498bb07e00563c4997f7747a65fb6e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 7459}
+    spritePosition: {x: 2029, y: 1787}
+  - name: "S\xE4cke1"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 7358
+      width: 885
+      height: 619
+    spriteID: 022c6cf63813b13488b146b02d14fbfa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 7358}
+    spritePosition: {x: 2761, y: 1355}
+  - name: TrenchesWandMitteGelbeMarkierungSpiegel
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 2512
+      width: 1095
+      height: 1048
+    spriteID: b6bcff2bed895ea4ba5fdb89bc0044c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 2512}
+    spritePosition: {x: 2685, y: 2909}
+  - name: TrenchesWandMitteGelbeMarkierung
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 3568
+      width: 1095
+      height: 1048
+    spriteID: f2c91ec220690c14b96dee3661998f16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 3568}
+    spritePosition: {x: 1229, y: 2718}
+  - name: "TrenchesWandEckeAu\xDFen"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1267
+      width: 1259
+      height: 1258
+    spriteID: a6e45d9a142b5424792657d5fe271188
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1267}
+    spritePosition: {x: 0, y: 1263}
+  - name: TrenchesWandEckeInnen
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 2156
+      height: 1255
+    spriteID: 770757fe7688eee4cb55d89c1491b785
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 1599, y: 2091}
+  - name: TrenchesWandSpiegel
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3271
+      y: 2512
+      width: 717
+      height: 1046
+    spriteID: c5a06af4a3d8f30429584c9563f84fb6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3271, y: 2510}
+    spritePosition: {x: 3379, y: 1685}
+  - name: TrenchesWand
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 4624
+      width: 1095
+      height: 1048
+    spriteID: adb1abdf72b5286488c4f48e2bda1192
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 4624}
+    spritePosition: {x: 883, y: 1678}
+  - name: MitteBoden4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 4
+      width: 1432
+      height: 828
+    spriteID: 479fae21cc458e346a80e4606be1e7f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 4}
+    spritePosition: {x: 529, y: 855}
+  - name: MitteBoden3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 840
+      width: 1432
+      height: 828
+    spriteID: adfa8be13e691054481c8fc054a10b1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 840}
+    spritePosition: {x: 1243, y: 1269}
+  - name: MitteBoden2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 1676
+      width: 1432
+      height: 828
+    spriteID: 1019562c71c127d47bfa55915b014200
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 1676}
+    spritePosition: {x: 1959, y: 855}
+  - name: MitteBodenGelbeMarkierung
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3187
+      width: 1433
+      height: 868
+    spriteID: 432e337f5662b354d8b648e114362c8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3187}
+    spritePosition: {x: 175, y: 3089}
+  - name: MitteBoden1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4063
+      width: 1433
+      height: 868
+    spriteID: a4ee362ed224d994eb08807327431817
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4063}
+    spritePosition: {x: 1243, y: 402}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 0
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers:
+  - name: Sketches
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3e910bc8766b3ea428f3ab22f04da17a
+    layerID: 6
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: IsometricGrid
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 565813a99b2ed414f9596bb2fa71e26e
+    layerID: 9
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: ReferenceCube
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e5dbf84eea88dcf429ce777ca661e48a
+    layerID: 37
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: HolzWand+BodenEcke
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: c0e1f9623fdfeac4fbfb4909a50e78ce
+    layerID: 387
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: HolzWand+Boden Ecke
+    spriteName: HolzWand+Boden Ecke
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 67c74998598037e4b91d04d46d7eda15
+    layerID: 386
+    mosaicPosition: {x: 2168, y: 5680}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: HolzWand+Boden
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 2b8923345b59b074a8d178a2e29d205c
+    layerID: 366
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: HolzWand+Boden
+    spriteName: HolzWand+Boden
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 01b82eef4e97df642801242baf096212
+    layerID: 365
+    mosaicPosition: {x: 2168, y: 6519}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: HolzWand
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 1e97b9bec2c118a42b9c374e45149fdd
+    layerID: 355
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: HolzWand
+    spriteName: HolzWand
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 9dbfb84a29611a1499f00c5777d31826
+    layerID: 353
+    mosaicPosition: {x: 3608, y: 840}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bett
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: e6681cddac4235748bfd450c63e3ed8e
+    layerID: 350
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Bett
+    spriteName: Bett
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 6d60ae5371d87a04c8566ceb785fc474
+    layerID: 348
+    mosaicPosition: {x: 3271, y: 3568}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: StacheldrahtSchere
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: bf51c88497663b64fa192ac7d6d98f3b
+    layerID: 345
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: StacheldrahtSchere
+    spriteName: StacheldrahtSchere
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 01d2250486d63ab47826cb4e0335a0c7
+    layerID: 343
+    mosaicPosition: {x: 1851, y: 2382}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: AntiPersonellMine
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 427f421dc0bb5bf4c818d068cd296e47
+    layerID: 340
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: AntiPersonellMine
+    spriteName: AntiPersonellMine
+    isGroup: 0
+    parentIndex: 13
+    spriteID: cce3bc268a906944b9607aee851dbf3e
+    layerID: 338
+    mosaicPosition: {x: 1851, y: 2108}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Stacheldraht
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: dda832b2d55e49247bbe1d2bf77b5006
+    layerID: 331
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: StacheldrahtStock Spiegel
+    spriteName: 
+    isGroup: 1
+    parentIndex: 15
+    spriteID: b5c8745e1898f7f4f946bf0ca9dd7150
+    layerID: 335
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: StacheldrahtStock SchiefSpiegel
+    spriteName: StacheldrahtStock SchiefSpiegel
+    isGroup: 0
+    parentIndex: 16
+    spriteID: f7e3d10bf35b4064d83da8d00f8aa0cc
+    layerID: 334
+    mosaicPosition: {x: 3984, y: 840}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: StacheldrahtStock Schief
+    spriteName: 
+    isGroup: 1
+    parentIndex: 15
+    spriteID: f8db941d2088f164a9a5f554bfe33441
+    layerID: 329
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: StacheldrahtStock Schief
+    spriteName: StacheldrahtStock Schief
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 7b2ea842a15ee5f4b9dc32eef3675967
+    layerID: 326
+    mosaicPosition: {x: 2049, y: 6622}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Stacheldraht
+    spriteName: Stacheldraht
+    isGroup: 0
+    parentIndex: 15
+    spriteID: e6ef2dc8bbc354a4381b41ab34bc7d82
+    layerID: 328
+    mosaicPosition: {x: 3608, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Lautsprecher
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 4750176b907a2a44bbe16e58a69eb10f
+    layerID: 321
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lautsprecher
+    spriteName: Lautsprecher
+    isGroup: 0
+    parentIndex: 21
+    spriteID: a7a35c0d355b6ed47bc9f29d832c1a17
+    layerID: 319
+    mosaicPosition: {x: 3271, y: 4624}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: PapierAufTisch
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 7ed1bcf3826f0684bba83495c855bb72
+    layerID: 300
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: PapiereAufTisch
+    spriteName: PapiereAufTisch
+    isGroup: 0
+    parentIndex: 23
+    spriteID: baf891460f8175d4091b77b0079130a9
+    layerID: 297
+    mosaicPosition: {x: 1447, y: 7155}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Tisch
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: cd5f6a8ce79664949b7521eebc72767d
+    layerID: 294
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Tisch
+    spriteName: Tisch
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 2a5a863eb0cdf1f4cab0b0df847c6f01
+    layerID: 292
+    mosaicPosition: {x: 1447, y: 6622}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: GewehrAufTisch
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 39cd17b0b66ce604e9e3f04ccc091251
+    layerID: 310
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: GewehrAufTisch
+    spriteName: GewehrAufTisch
+    isGroup: 0
+    parentIndex: 27
+    spriteID: 8c6963e023db37947ace49db10beb52b
+    layerID: 308
+    mosaicPosition: {x: 1271, y: 2108}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CharacterMC
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 0770323fc26e75345a8f35c287eabdb6
+    layerID: 284
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC
+    spriteName: CharacterMC
+    isGroup: 0
+    parentIndex: 29
+    spriteID: cdfd3d1c7c84525418cf0c2f39920878
+    layerID: 279
+    mosaicPosition: {x: 1453, y: 4939}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CharacterMC ColorPalette
+    spriteName: 
+    isGroup: 0
+    parentIndex: 29
+    spriteID: 5fcb7910c52ec074e97ce56997ef9d43
+    layerID: 283
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: GGD_CharacterSheetMC
+    spriteName: 
+    isGroup: 0
+    parentIndex: 29
+    spriteID: 61ba78129e108b8429e6de762b1e0bb7
+    layerID: 282
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: CharakterMCSketch
+    spriteName: 
+    isGroup: 0
+    parentIndex: 29
+    spriteID: 5a409e89057877645932b0392018364d
+    layerID: 278
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: TrenchesDecken
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 097ee3d72e8253344bfc3a530098a112
+    layerID: 267
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesDeckeDepthSeiteSpiegel
+    spriteName: 
+    isGroup: 1
+    parentIndex: 34
+    spriteID: de7bffd1b51e57c46b430bfd3d1d5434
+    layerID: 226
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesDeckeDepthSeiteSpiegel
+    spriteName: TrenchesDeckeDepthSeiteSpiegel
+    isGroup: 0
+    parentIndex: 35
+    spriteID: cb4f82f0c8be7e74a831732e0d7d1770
+    layerID: 225
+    mosaicPosition: {x: 1271, y: 1267}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TrenchesDeckeDepthEckeInnen
+    spriteName: 
+    isGroup: 1
+    parentIndex: 34
+    spriteID: 1cf82aa2ca192dc468b6fcc07ec8f47f
+    layerID: 230
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesDeckeDepthEckeInnen
+    spriteName: TrenchesDeckeDepthEckeInnen
+    isGroup: 0
+    parentIndex: 37
+    spriteID: 8e7fc89b07fdc53428f10df217923566
+    layerID: 238
+    mosaicPosition: {x: 4, y: 2533}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "TrenchesDeckeDepthEckeAu\xDFen"
+    spriteName: 
+    isGroup: 1
+    parentIndex: 34
+    spriteID: abc36eec53ad35b42a80dfe370683f45
+    layerID: 249
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "TrenchesDeckeDepthEckeAu\xDFen"
+    spriteName: "TrenchesDeckeDepthEckeAu\xDFen"
+    isGroup: 0
+    parentIndex: 39
+    spriteID: a6b37907355470440874e5c31bcc2566
+    layerID: 262
+    mosaicPosition: {x: 4, y: 4939}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TrenchesDeckeDepthSeite
+    spriteName: 
+    isGroup: 1
+    parentIndex: 34
+    spriteID: 7a11bb8ff83ab7a40ae45b0b128725d9
+    layerID: 218
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesDeckeDepthSeite
+    spriteName: TrenchesDeckeDepthSeite
+    isGroup: 0
+    parentIndex: 41
+    spriteID: eb6883f459bf8e1429e85bf1ed68eadd
+    layerID: 217
+    mosaicPosition: {x: 4, y: 5781}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Trenchesdecken
+    spriteName: 
+    isGroup: 1
+    parentIndex: 34
+    spriteID: bd588a23c4ee5f04997e2920eb8b944e
+    layerID: 207
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesDecke
+    spriteName: 
+    isGroup: 1
+    parentIndex: 43
+    spriteID: 6b036dcb5609bda4b9ac9aa054407290
+    layerID: 164
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesDecke
+    spriteName: TrenchesDecke
+    isGroup: 0
+    parentIndex: 44
+    spriteID: b905135c6ecb63d4d831a6bbe3282b5a
+    layerID: 213
+    mosaicPosition: {x: 4, y: 6622}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "S\xE4cke"
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 51aff59518886f141a2346d5c10d704b
+    layerID: 91
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "S\xE4cke2"
+    spriteName: "S\xE4cke2"
+    isGroup: 0
+    parentIndex: 46
+    spriteID: 7d622dfee480e294ebd07da62f5667c0
+    layerID: 85
+    mosaicPosition: {x: 4, y: 7459}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "S\xE4cke1"
+    spriteName: "S\xE4cke1"
+    isGroup: 0
+    parentIndex: 46
+    spriteID: 78289160f59218d4b96614fd14af548c
+    layerID: 82
+    mosaicPosition: {x: 2168, y: 7358}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "TrenchesW\xE4nde"
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: a08ede75597ae3e48b28ed4401fc04f7
+    layerID: 265
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesWandGelbeMarkierungSpiegel
+    spriteName: 
+    isGroup: 1
+    parentIndex: 49
+    spriteID: fa8d19b730cdbc44d8c6e1295ede6cf3
+    layerID: 276
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesWandMitteGelbeMarkierungSpiegel
+    spriteName: TrenchesWandMitteGelbeMarkierungSpiegel
+    isGroup: 0
+    parentIndex: 50
+    spriteID: e4077b4cb558d2948ae311c499e5966d
+    layerID: 275
+    mosaicPosition: {x: 2168, y: 2512}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TrenchesWandGelbeMarkierung
+    spriteName: 
+    isGroup: 1
+    parentIndex: 49
+    spriteID: 1c9f6ab7db73910418ed0c05bdd020d4
+    layerID: 272
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesWandMitteGelbeMarkierung
+    spriteName: TrenchesWandMitteGelbeMarkierung
+    isGroup: 0
+    parentIndex: 52
+    spriteID: 3eaa364aa060537459a55c197801f9f5
+    layerID: 271
+    mosaicPosition: {x: 2168, y: 3568}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "TrenchesWandEckeAu\xDFen"
+    spriteName: 
+    isGroup: 1
+    parentIndex: 49
+    spriteID: f7e914c6338817e44a7a4e390129977a
+    layerID: 122
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "TrenchesWandEckeAu\xDFen"
+    spriteName: "TrenchesWandEckeAu\xDFen"
+    isGroup: 0
+    parentIndex: 54
+    spriteID: 01ca772263e3a0c4ba5278f363862292
+    layerID: 132
+    mosaicPosition: {x: 4, y: 1267}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TrenchesWand EckeInnen
+    spriteName: 
+    isGroup: 1
+    parentIndex: 49
+    spriteID: 7b091d0a6bc63ee4682a01ec7cc843b2
+    layerID: 154
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesWandEckeInnen
+    spriteName: TrenchesWandEckeInnen
+    isGroup: 0
+    parentIndex: 56
+    spriteID: b8ee7bfe81223d64a9ad1568560a4ad3
+    layerID: 158
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TrenchesWandSpiegel
+    spriteName: 
+    isGroup: 1
+    parentIndex: 49
+    spriteID: 8474f6ed0926d3847a8f784a59c8c242
+    layerID: 204
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesWandSpiegel
+    spriteName: TrenchesWandSpiegel
+    isGroup: 0
+    parentIndex: 58
+    spriteID: 8c984f70197389d49a6815ad636edefc
+    layerID: 203
+    mosaicPosition: {x: 3271, y: 2512}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TrenchesWand
+    spriteName: 
+    isGroup: 1
+    parentIndex: 49
+    spriteID: c77459d53d4d5a243b37fc4fa0779a62
+    layerID: 117
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesWand
+    spriteName: TrenchesWand
+    isGroup: 0
+    parentIndex: 60
+    spriteID: 50c9254c51d831b40a03483359086ac4
+    layerID: 114
+    mosaicPosition: {x: 2168, y: 4624}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Boden
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: db7a7e62656e2694eb9205590340155e
+    layerID: 80
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: MitteBoden4
+    spriteName: MitteBoden4
+    isGroup: 0
+    parentIndex: 62
+    spriteID: 51b765660d2d00845a3e2ef6f21114b2
+    layerID: 73
+    mosaicPosition: {x: 2168, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MitteBoden3
+    spriteName: MitteBoden3
+    isGroup: 0
+    parentIndex: 62
+    spriteID: a5a91738f43e3ab43bcdea982d48b759
+    layerID: 72
+    mosaicPosition: {x: 2168, y: 840}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MitteBoden2
+    spriteName: MitteBoden2
+    isGroup: 0
+    parentIndex: 62
+    spriteID: 29ef23381aa036442b7b61e6b88ce23b
+    layerID: 71
+    mosaicPosition: {x: 2168, y: 1676}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MitteBodenGelbeMarkierung
+    spriteName: MitteBodenGelbeMarkierung
+    isGroup: 0
+    parentIndex: 62
+    spriteID: 642a621a9d020f9488e67225dca01d7f
+    layerID: 277
+    mosaicPosition: {x: 4, y: 3187}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MitteBoden1
+    spriteName: MitteBoden1
+    isGroup: 0
+    parentIndex: 62
+    spriteID: 022090ac32e188c41ba1b94020628975
+    layerID: 70
+    mosaicPosition: {x: 4, y: 4063}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Warmup
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cdec8f39cb07441448108b96c3444347
+    layerID: 7
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Hintergrund
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5b9571ef17e0ec24e8767b7efd6facf5
+    layerID: 1
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  rigPSDLayers:
+  - name: Sketches
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: dfa76753ecfefb14c8ab509cc39c005f
+    layerID: 6
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: IsometricGrid
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 09abdfc509e103640a13092c4caf883b
+    layerID: 9
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: ReferenceCube
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f7c8f39a63ec3df41bd854acc03f4509
+    layerID: 37
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: HolzWand+BodenEcke
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: f676ec642e797d4459037b340093f468
+    layerID: 387
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: HolzWand+Boden Ecke
+    spriteName: HolzWand+Boden Ecke
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 16be0e7ab65dda042888e54adec64c32
+    layerID: 386
+    mosaicPosition: {x: 2168, y: 5680}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: HolzWand+Boden
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 363531e640ca41a49afcf9870309566f
+    layerID: 366
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: HolzWand+Boden
+    spriteName: HolzWand+Boden
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 9aa05403108a557489cbe6086be095b6
+    layerID: 365
+    mosaicPosition: {x: 2168, y: 6519}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: HolzWand
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 1946105c9b3f8234f8c37c24662f3c79
+    layerID: 355
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: HolzWand
+    spriteName: HolzWand
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 48c2e00776865d8478114e59dc8e9604
+    layerID: 353
+    mosaicPosition: {x: 3608, y: 840}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bett
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: e7e3c2cbb8351f94cb2c93133a6f8306
+    layerID: 350
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Bett
+    spriteName: Bett
+    isGroup: 0
+    parentIndex: 9
+    spriteID: eedd6b12d8c7f8c4c98d5b8d6e05e435
+    layerID: 348
+    mosaicPosition: {x: 3271, y: 3568}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: StacheldrahtSchere
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 45e9728737f3bfd47b787971decc4daa
+    layerID: 345
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: StacheldrahtSchere
+    spriteName: StacheldrahtSchere
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 6186028e37d9a6144a75109f7f5d9907
+    layerID: 343
+    mosaicPosition: {x: 1851, y: 2382}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: AntiPersonellMine
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 04203b843f8b6c64aa7fc43935240616
+    layerID: 340
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: AntiPersonellMine
+    spriteName: AntiPersonellMine
+    isGroup: 0
+    parentIndex: 13
+    spriteID: cd51a7a14bae0904eab7cab6543c47da
+    layerID: 338
+    mosaicPosition: {x: 1851, y: 2108}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Stacheldraht
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: cb9856ac264f97f4e896ca69108764a5
+    layerID: 331
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: StacheldrahtStock Spiegel
+    spriteName: 
+    isGroup: 1
+    parentIndex: 15
+    spriteID: d695a1d1acca6aa40b3f30e9a0bdedb8
+    layerID: 335
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: StacheldrahtStock SchiefSpiegel
+    spriteName: StacheldrahtStock SchiefSpiegel
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 1d5cce8986cda1b4b82524fa0b83dc7d
+    layerID: 334
+    mosaicPosition: {x: 3984, y: 840}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: StacheldrahtStock Schief
+    spriteName: 
+    isGroup: 1
+    parentIndex: 15
+    spriteID: ceda271d5a3893c42af44169538491d0
+    layerID: 329
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: StacheldrahtStock Schief
+    spriteName: StacheldrahtStock Schief
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 55705d1bd2f95454f8751d26ce16ac85
+    layerID: 326
+    mosaicPosition: {x: 2049, y: 6622}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Stacheldraht
+    spriteName: Stacheldraht
+    isGroup: 0
+    parentIndex: 15
+    spriteID: d9f0210416331e542bd1264266a1afc1
+    layerID: 328
+    mosaicPosition: {x: 3608, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Lautsprecher
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: b5efd1427a996ef449b139e22ee8f67d
+    layerID: 321
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lautsprecher
+    spriteName: Lautsprecher
+    isGroup: 0
+    parentIndex: 21
+    spriteID: a9adf10d664240140935c9f9ee5eea9d
+    layerID: 319
+    mosaicPosition: {x: 3271, y: 4624}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: PapierAufTisch
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: d8f1e231a60242e4fbaa59c58dacc2a5
+    layerID: 300
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: PapiereAufTisch
+    spriteName: PapiereAufTisch
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 4d4207957a909f842932c3d3b914cb42
+    layerID: 297
+    mosaicPosition: {x: 1447, y: 7155}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Tisch
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 7f693ebcd28c64f47b24202bcce64a29
+    layerID: 294
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Tisch
+    spriteName: Tisch
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 2628a1eb69791d3459ca509352e18ecb
+    layerID: 292
+    mosaicPosition: {x: 1447, y: 6622}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: GewehrAufTisch
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: b466dc43a6fe2824a82be5aba64f503e
+    layerID: 310
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: GewehrAufTisch
+    spriteName: GewehrAufTisch
+    isGroup: 0
+    parentIndex: 27
+    spriteID: 00411d55d0871094bb6e87c06e829d48
+    layerID: 308
+    mosaicPosition: {x: 1271, y: 2108}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CharacterMC
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 2c44e22eb2cdb464c8b056b5ac43eb2f
+    layerID: 284
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC
+    spriteName: CharacterMC
+    isGroup: 0
+    parentIndex: 29
+    spriteID: a673424929dae9f438684f1829048147
+    layerID: 279
+    mosaicPosition: {x: 1453, y: 4939}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CharacterMC ColorPalette
+    spriteName: 
+    isGroup: 0
+    parentIndex: 29
+    spriteID: d61647c741afa4f439494eb47b29d4fd
+    layerID: 283
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: GGD_CharacterSheetMC
+    spriteName: 
+    isGroup: 0
+    parentIndex: 29
+    spriteID: 6e0d66ee9811a044caa460c7edca3729
+    layerID: 282
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: CharakterMCSketch
+    spriteName: 
+    isGroup: 0
+    parentIndex: 29
+    spriteID: 3624dbe6242a20b47846e03904646a05
+    layerID: 278
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: TrenchesDecken
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: ec7192b90e4df9b42a1a36a86dd0d66a
+    layerID: 267
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesDeckeDepthSeiteSpiegel
+    spriteName: 
+    isGroup: 1
+    parentIndex: 34
+    spriteID: 232ba2bd8be9f8947a7de3c989d480fc
+    layerID: 226
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesDeckeDepthSeiteSpiegel
+    spriteName: TrenchesDeckeDepthSeiteSpiegel
+    isGroup: 0
+    parentIndex: 35
+    spriteID: 23918c8e466601a40af22eb254791ba0
+    layerID: 225
+    mosaicPosition: {x: 1271, y: 1267}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TrenchesDeckeDepthEckeInnen
+    spriteName: 
+    isGroup: 1
+    parentIndex: 34
+    spriteID: f9526245618a9204fad20a19c3962071
+    layerID: 230
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesDeckeDepthEckeInnen
+    spriteName: TrenchesDeckeDepthEckeInnen
+    isGroup: 0
+    parentIndex: 37
+    spriteID: 54c7dc3061d2c014589764404779141a
+    layerID: 238
+    mosaicPosition: {x: 4, y: 2533}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "TrenchesDeckeDepthEckeAu\xDFen"
+    spriteName: 
+    isGroup: 1
+    parentIndex: 34
+    spriteID: 5e46c22a391aebe40b638af43f3d9a8f
+    layerID: 249
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "TrenchesDeckeDepthEckeAu\xDFen"
+    spriteName: "TrenchesDeckeDepthEckeAu\xDFen"
+    isGroup: 0
+    parentIndex: 39
+    spriteID: 6d53e9e8fd1402a42bc433a7a10d6141
+    layerID: 262
+    mosaicPosition: {x: 4, y: 4939}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TrenchesDeckeDepthSeite
+    spriteName: 
+    isGroup: 1
+    parentIndex: 34
+    spriteID: 923f035d6b0c86943a5e7f49541131fe
+    layerID: 218
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesDeckeDepthSeite
+    spriteName: TrenchesDeckeDepthSeite
+    isGroup: 0
+    parentIndex: 41
+    spriteID: a79a63c42ff3c6447819917f60bc4b90
+    layerID: 217
+    mosaicPosition: {x: 4, y: 5781}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Trenchesdecken
+    spriteName: 
+    isGroup: 1
+    parentIndex: 34
+    spriteID: db9f4d5939c3a2b4491732b6758d72da
+    layerID: 207
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesDecke
+    spriteName: 
+    isGroup: 1
+    parentIndex: 43
+    spriteID: ea5c76bcbade677439acbf1808a91e6e
+    layerID: 164
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesDecke
+    spriteName: TrenchesDecke
+    isGroup: 0
+    parentIndex: 44
+    spriteID: f1cc1c722a1463a448e6e4f1bdb81821
+    layerID: 213
+    mosaicPosition: {x: 4, y: 6622}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "S\xE4cke"
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 2a8e45da78177824f9c311032017b8d0
+    layerID: 91
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "S\xE4cke2"
+    spriteName: "S\xE4cke2"
+    isGroup: 0
+    parentIndex: 46
+    spriteID: e498bb07e00563c4997f7747a65fb6e1
+    layerID: 85
+    mosaicPosition: {x: 4, y: 7459}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "S\xE4cke1"
+    spriteName: "S\xE4cke1"
+    isGroup: 0
+    parentIndex: 46
+    spriteID: 022c6cf63813b13488b146b02d14fbfa
+    layerID: 82
+    mosaicPosition: {x: 2168, y: 7358}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "TrenchesW\xE4nde"
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: faa3ecdcfc1c4b442a672e421b0b3de2
+    layerID: 265
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesWandGelbeMarkierungSpiegel
+    spriteName: 
+    isGroup: 1
+    parentIndex: 49
+    spriteID: 37248a4bf1149274b9620f966c42c730
+    layerID: 276
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesWandMitteGelbeMarkierungSpiegel
+    spriteName: TrenchesWandMitteGelbeMarkierungSpiegel
+    isGroup: 0
+    parentIndex: 50
+    spriteID: b6bcff2bed895ea4ba5fdb89bc0044c4
+    layerID: 275
+    mosaicPosition: {x: 2168, y: 2512}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TrenchesWandGelbeMarkierung
+    spriteName: 
+    isGroup: 1
+    parentIndex: 49
+    spriteID: c6359ca3a96eb264b8730b3c5ace3051
+    layerID: 272
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesWandMitteGelbeMarkierung
+    spriteName: TrenchesWandMitteGelbeMarkierung
+    isGroup: 0
+    parentIndex: 52
+    spriteID: f2c91ec220690c14b96dee3661998f16
+    layerID: 271
+    mosaicPosition: {x: 2168, y: 3568}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "TrenchesWandEckeAu\xDFen"
+    spriteName: 
+    isGroup: 1
+    parentIndex: 49
+    spriteID: da9bf36e279e338449ea032c82487b56
+    layerID: 122
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "TrenchesWandEckeAu\xDFen"
+    spriteName: "TrenchesWandEckeAu\xDFen"
+    isGroup: 0
+    parentIndex: 54
+    spriteID: a6e45d9a142b5424792657d5fe271188
+    layerID: 132
+    mosaicPosition: {x: 4, y: 1267}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TrenchesWand EckeInnen
+    spriteName: 
+    isGroup: 1
+    parentIndex: 49
+    spriteID: 8bdd6b3f3edda2c43942c499770edecd
+    layerID: 154
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesWandEckeInnen
+    spriteName: TrenchesWandEckeInnen
+    isGroup: 0
+    parentIndex: 56
+    spriteID: 770757fe7688eee4cb55d89c1491b785
+    layerID: 158
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TrenchesWandSpiegel
+    spriteName: 
+    isGroup: 1
+    parentIndex: 49
+    spriteID: f7b99858931c40c45a94487e91558710
+    layerID: 204
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesWandSpiegel
+    spriteName: TrenchesWandSpiegel
+    isGroup: 0
+    parentIndex: 58
+    spriteID: c5a06af4a3d8f30429584c9563f84fb6
+    layerID: 203
+    mosaicPosition: {x: 3271, y: 2512}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TrenchesWand
+    spriteName: 
+    isGroup: 1
+    parentIndex: 49
+    spriteID: 01397a609ce7fb645a48e4653bf3aec2
+    layerID: 117
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrenchesWand
+    spriteName: TrenchesWand
+    isGroup: 0
+    parentIndex: 60
+    spriteID: adb1abdf72b5286488c4f48e2bda1192
+    layerID: 114
+    mosaicPosition: {x: 2168, y: 4624}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Boden
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 55175a271ffc40c40b0b4a7f6148199d
+    layerID: 80
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: MitteBoden4
+    spriteName: MitteBoden4
+    isGroup: 0
+    parentIndex: 62
+    spriteID: 479fae21cc458e346a80e4606be1e7f7
+    layerID: 73
+    mosaicPosition: {x: 2168, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MitteBoden3
+    spriteName: MitteBoden3
+    isGroup: 0
+    parentIndex: 62
+    spriteID: adfa8be13e691054481c8fc054a10b1a
+    layerID: 72
+    mosaicPosition: {x: 2168, y: 840}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MitteBoden2
+    spriteName: MitteBoden2
+    isGroup: 0
+    parentIndex: 62
+    spriteID: 1019562c71c127d47bfa55915b014200
+    layerID: 71
+    mosaicPosition: {x: 2168, y: 1676}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MitteBodenGelbeMarkierung
+    spriteName: MitteBodenGelbeMarkierung
+    isGroup: 0
+    parentIndex: 62
+    spriteID: 432e337f5662b354d8b648e114362c8c
+    layerID: 277
+    mosaicPosition: {x: 4, y: 3187}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MitteBoden1
+    spriteName: MitteBoden1
+    isGroup: 0
+    parentIndex: 62
+    spriteID: a4ee362ed224d994eb08807327431817
+    layerID: 70
+    mosaicPosition: {x: 4, y: 4063}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Warmup
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ba99be0731991714baec4165d9da7961
+    layerID: 7
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Hintergrund
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5afff1c20b80d4e42bf3df213982e318
+    layerID: 1
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638718518340452132
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
