@@ -22,10 +22,13 @@ public class GoreMeter : MonoBehaviour
         if (goremeter_score > 0)
         {
             player.goremeter_multiplier = (float)goremeter_score/limit;
+
+            bulletManager.goremeter_multiplier = (float)goremeter_score/limit;
         }
         else
         {
             player.goremeter_multiplier = 0;
+            bulletManager.goremeter_multiplier = 0;
         }
     }
 

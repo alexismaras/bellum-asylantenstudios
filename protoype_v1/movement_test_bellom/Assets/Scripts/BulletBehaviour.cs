@@ -15,6 +15,8 @@ public class BulletBehaviour : MonoBehaviour
     public float bullet_speed;
     public float volume;
 
+    public float goremeter_multiplier;
+
     
 
     public Vector3 bulletDir;
@@ -37,6 +39,8 @@ public class BulletBehaviour : MonoBehaviour
         {   
             bullet_speed = bulletManager.bullet_speed;
             volume = bulletManager.volume;
+            
+
             layerMask = LayerMask.GetMask("Entity");
             StartCoroutine(BulletLifetime());
             bulletDir = playerMovement.viewDir;

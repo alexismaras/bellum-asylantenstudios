@@ -1001,9 +1001,14 @@ MonoBehaviour:
   muzzleFlashFx: {fileID: 406554363}
   shooting: 0
   performing: 0
-  shooting_interval: 0.1
-  bullet_speed: 3
-  volume: 1
+  initial_shooting_interval: 0.1
+  shooting_interval: 0
+  initial_bullet_speed: 3
+  bullet_speed: 0
+  initial_volume: 1
+  volume: 0
+  previous_goremeter_multiplier: 0
+  goremeter_multiplier: 0
   muzzleFlashTime: 0.03
 --- !u!4 &438638629
 Transform:
@@ -1249,7 +1254,7 @@ MonoBehaviour:
   goremeter_score: 0
   limit: 100
   player: {fileID: 1113841108}
-  bulletManager: {fileID: 0}
+  bulletManager: {fileID: 438638628}
 --- !u!1 &590881034
 GameObject:
   m_ObjectHideFlags: 0
@@ -3103,6 +3108,7 @@ MonoBehaviour:
   gamesounds: {fileID: 590881037}
   bullet_speed: 0
   volume: 0
+  goremeter_multiplier: 0
   bulletDir: {x: 0, y: 0, z: 0}
   previousPosition: {x: 0, y: 0, z: 0}
   currentPosition: {x: 0, y: 0, z: 0}

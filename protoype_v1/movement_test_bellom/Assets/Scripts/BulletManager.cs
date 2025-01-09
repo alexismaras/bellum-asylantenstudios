@@ -12,11 +12,17 @@ public class BulletManager : MonoBehaviour
     public bool shooting;
     public bool performing;
 
+    public float initial_shooting_interval;
     public float shooting_interval;
 
+    public float initial_bullet_speed;
     public float bullet_speed;
 
+    public float initial_volume;
     public float volume;
+
+    public float previous_goremeter_multiplier;
+    public float goremeter_multiplier;
 
     [Header("FX")]
     public float muzzleFlashTime;
@@ -25,6 +31,10 @@ public class BulletManager : MonoBehaviour
     {
         shooting = false;
         performing = false;
+        previous_goremeter_multiplier = goremeter_multiplier;
+        volume = initial_volume;
+        bullet_speed = initial_bullet_speed;
+        shooting_interval = initial_shooting_interval;
     }
 
     // Update is called once per frame
@@ -35,8 +45,30 @@ public class BulletManager : MonoBehaviour
             StartCoroutine(BulletInstantiate());
             StartCoroutine(ShowMuzzleFlashFX());
         }
+        if (previous_goremeter_multiplier != goremeter_multiplier)
+        {
+            RaiseVolumeByGoremeter();
+            RaiseBulletSpeedByGoremeter();
+            RaiseShootingIntervalByGoremeter();
+            previous_goremeter_multiplier = goremeter_multiplier;
+        }
         
     }
+
+    void RaiseVolumeByGoremeter()
+    {
+        volume = (initial_volume+(initial_volume*goremeter_multiplier));
+    }
+    void RaiseBulletSpeedByGoremeter()
+    {
+        bullet_speed = (initial_bullet_speed+(initial_bullet_speed*goremeter_multiplier));
+    }
+
+    void RaiseShootingIntervalByGoremeter()
+    {
+        shooting_interval = (shooting_interval-(shooting_interval*goremeter_multiplier));
+    }
+
     IEnumerator BulletInstantiate()
     {
         performing = true;
