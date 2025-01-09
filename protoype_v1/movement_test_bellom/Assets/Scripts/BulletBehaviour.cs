@@ -15,7 +15,7 @@ public class BulletBehaviour : MonoBehaviour
     public float bullet_speed;
     public float volume;
 
-    public float goremeter_multiplier;
+    public float goremeterMultiplier;
 
     
 

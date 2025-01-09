@@ -7,7 +7,7 @@ public class GoreNPC : MonoBehaviour
     public float health = 4;
     public float hardness = 0.4f;
     SpriteRenderer spriteR;
-    public GameSounds gamesounds;
+    public GameSounds gameSounds;
 
     public MainManager mainManager;
 
@@ -34,7 +34,7 @@ public class GoreNPC : MonoBehaviour
         Debug.Log("Typeshit");
         if (collision.gameObject.tag == "ProjectileInstance")
         {
-            gamesounds.PlayHitmarker();
+            gameSounds.PlayHitmarker();
             BulletBehaviour bullet_behaviour = collision.gameObject.GetComponent<BulletBehaviour>();
             float volume = bullet_behaviour.volume;
             health -= volume;

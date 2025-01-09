@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class BulletManager : MonoBehaviour
 {
@@ -22,9 +23,11 @@ public class BulletManager : MonoBehaviour
     public float volume;
 
     public float previous_goremeter_multiplier;
+
+    [SerializeField]
     public float goremeter_multiplier;
 
-    [Header("FX")]
+    [SerializeField]
     public float muzzleFlashTime;
     // Start is called before the first frame update
     void Start()
