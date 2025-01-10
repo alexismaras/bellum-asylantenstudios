@@ -1,0 +1,3139 @@
+fileFormatVersion: 2
+guid: 63a0c9434161949409b50c8280b3cac5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 400
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData:
+  - name: Character Back Spiegel Walk 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1512
+      y: 605
+      width: 446
+      height: 618
+    spriteID: 6f9903c6ca73a524f9e8d079da64c9f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1512, y: 605}
+    spritePosition: {x: 1482, y: 2458}
+  - name: Character Back Spiegel Walk 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1512
+      y: 1231
+      width: 429
+      height: 617
+    spriteID: 0b8cc4fe74a18334e873b9f710bc2e26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1512, y: 1231}
+    spritePosition: {x: 2013, y: 2147}
+  - name: Character Back Spiegel Walk 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 770
+      width: 490
+      height: 705
+    spriteID: 9e30fcddf70a9aa4781039654e73ee7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 770}
+    spritePosition: {x: 2485, y: 1827}
+  - name: Character Back Idle Spiegel
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2892
+      width: 405
+      height: 751
+    spriteID: 3642f417313fb0f4489fff5191329149
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2892}
+    spritePosition: {x: 3117, y: 1452}
+  - name: Character Back Idle
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1483
+      width: 441
+      height: 783
+    spriteID: 79ec602d68bee604b87107167b977421
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1483}
+    spritePosition: {x: 2105, y: 1170}
+  - name: Character Back Walk3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 558
+      y: 1378
+      width: 526
+      height: 728
+    spriteID: 9379b330f66dac047ae362eb779a2228
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 558, y: 1378}
+    spritePosition: {x: 753, y: 398}
+  - name: Character Back Walk2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 558
+      y: 3528
+      width: 488
+      height: 537
+    spriteID: 1a26874f252cc2547bb838ca3c42fdec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 558, y: 3528}
+    spritePosition: {x: 136, y: 171}
+  - name: Character Back Walk1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 558
+      y: 690
+      width: 574
+      height: 680
+    spriteID: 4d63ca4cd5740d3449a2b680885bde00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 558, y: 690}
+    spritePosition: {x: 1382, y: 838}
+  - name: CharacterMC
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 558
+      y: 2114
+      width: 488
+      height: 779
+    spriteID: fc58535c89c64c34493ad91b5657d365
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 558, y: 2114}
+    spritePosition: {x: 0, y: 3308}
+  - name: Character Walk1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1163
+      y: 4
+      width: 550
+      height: 593
+    spriteID: 01c4382d3c1f62a41be8489e5725398c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1163, y: 4}
+    spritePosition: {x: 1401, y: 3299}
+  - name: Character Walk2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2274
+      width: 501
+      height: 610
+    spriteID: dcb79b24a1e10b8459e56a1eefa4ba85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2274}
+    spritePosition: {x: 602, y: 2854}
+  - name: Character Walk3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 558
+      y: 2901
+      width: 560
+      height: 619
+    spriteID: b353691a6fc4b994d8573331ea2d6a65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 558, y: 2901}
+    spritePosition: {x: 1978, y: 3006}
+  - name: CharacterMC Spiegel Walk 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1512
+      y: 1856
+      width: 388
+      height: 625
+    spriteID: 7a39d1d8402f44b4da87372fccaf6fc8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1512, y: 1856}
+    spritePosition: {x: 3659, y: 3471}
+  - name: Character MC Idle Spiegel
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1163
+      y: 605
+      width: 341
+      height: 814
+    spriteID: d84aa1eba098e6e47ac844bf59810afe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1163, y: 605}
+    spritePosition: {x: 3300, y: 3076}
+  - name: CharacterMC Spiegel Walk3 Ink
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 558
+      y: 4
+      width: 597
+      height: 678
+    spriteID: 48cb7bd3b1d4f22469b4ae8cd13b53b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 558, y: 4}
+    spritePosition: {x: 2344, y: 2620}
+  - name: CharacterMC Idle Spiegel Walk1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 546
+      height: 758
+    spriteID: 297c255ca72804d47b5c2562ccf8c769
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 2836, y: 2902}
+  rigSpriteImportData:
+  - name: Character Back Spiegel Walk 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1512
+      y: 605
+      width: 446
+      height: 618
+    spriteID: 4d3a657cc4b497a4690dc516f3d339d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1512, y: 605}
+    spritePosition: {x: 1482, y: 2458}
+  - name: Character Back Spiegel Walk 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1512
+      y: 1231
+      width: 429
+      height: 617
+    spriteID: 73c034282c8dc064a92d6429c5a11da0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1512, y: 1231}
+    spritePosition: {x: 2013, y: 2147}
+  - name: Character Back Spiegel Walk 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 770
+      width: 490
+      height: 705
+    spriteID: 3a83ecee5493c8d4c9c31d0bb80cabeb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 770}
+    spritePosition: {x: 2485, y: 1827}
+  - name: Character Back Idle Spiegel
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2892
+      width: 405
+      height: 751
+    spriteID: f13d273a8db84b34ea9d9c57392d8de7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2892}
+    spritePosition: {x: 3117, y: 1452}
+  - name: Character Back Idle
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1483
+      width: 441
+      height: 783
+    spriteID: 333ac9a06b2e6d944847d4edcd1f2a87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1483}
+    spritePosition: {x: 2105, y: 1170}
+  - name: Character Back Walk3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 558
+      y: 1378
+      width: 526
+      height: 728
+    spriteID: 2a1b2f000fbebd944bc3442332b250d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 558, y: 1378}
+    spritePosition: {x: 753, y: 398}
+  - name: Character Back Walk2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 558
+      y: 3528
+      width: 488
+      height: 537
+    spriteID: 46bc7e2ea676c01459a99cce4fd703c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 558, y: 3528}
+    spritePosition: {x: 136, y: 171}
+  - name: Character Back Walk1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 558
+      y: 690
+      width: 574
+      height: 680
+    spriteID: 596bf8580b3521a429e40c5c81691884
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 558, y: 690}
+    spritePosition: {x: 1382, y: 838}
+  - name: CharacterMC
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 558
+      y: 2114
+      width: 488
+      height: 779
+    spriteID: 7a885bfad49fc8645947c8bb6d56fdc0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 558, y: 2114}
+    spritePosition: {x: 0, y: 3308}
+  - name: Character Walk1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1163
+      y: 4
+      width: 550
+      height: 593
+    spriteID: c220878741fd0b34b9f63a111f93867c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1163, y: 4}
+    spritePosition: {x: 1401, y: 3299}
+  - name: Character Walk2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2274
+      width: 501
+      height: 610
+    spriteID: 5b272ef455267944d9b07555c2766da4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2274}
+    spritePosition: {x: 602, y: 2854}
+  - name: Character Walk3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 558
+      y: 2901
+      width: 560
+      height: 619
+    spriteID: 6132cca19b814154db90a7afb3ec4a47
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 558, y: 2901}
+    spritePosition: {x: 1978, y: 3006}
+  - name: CharacterMC Spiegel Walk 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1512
+      y: 1856
+      width: 388
+      height: 625
+    spriteID: b0115a659f693444d81436ea6a226935
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1512, y: 1856}
+    spritePosition: {x: 3659, y: 3471}
+  - name: Character MC Idle Spiegel
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1163
+      y: 605
+      width: 341
+      height: 814
+    spriteID: 0c5575573852b7a409092b6d396ef0c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1163, y: 605}
+    spritePosition: {x: 3300, y: 3076}
+  - name: CharacterMC Spiegel Walk3 Ink
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 558
+      y: 4
+      width: 597
+      height: 678
+    spriteID: d0039ccefff2a9449ae3b27a6a0d9e0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 558, y: 4}
+    spritePosition: {x: 2344, y: 2620}
+  - name: CharacterMC Idle Spiegel Walk1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 546
+      height: 758
+    spriteID: 7f1f947c130063a4f827ef448bb18dcd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 2836, y: 2902}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 0
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers:
+  - name: IsometricGrid
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 423d2b14f3665a54fb28af7bdde56bb8
+    layerID: 5
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Idle Spiegel
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 5dfb7366b5e510043bb81789e34fc0c0
+    layerID: 11
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk
+    spriteName: 
+    isGroup: 1
+    parentIndex: 1
+    spriteID: f0adfb4d896bf0443a6ee35b5cde06f1
+    layerID: 115
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 2
+    spriteID: 46a05f100f3f7f9479d3eadb551d28b0
+    layerID: 113
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 2
+    spriteName: Character Back Spiegel Walk 2
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 6f9903c6ca73a524f9e8d079da64c9f7
+    layerID: 111
+    mosaicPosition: {x: 1512, y: 605}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Back Spiegel Walk 3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 2
+    spriteID: 25e16d91a3b028741b3b88e5275f8f23
+    layerID: 108
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 3
+    spriteName: Character Back Spiegel Walk 3
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 0b8cc4fe74a18334e873b9f710bc2e26
+    layerID: 106
+    mosaicPosition: {x: 1512, y: 1231}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Back Spiegel Walk 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 2
+    spriteID: 78437ce8a8b08034ea0281e8be22f0b8
+    layerID: 102
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 1
+    spriteName: Character Back Spiegel Walk 1
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 9e30fcddf70a9aa4781039654e73ee7b
+    layerID: 100
+    mosaicPosition: {x: 4, y: 770}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Back Idle Spiegel
+    spriteName: Character Back Idle Spiegel
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 3642f417313fb0f4489fff5191329149
+    layerID: 8
+    mosaicPosition: {x: 4, y: 2892}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Back Walk
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 01529b141dbf60c42a273e3bcf48c3f4
+    layerID: 97
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Idle
+    spriteName: 
+    isGroup: 1
+    parentIndex: 10
+    spriteID: 8b74e95440603994db3b0682cb369f94
+    layerID: 18
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Idle
+    spriteName: Character Back Idle
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 79ec602d68bee604b87107167b977421
+    layerID: 16
+    mosaicPosition: {x: 4, y: 1483}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Back Walk3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 10
+    spriteID: b0e79b1220ff77e43962f026908dd040
+    layerID: 90
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk3
+    spriteName: Character Back Walk3
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 9379b330f66dac047ae362eb779a2228
+    layerID: 88
+    mosaicPosition: {x: 558, y: 1378}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Back Walk2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 10
+    spriteID: 9d89fd771bb66fc48b2f3e960c37ede6
+    layerID: 95
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk2
+    spriteName: Character Back Walk2
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 1a26874f252cc2547bb838ca3c42fdec
+    layerID: 93
+    mosaicPosition: {x: 558, y: 3528}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Back Walk1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 10
+    spriteID: 3b0d21d5ed833f14786e958638f6f169
+    layerID: 85
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk1
+    spriteName: Character Back Walk1
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 4d63ca4cd5740d3449a2b680885bde00
+    layerID: 83
+    mosaicPosition: {x: 558, y: 690}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CharacterMC Walk
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: a831eda26d68d0e4ea370665f12ab2c8
+    layerID: 72
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC
+    spriteName: CharacterMC
+    isGroup: 0
+    parentIndex: 19
+    spriteID: fc58535c89c64c34493ad91b5657d365
+    layerID: 4
+    mosaicPosition: {x: 558, y: 2114}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Walk1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 19
+    spriteID: 132e0d5a612be1840b9b89d6a80c65bd
+    layerID: 30
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk1
+    spriteName: Character Walk1
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 01c4382d3c1f62a41be8489e5725398c
+    layerID: 27
+    mosaicPosition: {x: 1163, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Walk 2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 19
+    spriteID: a08a6f8af83c7ba4ea8b6de48de8e97e
+    layerID: 59
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2
+    spriteName: Character Walk2
+    isGroup: 0
+    parentIndex: 23
+    spriteID: dcb79b24a1e10b8459e56a1eefa4ba85
+    layerID: 58
+    mosaicPosition: {x: 4, y: 2274}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Walk3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 19
+    spriteID: d1684326c6a09b046a9f10690b808c72
+    layerID: 35
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk3
+    spriteName: Character Walk3
+    isGroup: 0
+    parentIndex: 25
+    spriteID: b353691a6fc4b994d8573331ea2d6a65
+    layerID: 33
+    mosaicPosition: {x: 558, y: 2901}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 4bda13a54beab3341afdd3d89fa0045a
+    layerID: 74
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk 2
+    spriteName: CharacterMC Spiegel Walk 2
+    isGroup: 0
+    parentIndex: 27
+    spriteID: 7a39d1d8402f44b4da87372fccaf6fc8
+    layerID: 77
+    mosaicPosition: {x: 1512, y: 1856}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CharacterMC Idle Spiegel
+    spriteName: 
+    isGroup: 1
+    parentIndex: 27
+    spriteID: f05fb281c0c9fc144bd7916246964063
+    layerID: 23
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character MC Idle Spiegel
+    spriteName: Character MC Idle Spiegel
+    isGroup: 0
+    parentIndex: 29
+    spriteID: d84aa1eba098e6e47ac844bf59810afe
+    layerID: 21
+    mosaicPosition: {x: 1163, y: 605}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk 3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 27
+    spriteID: 78f482e8ebbb80c4eb1ce4120970f303
+    layerID: 70
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk3 Ink
+    spriteName: CharacterMC Spiegel Walk3 Ink
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 48cb7bd3b1d4f22469b4ae8cd13b53b6
+    layerID: 68
+    mosaicPosition: {x: 558, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 27
+    spriteID: 5d1be08d90ab9fb4588e43b2db13c53b
+    layerID: 65
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Idle Spiegel Walk1
+    spriteName: CharacterMC Idle Spiegel Walk1
+    isGroup: 0
+    parentIndex: 33
+    spriteID: 297c255ca72804d47b5c2562ccf8c769
+    layerID: 63
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Walk1 Skizze Reference
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f50622fcaa48300468ccac3019377649
+    layerID: 62
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Idle Ink Spiegel
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fa0ce45ba8eb21b4d92416fe5f845a3a
+    layerID: 15
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Idle Color Spiegel
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d7ab0f106ba64a54cb642cb0aaa98c38
+    layerID: 14
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Backup
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 381575def5ddfec4d9a0b255f9eac49a
+    layerID: 37
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Idle Spiegel
+    spriteName: 
+    isGroup: 1
+    parentIndex: 38
+    spriteID: 176833dd9baa9044396038973f4c690d
+    layerID: 195
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk
+    spriteName: 
+    isGroup: 1
+    parentIndex: 39
+    spriteID: 241ab44acb1bcc845829eb08f2a3270c
+    layerID: 194
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 40
+    spriteID: 7188da388bd8e2843ba6c0411184ddf4
+    layerID: 193
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 2 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 41
+    spriteID: bdb47dddc5fd24443935eec6d7801aad
+    layerID: 192
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 2 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 41
+    spriteID: 9ddeb86bbea23e94db782ed3566541cf
+    layerID: 191
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 2 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 41
+    spriteID: db1dcb3e1bb744140a16bc6072ea8415
+    layerID: 190
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Spiegel Walk 3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 40
+    spriteID: b4aa81a2fc68de1448065449b4b3cea0
+    layerID: 188
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 3 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 45
+    spriteID: e22b350a64661ae4b87337c46b824778
+    layerID: 187
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 3 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 45
+    spriteID: b8f114b220abd534a878809c642a6587
+    layerID: 186
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 3 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 81d469a0680c21e44ab62cf896774133
+    layerID: 185
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Spiegel Walk 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 40
+    spriteID: f15615c0486b52c428750ef26ba16f48
+    layerID: 183
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 1 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 49
+    spriteID: c11f4cdcaef2ae447ba02cba6f0b9d4d
+    layerID: 182
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 1 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 49
+    spriteID: 3b3a2f2eebda37541a3ab0dcec61737a
+    layerID: 181
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk1 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 49
+    spriteID: 7066ed1417476544b92b045fea13cf9a
+    layerID: 180
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Idle Ink Spiegel
+    spriteName: 
+    isGroup: 0
+    parentIndex: 39
+    spriteID: b46fde6b41051cf48841bd9a8b6d9e93
+    layerID: 177
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Idle Color Spiegel
+    spriteName: 
+    isGroup: 0
+    parentIndex: 39
+    spriteID: 08149a54b56a54445bd9c789112608d5
+    layerID: 176
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Idle Spiegel Sketches
+    spriteName: 
+    isGroup: 0
+    parentIndex: 39
+    spriteID: d5192bd8b706b8d489ebc9712cbcb021
+    layerID: 175
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk
+    spriteName: 
+    isGroup: 1
+    parentIndex: 38
+    spriteID: be54471b1c236dd4dad66e43343783d7
+    layerID: 173
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Idle
+    spriteName: 
+    isGroup: 1
+    parentIndex: 56
+    spriteID: 766d99cd1da59bb40aba632b0a2de102
+    layerID: 172
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Idle Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 57
+    spriteID: 458e00f0b7413c843ac0fdd4c71e2936
+    layerID: 171
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterBack Idle Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 57
+    spriteID: 123215a10700e7a45900851fc1f53826
+    layerID: 170
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Idle Sketch
+    spriteName: 
+    isGroup: 0
+    parentIndex: 57
+    spriteID: b110735db10cdc443acaa415e686975f
+    layerID: 169
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 56
+    spriteID: 103c716b79a9c694ba261744f2463cf4
+    layerID: 167
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk3 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 61
+    spriteID: faeff85089947e549884ab269de299df
+    layerID: 166
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk3 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 61
+    spriteID: ddc023c8ed6c8fb42be8b1b0034af5cd
+    layerID: 165
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk3  Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 61
+    spriteID: 863e893758d7b214cb58ec37f9b0f01e
+    layerID: 164
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Walk2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 56
+    spriteID: 848b4ca1694c45741be9b5b97bf79b2c
+    layerID: 162
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk2 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 65
+    spriteID: 9fb02857d5bb19448bb8a5e239880357
+    layerID: 161
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk2 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 65
+    spriteID: a533b675bc753514d8eb75b70eb0f556
+    layerID: 160
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk2 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 65
+    spriteID: c6d5224123298844e9baadb5af30be2f
+    layerID: 159
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Walk1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 56
+    spriteID: 3c5be0f4dc0ea594ab0d2ec1dfaa9825
+    layerID: 157
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk1 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 69
+    spriteID: 9b48def938c1aba4a83793ad5f7f8ae5
+    layerID: 156
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk1 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 69
+    spriteID: 0ed2e2c0cdfbec345874250442ad0ecc
+    layerID: 155
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk1 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 69
+    spriteID: 2202162e23de77746a3779bd32a0b967
+    layerID: 154
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: CharacterMC Walk
+    spriteName: 
+    isGroup: 1
+    parentIndex: 38
+    spriteID: a7d8d27e0b1267e45a3621375aef35d8
+    layerID: 151
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC
+    spriteName: 
+    isGroup: 0
+    parentIndex: 73
+    spriteID: 1c5046ec741ab264682d8aeef71dd0bc
+    layerID: 150
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 73
+    spriteID: 5e5d0b4ccafdbdf4e9d50a2799328b6c
+    layerID: 149
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 75
+    spriteID: b3727788ecb795f46b43798970ba0da6
+    layerID: 148
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk1 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 75
+    spriteID: 1c7fd243662aa844594e462acb8958e2
+    layerID: 147
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Walk 2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 73
+    spriteID: 511e5d52c0ca7c04ba1ff9e4246ce78c
+    layerID: 145
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 78
+    spriteID: b9c85ab5c40645748b461ead73888620
+    layerID: 144
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 78
+    spriteID: b2511b08d3dfa08458d0dee89082b2b7
+    layerID: 143
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Walk3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 73
+    spriteID: 9b8782d851143b449aa04e31ba87d2d8
+    layerID: 141
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk3
+    spriteName: 
+    isGroup: 0
+    parentIndex: 81
+    spriteID: 2e3cedaf74f91104b886bf2ffcd05072
+    layerID: 140
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk3 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 81
+    spriteID: be02e2970e85a974f868ee2c23cc90d9
+    layerID: 139
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: CharacterMC Spiegel Walk
+    spriteName: 
+    isGroup: 1
+    parentIndex: 38
+    spriteID: 53557bd96563e3b48b67a973dc517862
+    layerID: 136
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk 2 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 84
+    spriteID: 29ac05e16c4229d46a029570ae9b7374
+    layerID: 135
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk 2 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 84
+    spriteID: 78d48ba117e95f641a32e17a319c3a13
+    layerID: 134
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk 2 Skizzen
+    spriteName: 
+    isGroup: 0
+    parentIndex: 84
+    spriteID: e4b7cf51625b05f43899184b5967873e
+    layerID: 133
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: CharacterMC Idle Spiegel
+    spriteName: 
+    isGroup: 1
+    parentIndex: 84
+    spriteID: 50d8b300d3b81b04697e9ef6e6546164
+    layerID: 132
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character MC Idle Spiegel Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 88
+    spriteID: ba6b31499129eb749bdf53fdb68fbc6a
+    layerID: 131
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Idle Spiegel Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 88
+    spriteID: 1a8b547b6c328cc48b2625f042815a23
+    layerID: 130
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character MC Idle Spiegel Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 88
+    spriteID: e7a282a5f8c04dd4d894344bd0062097
+    layerID: 129
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: CharacterMC Spiegel Walk 3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 84
+    spriteID: 9e8593c3d03f28a4eac7983b4b845eee
+    layerID: 127
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character MC Spiegel Walk 3 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 92
+    spriteID: cd0fda64dc3fa9949b29b2c787889c5a
+    layerID: 126
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: CharacterMC Spiegel Walk3 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 9bcea80153ab96f4ab2a1a1f7ee2a407
+    layerID: 125
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk3 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 4ed88b29d32b1014694d9b450771c791
+    layerID: 124
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 84
+    spriteID: def7d3918dfd62a4b841ef96bb346957
+    layerID: 122
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Idle Spiegel Walk1 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 2f83704e87c042e4484c7ccfa9b85cb5
+    layerID: 121
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Idle Spiegel Walk1 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 96
+    spriteID: ff959e1652f575b4d983866c3f061fa4
+    layerID: 120
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Idle Spiegel Walk1 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 6284fd07b01ca3d428d7917bb0eb977d
+    layerID: 119
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Walk 2 Skizze
+    spriteName: 
+    isGroup: 1
+    parentIndex: 38
+    spriteID: b3d4c70976f9b55468902031398f6d84
+    layerID: 53
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 100
+    spriteID: f061d71d6be0d3f46b2c61f6fb5c7891
+    layerID: 51
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 100
+    spriteID: 51a3e5fe1c0f3a6478afd9ce3cdd2d47
+    layerID: 52
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 100
+    spriteID: 96f99f35bcf8d944288e980bb5209221
+    layerID: 50
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Walk1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 38
+    spriteID: 5c8e98d722f60414ebc965f8f7771d32
+    layerID: 48
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk1 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 104
+    spriteID: 828f923d1e6c432478190bc1b53fd8a9
+    layerID: 47
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk1 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 104
+    spriteID: 3c156f1ab9986b049b74af5aae481612
+    layerID: 46
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk1 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 104
+    spriteID: ea77cf0f4ceda0e48935ba6b75906071
+    layerID: 45
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Walk2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 38
+    spriteID: 6022389b7b543db4ba17d730720259d8
+    layerID: 43
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 108
+    spriteID: 7aab26f53fa30ae48be4f092966dd1d5
+    layerID: 42
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 108
+    spriteID: 83dd1ad685dcd8440b63b54001594d13
+    layerID: 41
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 108
+    spriteID: fc8cc480281026c448583afdd9271953
+    layerID: 40
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: CharacterMCReference
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 56d97679c464cc44b96a1b7a6e760c63
+    layerID: 7
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Warmup
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a5d5bbf0fad82794abccdbffba9a5423
+    layerID: 2
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Hintergrund
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7045f3ce9f7760c4f8190c9d112fdde6
+    layerID: 1
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  rigPSDLayers:
+  - name: IsometricGrid
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6a0dc309ba8c6db47a206d8675155891
+    layerID: 5
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Idle Spiegel
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 7cf2dd5c30780ea4994482a443a1c7be
+    layerID: 11
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk
+    spriteName: 
+    isGroup: 1
+    parentIndex: 1
+    spriteID: 9cf016b229c508e47a243d1f4bfedd9b
+    layerID: 115
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 2
+    spriteID: 7bdc2c997778406489d37f333936296c
+    layerID: 113
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 2
+    spriteName: Character Back Spiegel Walk 2
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 4d3a657cc4b497a4690dc516f3d339d6
+    layerID: 111
+    mosaicPosition: {x: 1512, y: 605}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Back Spiegel Walk 3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 2
+    spriteID: ab09dcacf646c13479c7e0d49f904e05
+    layerID: 108
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 3
+    spriteName: Character Back Spiegel Walk 3
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 73c034282c8dc064a92d6429c5a11da0
+    layerID: 106
+    mosaicPosition: {x: 1512, y: 1231}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Back Spiegel Walk 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 2
+    spriteID: 889a08348cc4d2741832eadfebf96b8b
+    layerID: 102
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 1
+    spriteName: Character Back Spiegel Walk 1
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 3a83ecee5493c8d4c9c31d0bb80cabeb
+    layerID: 100
+    mosaicPosition: {x: 4, y: 770}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Back Idle Spiegel
+    spriteName: Character Back Idle Spiegel
+    isGroup: 0
+    parentIndex: 1
+    spriteID: f13d273a8db84b34ea9d9c57392d8de7
+    layerID: 8
+    mosaicPosition: {x: 4, y: 2892}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Back Walk
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: d5c7d10939eab754085f9dab64bd16d8
+    layerID: 97
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Idle
+    spriteName: 
+    isGroup: 1
+    parentIndex: 10
+    spriteID: 296cfcead487d0949b65a37447cdaa08
+    layerID: 18
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Idle
+    spriteName: Character Back Idle
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 333ac9a06b2e6d944847d4edcd1f2a87
+    layerID: 16
+    mosaicPosition: {x: 4, y: 1483}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Back Walk3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 10
+    spriteID: 10f41b11dd9a34548b71d17bb26daa63
+    layerID: 90
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk3
+    spriteName: Character Back Walk3
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 2a1b2f000fbebd944bc3442332b250d9
+    layerID: 88
+    mosaicPosition: {x: 558, y: 1378}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Back Walk2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 10
+    spriteID: ce8b03fe15f7fa74a95dcf07164b6e29
+    layerID: 95
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk2
+    spriteName: Character Back Walk2
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 46bc7e2ea676c01459a99cce4fd703c7
+    layerID: 93
+    mosaicPosition: {x: 558, y: 3528}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Back Walk1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 10
+    spriteID: 865c4e04446cf404e8fcacfccb9856e2
+    layerID: 85
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk1
+    spriteName: Character Back Walk1
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 596bf8580b3521a429e40c5c81691884
+    layerID: 83
+    mosaicPosition: {x: 558, y: 690}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CharacterMC Walk
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 5537814d56432544fa0931c1736409fd
+    layerID: 72
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC
+    spriteName: CharacterMC
+    isGroup: 0
+    parentIndex: 19
+    spriteID: 7a885bfad49fc8645947c8bb6d56fdc0
+    layerID: 4
+    mosaicPosition: {x: 558, y: 2114}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Walk1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 19
+    spriteID: bd24188452ed44445821cc817a5e164c
+    layerID: 30
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk1
+    spriteName: Character Walk1
+    isGroup: 0
+    parentIndex: 21
+    spriteID: c220878741fd0b34b9f63a111f93867c
+    layerID: 27
+    mosaicPosition: {x: 1163, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Walk 2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 19
+    spriteID: 272baa662be4e7b419560f36f8569c40
+    layerID: 59
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2
+    spriteName: Character Walk2
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 5b272ef455267944d9b07555c2766da4
+    layerID: 58
+    mosaicPosition: {x: 4, y: 2274}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Walk3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 19
+    spriteID: 7c50232c6b4fe1c40829be82b1c7ed04
+    layerID: 35
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk3
+    spriteName: Character Walk3
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 6132cca19b814154db90a7afb3ec4a47
+    layerID: 33
+    mosaicPosition: {x: 558, y: 2901}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 029ac1e285182d84eb3fe08fe5e2b731
+    layerID: 74
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk 2
+    spriteName: CharacterMC Spiegel Walk 2
+    isGroup: 0
+    parentIndex: 27
+    spriteID: b0115a659f693444d81436ea6a226935
+    layerID: 77
+    mosaicPosition: {x: 1512, y: 1856}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CharacterMC Idle Spiegel
+    spriteName: 
+    isGroup: 1
+    parentIndex: 27
+    spriteID: efdb76187a5250f4380fe7939d458707
+    layerID: 23
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character MC Idle Spiegel
+    spriteName: Character MC Idle Spiegel
+    isGroup: 0
+    parentIndex: 29
+    spriteID: 0c5575573852b7a409092b6d396ef0c4
+    layerID: 21
+    mosaicPosition: {x: 1163, y: 605}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk 3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 27
+    spriteID: 2e4bcec45b073df4a8d8d1e4472d882d
+    layerID: 70
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk3 Ink
+    spriteName: CharacterMC Spiegel Walk3 Ink
+    isGroup: 0
+    parentIndex: 31
+    spriteID: d0039ccefff2a9449ae3b27a6a0d9e0d
+    layerID: 68
+    mosaicPosition: {x: 558, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 27
+    spriteID: 668ff47f08d6a1847aa7942d7f75ba49
+    layerID: 65
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Idle Spiegel Walk1
+    spriteName: CharacterMC Idle Spiegel Walk1
+    isGroup: 0
+    parentIndex: 33
+    spriteID: 7f1f947c130063a4f827ef448bb18dcd
+    layerID: 63
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Character Walk1 Skizze Reference
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3c765d31d3fa0a345af6e088eabcdb8e
+    layerID: 62
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Idle Ink Spiegel
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d2492f52872ae3746abe730bdc38988f
+    layerID: 15
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Idle Color Spiegel
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5010a2a0aede4cb4c816962dee069870
+    layerID: 14
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Backup
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 9c87a393207b2d24882fdfd4714fe06e
+    layerID: 37
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Idle Spiegel
+    spriteName: 
+    isGroup: 1
+    parentIndex: 38
+    spriteID: 69da7e5d89a9588419d84aa61ae0b603
+    layerID: 195
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk
+    spriteName: 
+    isGroup: 1
+    parentIndex: 39
+    spriteID: 6ef71bb5b45ae5f4bab2a800be774003
+    layerID: 194
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 40
+    spriteID: eaaf634e0d7fd374eae637b0d33bed4e
+    layerID: 193
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 2 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 41
+    spriteID: 23dabf5f6b014594a830b6276dd6c5d9
+    layerID: 192
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 2 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 41
+    spriteID: b44a28a1ed38f0749b17ea3b438db94d
+    layerID: 191
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 2 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 41
+    spriteID: 7f9c6206424c3ca439412e56fb90030a
+    layerID: 190
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Spiegel Walk 3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 40
+    spriteID: 10d850b454ef6d449be325ed6793e4f6
+    layerID: 188
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 3 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 45
+    spriteID: ca68ed96f6c0dcd4b964dd199ab0f181
+    layerID: 187
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 3 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 27ea3f9691d9b4f44b62cd456fa835e5
+    layerID: 186
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 3 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 124f718b8c64581459a38a061d3ff8c9
+    layerID: 185
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Spiegel Walk 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 40
+    spriteID: 4036fb80f0b77854eb4ddd81052b780c
+    layerID: 183
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 1 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 49
+    spriteID: f43a595b787d9904699d511de4091729
+    layerID: 182
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk 1 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 49
+    spriteID: 65088e63aa811f7488397e57a1c06df1
+    layerID: 181
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Spiegel Walk1 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 49
+    spriteID: ba5dc7e577aae9c499fec6a8389408f7
+    layerID: 180
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Idle Ink Spiegel
+    spriteName: 
+    isGroup: 0
+    parentIndex: 39
+    spriteID: 6f775d5ef97c1574e8a3ffe84a46939a
+    layerID: 177
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Idle Color Spiegel
+    spriteName: 
+    isGroup: 0
+    parentIndex: 39
+    spriteID: 56a90c87684666d488239a4322b3bd44
+    layerID: 176
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Idle Spiegel Sketches
+    spriteName: 
+    isGroup: 0
+    parentIndex: 39
+    spriteID: cffa6af9f4dfada4f9bb98a8d3685d52
+    layerID: 175
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk
+    spriteName: 
+    isGroup: 1
+    parentIndex: 38
+    spriteID: ca0c32a93640011439df582096b18030
+    layerID: 173
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Idle
+    spriteName: 
+    isGroup: 1
+    parentIndex: 56
+    spriteID: e28e441165fc21d4b9fefbec2b598565
+    layerID: 172
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Idle Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 57
+    spriteID: 44f7c40ffa56bd74ea279c46f2585f20
+    layerID: 171
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterBack Idle Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 57
+    spriteID: 96e0abe70a65bb94a86a928b882843e0
+    layerID: 170
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Idle Sketch
+    spriteName: 
+    isGroup: 0
+    parentIndex: 57
+    spriteID: ad90525a6afa0c145a122b71409fb242
+    layerID: 169
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 56
+    spriteID: 695d325f68ff99f4a8b23f001046dd60
+    layerID: 167
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk3 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 61
+    spriteID: 89b7e07cbda9e8545a77c60e775fe2cb
+    layerID: 166
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk3 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 61
+    spriteID: 6f912f989dcbbeb4e81bd578cc362711
+    layerID: 165
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk3  Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 61
+    spriteID: 7c298be54fa989543af0c69a5742afaa
+    layerID: 164
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Walk2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 56
+    spriteID: 71176995a3e8b2841b534bf7529e72b2
+    layerID: 162
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk2 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 65
+    spriteID: a42a7e492a6121a47905d39d2f5f0e26
+    layerID: 161
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk2 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 65
+    spriteID: 5f1c296af183b094ca04d01809cfbeff
+    layerID: 160
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk2 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 65
+    spriteID: 61217dee10fe59f488547ba7167955ca
+    layerID: 159
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Back Walk1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 56
+    spriteID: 9aa743c13d3530d40bfa1853f6d982a7
+    layerID: 157
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk1 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 69
+    spriteID: bb76fae484ea07449aa6411d8ba10dde
+    layerID: 156
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk1 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 69
+    spriteID: f932708a0370502469c4ddeed07dbc4f
+    layerID: 155
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Back Walk1 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 69
+    spriteID: 87edf7e0ae1fc2e4f8d9ef7c0d41a2ae
+    layerID: 154
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: CharacterMC Walk
+    spriteName: 
+    isGroup: 1
+    parentIndex: 38
+    spriteID: a2349c8c7f738c24098f263bb2c9516c
+    layerID: 151
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC
+    spriteName: 
+    isGroup: 0
+    parentIndex: 73
+    spriteID: 4f58aa1edf2fae8408dffd755055cafb
+    layerID: 150
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 73
+    spriteID: 7bd2ee23483f3814c9a2b31ec4dad335
+    layerID: 149
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 75
+    spriteID: 4ede9f8752e78a140bb6f128d54df502
+    layerID: 148
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk1 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 75
+    spriteID: c692246bea46d874a90cf5288fd7b402
+    layerID: 147
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Walk 2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 73
+    spriteID: a15fd0d08bdf96246b14c11cda65c287
+    layerID: 145
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 78
+    spriteID: 27c079096600f464e8e75eb4ecbe7330
+    layerID: 144
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 78
+    spriteID: 5a86c13335f6d7f42862e61ae4a708e3
+    layerID: 143
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Walk3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 73
+    spriteID: d8a015147152bee4ea128c9ed3e88963
+    layerID: 141
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk3
+    spriteName: 
+    isGroup: 0
+    parentIndex: 81
+    spriteID: f24f4d26607a1834aba8af62e55addff
+    layerID: 140
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk3 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 81
+    spriteID: cde8169697016714c9688751a8906b70
+    layerID: 139
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: CharacterMC Spiegel Walk
+    spriteName: 
+    isGroup: 1
+    parentIndex: 38
+    spriteID: fb6fd5733e1def44d8fa7daac9b682a7
+    layerID: 136
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk 2 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 84
+    spriteID: 48160f4cf24f5d5408ab1dc19df5c12f
+    layerID: 135
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk 2 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 84
+    spriteID: c6a2ac65c3bb4984e83a584e6ee372e1
+    layerID: 134
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk 2 Skizzen
+    spriteName: 
+    isGroup: 0
+    parentIndex: 84
+    spriteID: d76571b3c4c9da14196261f6e0f1f0f4
+    layerID: 133
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: CharacterMC Idle Spiegel
+    spriteName: 
+    isGroup: 1
+    parentIndex: 84
+    spriteID: 91516008d838d0446a891a1f0b3f71d8
+    layerID: 132
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character MC Idle Spiegel Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 88
+    spriteID: 58204bc4cec128c4a9409c42f2c4143b
+    layerID: 131
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Idle Spiegel Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 88
+    spriteID: 9986cf0c9e4635c40883eccac6be15db
+    layerID: 130
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character MC Idle Spiegel Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 88
+    spriteID: ad36332d03b6559499827aefc1cfeefb
+    layerID: 129
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: CharacterMC Spiegel Walk 3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 84
+    spriteID: c0e1c31ffaac0cd478c40201e0f4b192
+    layerID: 127
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character MC Spiegel Walk 3 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 65d100aab2462da459c3cda9965dbc28
+    layerID: 126
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: CharacterMC Spiegel Walk3 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 9a8f8db6065629b48a7d2e16342e0526
+    layerID: 125
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk3 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 92
+    spriteID: e3c1346a5e8fea841b5e4ce919edde72
+    layerID: 124
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Spiegel Walk 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 84
+    spriteID: 9e461e29c9091c248a9b1568661fd816
+    layerID: 122
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Idle Spiegel Walk1 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 6a2b97dcfdc7425438c2dacf2061186f
+    layerID: 121
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Idle Spiegel Walk1 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 96
+    spriteID: b7a0d970c872dd446a3877e494eb2b73
+    layerID: 120
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CharacterMC Idle Spiegel Walk1 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 76ea1cc5e7542ac42a4c06e39433578b
+    layerID: 119
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Walk 2 Skizze
+    spriteName: 
+    isGroup: 1
+    parentIndex: 38
+    spriteID: 22ff0a3087fdb5149a1556a9f2037333
+    layerID: 53
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 100
+    spriteID: f4b5e8a98b824e343981c959d2da99df
+    layerID: 51
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 100
+    spriteID: 2ab0f58be84447442b514d3138da7bd1
+    layerID: 52
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 100
+    spriteID: da2bb2fa03d879748ae759747e543d32
+    layerID: 50
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Walk1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 38
+    spriteID: 90118b673322ab8459fdd813edc1871e
+    layerID: 48
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk1 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 104
+    spriteID: 2abd84b440969cc40a3ebc5c8f640434
+    layerID: 47
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk1 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 104
+    spriteID: 6e7cf88bdd9e39e4ab037d18fc620af6
+    layerID: 46
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk1 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 104
+    spriteID: a9552bf0874f95f4aa0716c9a84b1bc4
+    layerID: 45
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Character Walk2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 38
+    spriteID: 1049a6dfff2f7f24b866be9c40fc50a8
+    layerID: 43
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2 Ink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 108
+    spriteID: 1e5ccd4ed9bf0754eab82a645fc33acf
+    layerID: 42
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2 Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 108
+    spriteID: f822b47276f89294b8c638dfd21156d1
+    layerID: 41
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Character Walk2 Skizze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 108
+    spriteID: fb10a4e819ce636419c64c972944bf02
+    layerID: 40
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: CharacterMCReference
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bb660be0e2636024cb5838ba4e45866f
+    layerID: 7
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Warmup
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 93445f7f67646f6499bfe0da6631e3c4
+    layerID: 2
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Hintergrund
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6e9d89d551abc2d4ab2ef4634f9cc82e
+    layerID: 1
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638721210422411810
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
