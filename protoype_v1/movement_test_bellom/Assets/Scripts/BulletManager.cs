@@ -22,10 +22,10 @@ public class BulletManager : MonoBehaviour
     public float initial_volume;
     public float volume;
 
-    public float previous_goremeter_multiplier;
+    public float previousGoremeterMultiplier;
 
     [SerializeField]
-    public float goremeter_multiplier;
+    public float goreMeterMultiplier;
 
     [SerializeField]
     public float muzzleFlashTime;
@@ -34,7 +34,7 @@ public class BulletManager : MonoBehaviour
     {
         shooting = false;
         performing = false;
-        previous_goremeter_multiplier = goremeter_multiplier;
+        previousGoremeterMultiplier = goreMeterMultiplier;
         volume = initial_volume;
         bullet_speed = initial_bullet_speed;
         shooting_interval = initial_shooting_interval;
@@ -48,28 +48,28 @@ public class BulletManager : MonoBehaviour
             StartCoroutine(BulletInstantiate());
             StartCoroutine(ShowMuzzleFlashFX());
         }
-        if (previous_goremeter_multiplier != goremeter_multiplier)
+        if (previousGoremeterMultiplier != goreMeterMultiplier)
         {
             RaiseVolumeByGoremeter();
             RaiseBulletSpeedByGoremeter();
             RaiseShootingIntervalByGoremeter();
-            previous_goremeter_multiplier = goremeter_multiplier;
+            previousGoremeterMultiplier = goreMeterMultiplier;
         }
         
     }
 
     void RaiseVolumeByGoremeter()
     {
-        volume = (initial_volume+(initial_volume*goremeter_multiplier));
+        volume = (initial_volume+(initial_volume*goreMeterMultiplier));
     }
     void RaiseBulletSpeedByGoremeter()
     {
-        bullet_speed = (initial_bullet_speed+(initial_bullet_speed*goremeter_multiplier));
+        bullet_speed = (initial_bullet_speed+(initial_bullet_speed*goreMeterMultiplier));
     }
 
     void RaiseShootingIntervalByGoremeter()
     {
-        shooting_interval = (shooting_interval-(shooting_interval*goremeter_multiplier));
+        shooting_interval = (shooting_interval-(shooting_interval*goreMeterMultiplier));
     }
 
     IEnumerator BulletInstantiate()

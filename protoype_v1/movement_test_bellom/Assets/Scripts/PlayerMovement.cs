@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     
     float verticalInput;
-    bool moving;
+    public bool moving;
 
     
     
@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     public BulletManager bulletManager;
 
-    public float goremeter_multiplier;
+    public float goreMeterMultiplier;
 
 
     LayerMask layerMask;
@@ -72,10 +72,10 @@ public class PlayerMovement : MonoBehaviour
     }
     private void MovePlayer()
     {
-        transform.position = transform.position + inputDir * (moveSpeed+(moveSpeed*goremeter_multiplier)) * (fastRollPerforming? fastRollSpeed : 1) * (bulletManager.shooting? walkingShootMultiplier : 1);
+        transform.position = transform.position + inputDir * (moveSpeed+(moveSpeed*goreMeterMultiplier)) * (fastRollPerforming? fastRollSpeed : 1) * (bulletManager.shooting? walkingShootMultiplier : 1);
         camera.transform.position = new Vector3(transform.position.x, transform.position.y, camera.transform.position.z);
 
-        Debug.Log(goremeter_multiplier);
+        Debug.Log(goreMeterMultiplier);
         
     }
 

@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class PlayerOrientation : MonoBehaviour
 {
+
     float horizontalInputMouse;
     float verticalInputMouse;
+
+    public float angleY;
 
     // public GameObject player;
 
@@ -21,29 +24,17 @@ public class PlayerOrientation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Mauszeiger Position speichern
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        // viewDir = transform.position - mousePos;
+        // Richtungvektor aus Playerposition und Mauszeigerposition
+        viewDir = (mousePos - transform.position);
 
-        transform.rotation = Quaternion.LookRotation(Vector3.forward, mousePos - transform.position);
+        // Rotation des GameObjects zu Mauszeiger
+        transform.rotation = Quaternion.LookRotation(Vector3.forward, viewDir);
 
-        // if (Input.GetKeyDown(KeyCode.A))
-        // {
-        //     Debug.Log('A');
-        // }
-        // if (Input.GetKeyDown(KeyCode.W))
-        // {
-        //     Debug.Log('W');
-        // }
-        // if (Input.GetKeyDown(KeyCode.S))
-        // {
-        //     Debug.Log('S');
-        // }
-        // if (Input.GetKeyDown(KeyCode.D))
-        // {
-        //     Debug.Log('D');
-        // }
-        
+        // Winkel Speichen für Sprite Animation
+        angleY = Mathf.Atan2(viewDir.y, viewDir.x) * Mathf.Rad2Deg;
         
     }
 }

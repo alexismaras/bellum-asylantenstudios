@@ -4,36 +4,53 @@ using UnityEngine;
 
 public class GoreMeter : MonoBehaviour
 {
-    public int goremeter_score;
 
-    public int limit = 100;
+    [SerializeField]
+    PlayerMovement playerMovement;
 
-    public PlayerMovement player;
-    public BulletManager bulletManager;
+    [SerializeField]
+    BulletManager bulletManager;
+
+    [SerializeField]
+    AnimationManager animationManager;
+
+    int goreMeterSore;
+    int goreMeterLimit = 100;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        goremeter_score = 0;
+        goreMeterSore = 0;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {   
-        if (goremeter_score > 0)
+        // goreMeterMultiplier an bestimmte Scripts weitergeben
+        if (goreMeterSore > 0)
         {
-            player.goremeter_multiplier = (float)goremeter_score/limit;
+            float internalGoreMeterMultiplier = (float)goreMeterSore/goreMeterLimit;
 
-            bulletManager.goremeter_multiplier = (float)goremeter_score/limit;
+            playerMovement.goreMeterMultiplier = internalGoreMeterMultiplier;
+
+            bulletManager.goreMeterMultiplier = internalGoreMeterMultiplier;
+
+            animationManager.goreMeterMultiplier = internalGoreMeterMultiplier;
+
         }
+        // goreMeterMultiplier 0 setzen, um ZeroDivision zu vermeiden
         else
         {
-            player.goremeter_multiplier = 0;
-            bulletManager.goremeter_multiplier = 0;
+            playerMovement.goreMeterMultiplier = 0;
+            bulletManager.goreMeterMultiplier = 0;
+            animationManager.goreMeterMultiplier = 0;
         }
     }
 
     public void RaiseGoremeter(int raise)
     {
-        goremeter_score += raise;
+        // Funktion um den goreMeterScore von anderen Scripts aus um "rais" zu erhöhren
+        goreMeterSore += raise;
     }
 }
