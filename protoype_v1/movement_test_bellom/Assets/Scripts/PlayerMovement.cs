@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
-{
+{   
+    Rigidbody2D rigidbody2D;
     public Transform orientation;
     float horizontalInput;
 
@@ -37,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
         fastRollSpeed = 10;
         layerMask = LayerMask.GetMask("Entity");
     }
@@ -72,7 +74,8 @@ public class PlayerMovement : MonoBehaviour
     }
     private void MovePlayer()
     {
-        transform.position = transform.position + inputDir * (moveSpeed+(moveSpeed*goreMeterMultiplier)) * (fastRollPerforming? fastRollSpeed : 1) * (bulletManager.shooting? walkingShootMultiplier : 1);
+        rigidbody2D.MovePosition(transform.position + inputDir * (moveSpeed+(moveSpeed*goreMeterMultiplier)) * (fastRollPerforming? fastRollSpeed : 1) * (bulletManager.shooting? walkingShootMultiplier : 1));
+        // transform.position = transform.position + inputDir * (moveSpeed+(moveSpeed*goreMeterMultiplier)) * (fastRollPerforming? fastRollSpeed : 1) * (bulletManager.shooting? walkingShootMultiplier : 1);
         camera.transform.position = new Vector3(transform.position.x, transform.position.y, camera.transform.position.z);
 
         Debug.Log(goreMeterMultiplier);
@@ -112,5 +115,9 @@ public class PlayerMovement : MonoBehaviour
             bulletManager.shooting = false;
         }
         // animator.SetBool("shooting", bulletManager.shooting);
+    }
+
+    void OnTriggerEnter2D(Collider2D other) {
+        Debug.Log("Etz aber");
     }
 }
