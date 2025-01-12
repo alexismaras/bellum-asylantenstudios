@@ -4,37 +4,40 @@ using UnityEngine;
 
 public class BulletBehaviour : MonoBehaviour
 {
-    public GameObject player;
+    [SerializeField]
+    GameObject player;
 
-    public BulletManager bulletManager;
+    [SerializeField]
+    BulletManager bulletManager;
 
-    public PlayerMovement playerMovement;
+    [SerializeField]
+    PlayerMovement playerMovement;
 
-    public GameSounds gameSounds;
+    [SerializeField]
+    GameSounds gameSounds;
 
+    [SerializeField]
     SpriteRenderer spriteRenderer;
+
+    [SerializeField]
+    LayerMask layerMask;
 
     [SerializeField]
     float bulletPlacement;
 
-    public float bullet_speed;
+    float bulletSpeed;
     public float volume;
 
-    public float goremeterMultiplier;
+    float goremeterMultiplier;
+
+    Vector3 bulletDir;
+
+    Vector3 previousPosition;
+    Vector3 currentPosition;
 
     
-
-    public Vector3 bulletDir;
-
-    public Vector3 previousPosition;
-    public Vector3 currentPosition;
-
-    
-    public bool bulletHasSpray;
-    public int randomValue;
-    public Color rancolor;
-
-    LayerMask layerMask;
+    bool bulletHasSpray;
+    int randomSprayValue;
 
     
     // Start is called before the first frame update
@@ -44,14 +47,14 @@ public class BulletBehaviour : MonoBehaviour
         if (gameObject.tag =="ProjectileInstance")
         {   
             spriteRenderer.enabled = true;
-            bullet_speed = bulletManager.bullet_speed;
+            bulletSpeed = bulletManager.bulletSpeed;
             volume = bulletManager.volume;
             
 
             layerMask = LayerMask.GetMask("Entity");
             bulletDir = playerMovement.viewDir;
-            randomValue = Random.Range(1, 6);
-            if (randomValue == 1 || randomValue == 2)
+            randomSprayValue = Random.Range(1, 3);
+            if (randomSprayValue == 1)
             {
                 bulletHasSpray = true;
             }
@@ -92,10 +95,10 @@ public class BulletBehaviour : MonoBehaviour
     void MoveBullet()
     {
         previousPosition = currentPosition;
-        transform.position = transform.position + bulletDir * bullet_speed;
+        transform.position = transform.position + bulletDir * bulletSpeed;
         currentPosition = transform.position;
         Debug.DrawRay(previousPosition, currentPosition-previousPosition, Color.red, 0f, false); 
-        RaycastHit2D hit = Physics2D.Raycast(previousPosition, currentPosition-previousPosition, bullet_speed, layerMask);
+        RaycastHit2D hit = Physics2D.Raycast(previousPosition, currentPosition-previousPosition, bulletSpeed, layerMask);
         if (hit)
         {  
             if (hit.collider.tag == "Enemy")

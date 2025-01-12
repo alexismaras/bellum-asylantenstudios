@@ -7,46 +7,60 @@ public class BulletManager : MonoBehaviour
 {
     [SerializeField]
     GameSounds gameSounds;
-    public GameObject bullet;
-
-    public MuzzleFlashFX muzzleFlashFx;
-
-    [Header("Shooting")]
-    public bool shooting;
-    public bool performing;
-
-    public float initial_shooting_interval;
-    public float shooting_interval;
-
-    public float initial_bullet_speed;
-    public float bullet_speed;
-
-    public float initial_volume;
-    public float volume;
-
-    public float previousGoremeterMultiplier;
 
     [SerializeField]
+    GameObject bullet;
+
+    [SerializeField]
+    MuzzleFlashFX muzzleFlashFx;
+
+    public bool shooting;
+    bool performing;
+
+    public int magazineSize;
+    public int magazineFill;
+    public int ammoReserve;
+
+    [SerializeField]
+    float initialShootingInterval;
+    public float shootingInterval;
+
+    [SerializeField]
+    float initialBulletSpeed;
+    public float bulletSpeed;
+
+    [SerializeField]
+    float initialVolume;
+    public float volume;
+
+    float previousGoremeterMultiplier;
     public float goreMeterMultiplier;
 
     [SerializeField]
-    public float muzzleFlashTime;
+    float muzzleFlashTime;
+
     // Start is called before the first frame update
     void Start()
     {
         shooting = false;
         performing = false;
         previousGoremeterMultiplier = goreMeterMultiplier;
-        volume = initial_volume;
-        bullet_speed = initial_bullet_speed;
-        shooting_interval = initial_shooting_interval;
+        volume = initialVolume;
+        bulletSpeed = initialBulletSpeed;
+        shootingInterval = initialShootingInterval;
+    }
+    void Update()
+    {
+        MagazineReload();
+
+
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
-        if (shooting == true && performing == false)
+        if (shooting == true && performing == false && magazineFill > 0)
         {
+            magazineFill -= 1;
             StartCoroutine(BulletInstantiate());
             StartCoroutine(ShowMuzzleFlashFX());
         }
@@ -57,21 +71,23 @@ public class BulletManager : MonoBehaviour
             RaiseShootingIntervalByGoremeter();
             previousGoremeterMultiplier = goreMeterMultiplier;
         }
+
+        
         
     }
 
     void RaiseVolumeByGoremeter()
     {
-        volume = (initial_volume+(initial_volume*goreMeterMultiplier));
+        volume = (initialVolume+(initialVolume*goreMeterMultiplier));
     }
     void RaiseBulletSpeedByGoremeter()
     {
-        bullet_speed = (initial_bullet_speed+(initial_bullet_speed*goreMeterMultiplier));
+        bulletSpeed = (initialBulletSpeed+(initialBulletSpeed*goreMeterMultiplier));
     }
 
     void RaiseShootingIntervalByGoremeter()
     {
-        shooting_interval = (shooting_interval-(shooting_interval*goreMeterMultiplier));
+        shootingInterval = (shootingInterval-(shootingInterval*goreMeterMultiplier));
     }
 
     IEnumerator BulletInstantiate()
@@ -80,7 +96,7 @@ public class BulletManager : MonoBehaviour
         gameSounds.PlayGunshot();
         GameObject bullet_instance = GameObject.Instantiate(bullet) as GameObject;
         bullet_instance.tag = "ProjectileInstance";
-        yield return new WaitForSeconds(shooting_interval);
+        yield return new WaitForSeconds(shootingInterval);
         performing = false;
     }
     IEnumerator ShowMuzzleFlashFX()
@@ -88,5 +104,32 @@ public class BulletManager : MonoBehaviour
         muzzleFlashFx.EnableRenderer();
         yield return new WaitForSeconds(muzzleFlashTime);
         muzzleFlashFx.DisableRenderer();
+    }
+
+    void MagazineReload()
+    {
+        if (magazineFill < magazineSize && Input.GetKeyDown(KeyCode.R))
+        {
+            if (ammoReserve >= magazineSize)
+            {
+                ammoReserve = ammoReserve - (magazineSize - magazineFill);
+                magazineFill = magazineSize;
+            }
+            else if (ammoReserve < magazineSize && ammoReserve > 0)
+            {   
+                if (ammoReserve >= (magazineSize - magazineFill))
+                {
+                    ammoReserve = ammoReserve - (magazineSize - magazineFill);
+                    magazineFill += magazineSize - magazineFill;
+                }
+                else if (ammoReserve < (magazineSize - magazineFill))
+                {
+                    magazineFill += ammoReserve;
+                    ammoReserve = 0;
+                }
+                
+            }
+        }
+        
     }
 }

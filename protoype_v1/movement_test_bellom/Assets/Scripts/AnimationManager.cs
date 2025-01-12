@@ -56,7 +56,7 @@ public class AnimationManager : MonoBehaviour
             animator.SetInteger("orientation", 4);
         }
 
-        //Animation Laufgeschwindigkeit und Player Laufgeschwindigkeit abgleichen Part2
+        //Animation Laufgeschwindigkeit und Player Laufgeschwindigkeit abgleichen Part2 - Beihilfe von Musa
         animator.SetFloat("animSpeedMultiplier", ((initAnimSpeed + ((maxAnimSpeed - initAnimSpeed) * goreMeterMultiplier)) / initAnimSpeed));
 
 

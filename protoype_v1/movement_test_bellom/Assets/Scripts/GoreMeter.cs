@@ -15,25 +15,25 @@ public class GoreMeter : MonoBehaviour
     AnimationManager animationManager;
 
     [SerializeField]
-    bool goreMeterActive;
+    public bool goreMeterActive;
 
-    int goreMeterSore;
+    public int goreMeterScore;
     int goreMeterLimit = 100;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        goreMeterSore = 0;
+        goreMeterScore = 0;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {   
         // goreMeterMultiplier an bestimmte Scripts weitergeben
-        if (goreMeterSore > 0 && goreMeterActive)
+        if (goreMeterScore > 0 && goreMeterActive)
         {
-            float internalGoreMeterMultiplier = (float)goreMeterSore/goreMeterLimit;
+            float internalGoreMeterMultiplier = (float)goreMeterScore/goreMeterLimit;
 
             playerMovement.goreMeterMultiplier = internalGoreMeterMultiplier;
 
@@ -42,6 +42,7 @@ public class GoreMeter : MonoBehaviour
             animationManager.goreMeterMultiplier = internalGoreMeterMultiplier;
 
         }
+
         // goreMeterMultiplier 0 setzen, um ZeroDivision zu vermeiden
         else
         {
@@ -54,6 +55,6 @@ public class GoreMeter : MonoBehaviour
     public void RaiseGoremeter(int raise)
     {
         // Funktion um den goreMeterScore von anderen Scripts aus um "rais" zu erhöhren
-        goreMeterSore += raise;
+        goreMeterScore += raise;
     }
 }
