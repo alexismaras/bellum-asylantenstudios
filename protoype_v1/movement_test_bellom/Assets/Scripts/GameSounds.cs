@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class GameSounds : MonoBehaviour
 {
-    public AudioSource hitmarker;
+    [SerializeField]
+    AudioSource hitmarker;
+
+    [SerializeField]
+    AudioSource gunshot;    
     // Start is called before the first frame update
     void Start()
     {
@@ -21,4 +25,10 @@ public class GameSounds : MonoBehaviour
     {
         hitmarker.Play();
     }
+
+    public void PlayGunshot()
+    {
+        gunshot.Play();
+    }
 }
+

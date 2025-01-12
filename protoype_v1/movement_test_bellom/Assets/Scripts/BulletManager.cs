@@ -5,6 +5,8 @@ using System;
 
 public class BulletManager : MonoBehaviour
 {
+    [SerializeField]
+    GameSounds gameSounds;
     public GameObject bullet;
 
     public MuzzleFlashFX muzzleFlashFx;
@@ -75,6 +77,7 @@ public class BulletManager : MonoBehaviour
     IEnumerator BulletInstantiate()
     {
         performing = true;
+        gameSounds.PlayGunshot();
         GameObject bullet_instance = GameObject.Instantiate(bullet) as GameObject;
         bullet_instance.tag = "ProjectileInstance";
         yield return new WaitForSeconds(shooting_interval);

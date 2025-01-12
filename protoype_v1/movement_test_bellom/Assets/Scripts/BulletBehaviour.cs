@@ -10,7 +10,7 @@ public class BulletBehaviour : MonoBehaviour
 
     public PlayerMovement playerMovement;
 
-    public GameSounds gamesounds;
+    public GameSounds gameSounds;
 
     public float bullet_speed;
     public float volume;
@@ -89,7 +89,7 @@ public class BulletBehaviour : MonoBehaviour
         {  
             if (hit.collider.tag == "Enemy")
             {
-                gamesounds.PlayHitmarker();
+                gameSounds.PlayHitmarker();
                 ShootableObject shootableObject = hit.collider.GetComponent<ShootableObject>();
                 shootableObject.health -= volume;
                 volume -= shootableObject.hardness;
@@ -97,7 +97,7 @@ public class BulletBehaviour : MonoBehaviour
             }
             else if (hit.collider.tag == "NPC")
             {
-                gamesounds.PlayHitmarker();
+                gameSounds.PlayHitmarker();
                 GoreNPC goreNPC = hit.collider.GetComponent<GoreNPC>();
                 goreNPC.health -= volume;
                 volume -= goreNPC.hardness;
@@ -105,6 +105,7 @@ public class BulletBehaviour : MonoBehaviour
             }
         }
     }
+
     IEnumerator BulletLifetime()
     {
         yield return new WaitForSeconds(3f);
