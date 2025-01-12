@@ -14,7 +14,11 @@ public class AnimationManager : MonoBehaviour
     Animator animator;
     
     public float goreMeterMultiplier;
+
+    [SerializeField]
     float initAnimSpeed = 2f;
+
+    [SerializeField]
     float maxAnimSpeed = 2.5f;
 
 

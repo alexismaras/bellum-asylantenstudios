@@ -1347,7 +1347,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2785,6 +2785,8 @@ MonoBehaviour:
   playerOrientation: {fileID: 470877747}
   animator: {fileID: 800480406}
   goreMeterMultiplier: 0
+  initAnimSpeed: 2
+  maxAnimSpeed: 2.5
 --- !u!1 &976194888
 GameObject:
   m_ObjectHideFlags: 0
