@@ -12,6 +12,11 @@ public class BulletBehaviour : MonoBehaviour
 
     public GameSounds gameSounds;
 
+    SpriteRenderer spriteRenderer;
+
+    [SerializeField]
+    float bulletPlacement;
+
     public float bullet_speed;
     public float volume;
 
@@ -35,14 +40,15 @@ public class BulletBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         if (gameObject.tag =="ProjectileInstance")
         {   
+            spriteRenderer.enabled = true;
             bullet_speed = bulletManager.bullet_speed;
             volume = bulletManager.volume;
             
 
             layerMask = LayerMask.GetMask("Entity");
-            StartCoroutine(BulletLifetime());
             bulletDir = playerMovement.viewDir;
             randomValue = Random.Range(1, 6);
             if (randomValue == 1 || randomValue == 2)
@@ -58,10 +64,15 @@ public class BulletBehaviour : MonoBehaviour
                 bulletDir.x += Random.Range(-0.03f, 0.03f);
                 bulletDir.y += Random.Range(-0.03f, 0.03f);
             }
-            transform.position = player.transform.position;
+            transform.position = player.transform.position + bulletDir * bulletPlacement;
             currentPosition = transform.position;
             transform.rotation = Quaternion.LookRotation(Vector3.forward, bulletDir);
             volume = 1;
+        }
+
+        else
+        {
+            spriteRenderer.enabled = false;
         }
         
     }
@@ -106,9 +117,8 @@ public class BulletBehaviour : MonoBehaviour
         }
     }
 
-    IEnumerator BulletLifetime()
+    void OnBecameInvisible()
     {
-        yield return new WaitForSeconds(3f);
         Destroy(gameObject);
     }
 }

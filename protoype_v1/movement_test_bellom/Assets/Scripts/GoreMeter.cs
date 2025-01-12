@@ -14,6 +14,9 @@ public class GoreMeter : MonoBehaviour
     [SerializeField]
     AnimationManager animationManager;
 
+    [SerializeField]
+    bool goreMeterActive;
+
     int goreMeterSore;
     int goreMeterLimit = 100;
 
@@ -28,7 +31,7 @@ public class GoreMeter : MonoBehaviour
     void FixedUpdate()
     {   
         // goreMeterMultiplier an bestimmte Scripts weitergeben
-        if (goreMeterSore > 0)
+        if (goreMeterSore > 0 && goreMeterActive)
         {
             float internalGoreMeterMultiplier = (float)goreMeterSore/goreMeterLimit;
 
