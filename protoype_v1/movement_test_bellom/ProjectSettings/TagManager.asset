@@ -8,6 +8,7 @@ TagManager:
   - ProjectileInstance
   - Enemy
   - NPC
+  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -45,15 +46,45 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BackgroundTrenchesDecke
+    uniqueID: 629318491
+    locked: 0
+  - name: BackgroundTrenchesWand
+    uniqueID: 2359095497
+    locked: 0
+  - name: BackgroundBoden
+    uniqueID: 1808663835
+    locked: 0
+  - name: BackgroundHolzWand
+    uniqueID: 4135698079
+    locked: 0
+  - name: BackgroundHolzWand+Boden
+    uniqueID: 2420141551
+    locked: 0
+  - name: Assets
+    uniqueID: 3078206411
+    locked: 0
   - name: Enemy
     uniqueID: 2764460505
     locked: 0
+  - name: WallBehindPlayer
+    uniqueID: 842221875
+    locked: 0
   - name: Player
     uniqueID: 3439038475
+    locked: 0
+  - name: WallBeforePlayer
+    uniqueID: 624761815
     locked: 0
   - name: Projectiles
     uniqueID: 669578295
     locked: 0
   - name: FX
     uniqueID: 830942371
+    locked: 0
+  - name: ForegroundTrenchesDeckeDepthSeite
+    uniqueID: 1051104015
+    locked: 0
+  - name: ForegroundTrenchesDecke
+    uniqueID: 2972556121
     locked: 0

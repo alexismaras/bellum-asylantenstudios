@@ -98,7 +98,7 @@ public class BulletBehaviour : MonoBehaviour
         transform.position = transform.position + bulletDir * bulletSpeed;
         currentPosition = transform.position;
         Debug.DrawRay(previousPosition, currentPosition-previousPosition, Color.red, 0f, false); 
-        RaycastHit2D hit = Physics2D.Raycast(previousPosition, currentPosition-previousPosition, bulletSpeed, layerMask);
+        RaycastHit2D hit = Physics2D.Raycast(previousPosition, currentPosition-previousPosition, bulletSpeed);
         if (hit)
         {  
             if (hit.collider.tag == "Enemy")
@@ -115,6 +115,11 @@ public class BulletBehaviour : MonoBehaviour
                 GoreNPC goreNPC = hit.collider.GetComponent<GoreNPC>();
                 goreNPC.health -= volume;
                 volume -= goreNPC.hardness;
+                Debug.DrawRay(previousPosition, currentPosition-previousPosition, Color.white, 10f, false); 
+            }
+            else if (hit.collider.tag == "Obstacle")
+            {
+                volume = 0;
                 Debug.DrawRay(previousPosition, currentPosition-previousPosition, Color.white, 10f, false); 
             }
         }
