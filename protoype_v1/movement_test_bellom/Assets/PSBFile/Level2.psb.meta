@@ -93,6 +93,48 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData:
+  - name: "Tr\xFCmmer/Zerst\xF6rteWandHalf"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3468
+      width: 594
+      height: 536
+    spriteID: 5a66a4ed424ecf848ad1bd65e4a4405a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3468}
+    spritePosition: {x: 1751, y: 1780}
+  - name: Ebene 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1065
+      y: 1792
+      width: 0
+      height: 0
+    spriteID: fcd259bab596694479d42ed3afde8e09
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1065, y: 1792}
+    spritePosition: {x: 0, y: 4096}
   - name: "Tr\xFCmmer/Zerst\xF6rteW\xE4nde"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -100,8 +142,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1102
-      y: 4
+      x: 4
+      y: 1695
       width: 909
       height: 704
     spriteID: 181b1b4ad6bb2934b8207213780a3f65
@@ -112,7 +154,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1102, y: 4}
+    uvTransform: {x: 4, y: 1695}
     spritePosition: {x: 1751, y: 1191}
   - name: ToterBaum
     originalName: 
@@ -121,8 +163,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1102
-      y: 716
+      x: 4
+      y: 2407
       width: 550
       height: 1053
     spriteID: 1d6c0532a100126478e80e5f9ef456e9
@@ -133,7 +175,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1102, y: 716}
+    uvTransform: {x: 4, y: 2407}
     spritePosition: {x: 1676, y: 1821}
   - name: "Gro\xDFerToterBaum"
     originalName: 
@@ -163,8 +205,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1102
-      y: 1777
+      x: 921
+      y: 1695
       width: 150
       height: 89
     spriteID: 20cb7d1446ad76349bc29fd66d70839c
@@ -175,7 +217,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1102, y: 1777}
+    uvTransform: {x: 921, y: 1695}
     spritePosition: {x: 1203, y: 1046}
   - name: Stein3
     originalName: 
@@ -184,8 +226,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1404
-      y: 1777
+      x: 921
+      y: 1885
       width: 132
       height: 78
     spriteID: d0c86df856fb4ba4aae51a34cd8bfb2a
@@ -196,7 +238,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1404, y: 1777}
+    uvTransform: {x: 921, y: 1885}
     spritePosition: {x: 1237, y: 1464}
   - name: Stein1
     originalName: 
@@ -205,8 +247,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1260
-      y: 1777
+      x: 921
+      y: 1792
       width: 136
       height: 85
     spriteID: d769ad1777aa3fd4bb9f984eae6be0c4
@@ -217,7 +259,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1260, y: 1777}
+    uvTransform: {x: 921, y: 1792}
     spritePosition: {x: 684, y: 1212}
   rigSpriteImportData:
   - name: "Tr\xFCmmer/Zerst\xF6rteW\xE4nde"
@@ -1035,6 +1077,36 @@ ScriptedImporter:
     flatten: 0
     isImported: 0
     isVisible: 0
+  - name: "Tr\xFCmmerZerst\xF6rteW\xE4ndeHalf"
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 62fb026157029de42bb179ebf15509c8
+    layerID: 483
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Tr\xFCmmer/Zerst\xF6rteWandHalf"
+    spriteName: "Tr\xFCmmer/Zerst\xF6rteWandHalf"
+    isGroup: 0
+    parentIndex: 63
+    spriteID: 5a66a4ed424ecf848ad1bd65e4a4405a
+    layerID: 482
+    mosaicPosition: {x: 4, y: 3468}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ebene 1
+    spriteName: Ebene 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fcd259bab596694479d42ed3afde8e09
+    layerID: 480
+    mosaicPosition: {x: 1065, y: 1792}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: "Tr\xFCmmer/Zerst\xF6rteW\xE4nde"
     spriteName: 
     isGroup: 1
@@ -1048,17 +1120,17 @@ ScriptedImporter:
   - name: "Tr\xFCmmer/Zerst\xF6rteW\xE4nde"
     spriteName: "Tr\xFCmmer/Zerst\xF6rteW\xE4nde"
     isGroup: 0
-    parentIndex: 63
+    parentIndex: 66
     spriteID: 181b1b4ad6bb2934b8207213780a3f65
     layerID: 414
-    mosaicPosition: {x: 1102, y: 4}
+    mosaicPosition: {x: 4, y: 1695}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: "Tr\xFCmmer/Zerst\xF6rteW\xE4nde Skizze"
     spriteName: 
     isGroup: 0
-    parentIndex: 63
+    parentIndex: 66
     spriteID: d637c652498900446b32b058072eb62a
     layerID: 413
     mosaicPosition: {x: 0, y: 0}
@@ -1078,17 +1150,17 @@ ScriptedImporter:
   - name: ToterBaum
     spriteName: ToterBaum
     isGroup: 0
-    parentIndex: 66
+    parentIndex: 69
     spriteID: 1d6c0532a100126478e80e5f9ef456e9
     layerID: 400
-    mosaicPosition: {x: 1102, y: 716}
+    mosaicPosition: {x: 4, y: 2407}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: ToteBaumeSkizze
     spriteName: 
     isGroup: 0
-    parentIndex: 66
+    parentIndex: 69
     spriteID: 9431e977de35249418b1f6f6ff9f3684
     layerID: 399
     mosaicPosition: {x: 0, y: 0}
@@ -1108,7 +1180,7 @@ ScriptedImporter:
   - name: "Gro\xDFerToterBaum"
     spriteName: "Gro\xDFerToterBaum"
     isGroup: 0
-    parentIndex: 69
+    parentIndex: 72
     spriteID: b2e902d2ece7af04793c1c60b6db35c8
     layerID: 421
     mosaicPosition: {x: 4, y: 4}
@@ -1118,7 +1190,7 @@ ScriptedImporter:
   - name: "Gro\xDFerToterBaum Skizze"
     spriteName: 
     isGroup: 0
-    parentIndex: 69
+    parentIndex: 72
     spriteID: d9c4fe3d496c57d47bf1b9da84741cd5
     layerID: 420
     mosaicPosition: {x: 0, y: 0}
@@ -1138,7 +1210,7 @@ ScriptedImporter:
   - name: Stein2
     spriteName: 
     isGroup: 1
-    parentIndex: 72
+    parentIndex: 75
     spriteID: b3307c24fc10c1b43919395022d0833e
     layerID: 434
     mosaicPosition: {x: 0, y: 0}
@@ -1148,17 +1220,17 @@ ScriptedImporter:
   - name: Stein2
     spriteName: Stein2
     isGroup: 0
-    parentIndex: 73
+    parentIndex: 76
     spriteID: 20cb7d1446ad76349bc29fd66d70839c
     layerID: 430
-    mosaicPosition: {x: 1102, y: 1777}
+    mosaicPosition: {x: 921, y: 1695}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Stein3
     spriteName: 
     isGroup: 1
-    parentIndex: 72
+    parentIndex: 75
     spriteID: 3f6b9e4c0f8100a4fb5bfe32691c4a8b
     layerID: 436
     mosaicPosition: {x: 0, y: 0}
@@ -1168,17 +1240,17 @@ ScriptedImporter:
   - name: Stein3
     spriteName: Stein3
     isGroup: 0
-    parentIndex: 75
+    parentIndex: 78
     spriteID: d0c86df856fb4ba4aae51a34cd8bfb2a
     layerID: 429
-    mosaicPosition: {x: 1404, y: 1777}
+    mosaicPosition: {x: 921, y: 1885}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Stein1
     spriteName: 
     isGroup: 1
-    parentIndex: 72
+    parentIndex: 75
     spriteID: 0daae143b41f5af4f93f51e6287f6d23
     layerID: 439
     mosaicPosition: {x: 0, y: 0}
@@ -1188,10 +1260,10 @@ ScriptedImporter:
   - name: Stein1
     spriteName: Stein1
     isGroup: 0
-    parentIndex: 77
+    parentIndex: 80
     spriteID: d769ad1777aa3fd4bb9f984eae6be0c4
     layerID: 428
-    mosaicPosition: {x: 1260, y: 1777}
+    mosaicPosition: {x: 921, y: 1792}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1208,7 +1280,7 @@ ScriptedImporter:
   - name: MitteBoden4
     spriteName: 
     isGroup: 0
-    parentIndex: 79
+    parentIndex: 82
     spriteID: 5c72ac2ca9c8705409692dee8d54b2b6
     layerID: 73
     mosaicPosition: {x: 0, y: 0}
@@ -1218,7 +1290,7 @@ ScriptedImporter:
   - name: MitteBoden3
     spriteName: 
     isGroup: 0
-    parentIndex: 79
+    parentIndex: 82
     spriteID: 8adc53df3f5982e49afc8a43f3fa2a25
     layerID: 72
     mosaicPosition: {x: 0, y: 0}
@@ -1228,7 +1300,7 @@ ScriptedImporter:
   - name: MitteBoden2
     spriteName: 
     isGroup: 0
-    parentIndex: 79
+    parentIndex: 82
     spriteID: 2fe02079815c07f4481b30a74856b032
     layerID: 71
     mosaicPosition: {x: 0, y: 0}
@@ -1238,7 +1310,7 @@ ScriptedImporter:
   - name: MitteBodenGelbeMarkierung
     spriteName: 
     isGroup: 0
-    parentIndex: 79
+    parentIndex: 82
     spriteID: 1d1c164628fb8ba4bb61a47182bd55f8
     layerID: 277
     mosaicPosition: {x: 0, y: 0}
@@ -1248,7 +1320,7 @@ ScriptedImporter:
   - name: MitteBoden1
     spriteName: 
     isGroup: 0
-    parentIndex: 79
+    parentIndex: 82
     spriteID: ac966016cea8f704ea41029b89511a21
     layerID: 70
     mosaicPosition: {x: 0, y: 0}
@@ -1278,7 +1350,7 @@ ScriptedImporter:
   - name: "Tr\xFCmmer/Zerst\xF6rteW\xE4nde"
     spriteName: 
     isGroup: 1
-    parentIndex: 86
+    parentIndex: 89
     spriteID: 2a236999bdbeb3f4f8e9581daa4fbb31
     layerID: 477
     mosaicPosition: {x: 0, y: 0}
@@ -1288,7 +1360,7 @@ ScriptedImporter:
   - name: "Tr\xFCmmer/Zerst\xF6rteW\xE4ndeInk"
     spriteName: 
     isGroup: 0
-    parentIndex: 87
+    parentIndex: 90
     spriteID: 29613d96519a0b24aabbea38038073e6
     layerID: 476
     mosaicPosition: {x: 0, y: 0}
@@ -1298,7 +1370,7 @@ ScriptedImporter:
   - name: "Tr\xFCmmer/Zerst\xF6rteW\xE4ndeColor"
     spriteName: 
     isGroup: 0
-    parentIndex: 87
+    parentIndex: 90
     spriteID: 7d28a50db452f0341880aac1a185cdaa
     layerID: 475
     mosaicPosition: {x: 0, y: 0}
@@ -1308,7 +1380,7 @@ ScriptedImporter:
   - name: "Tr\xFCmmer/Zerst\xF6rteW\xE4nde Skizze"
     spriteName: 
     isGroup: 0
-    parentIndex: 87
+    parentIndex: 90
     spriteID: 5804725457b61044692793382caafb00
     layerID: 474
     mosaicPosition: {x: 0, y: 0}
@@ -1318,7 +1390,7 @@ ScriptedImporter:
   - name: ToterBaum
     spriteName: 
     isGroup: 1
-    parentIndex: 86
+    parentIndex: 89
     spriteID: 468d6ba9cf4f2464eb8daa4520fad4bc
     layerID: 472
     mosaicPosition: {x: 0, y: 0}
@@ -1328,7 +1400,7 @@ ScriptedImporter:
   - name: ToteBaumInk
     spriteName: 
     isGroup: 0
-    parentIndex: 91
+    parentIndex: 94
     spriteID: b0a26e386d30e7a409a212f87c839c15
     layerID: 471
     mosaicPosition: {x: 0, y: 0}
@@ -1338,7 +1410,7 @@ ScriptedImporter:
   - name: TotebaumColor
     spriteName: 
     isGroup: 0
-    parentIndex: 91
+    parentIndex: 94
     spriteID: 5a27eceb9e321c441bcb6807b91a5d07
     layerID: 470
     mosaicPosition: {x: 0, y: 0}
@@ -1348,7 +1420,7 @@ ScriptedImporter:
   - name: ToteBaumeSkizze
     spriteName: 
     isGroup: 0
-    parentIndex: 91
+    parentIndex: 94
     spriteID: 2e223ba32091582448a65d58e6ca540b
     layerID: 469
     mosaicPosition: {x: 0, y: 0}
@@ -1358,7 +1430,7 @@ ScriptedImporter:
   - name: "Gro\xDFerToterBaum"
     spriteName: 
     isGroup: 1
-    parentIndex: 86
+    parentIndex: 89
     spriteID: 3641d79c56476dc47b2f0c3a15efe823
     layerID: 467
     mosaicPosition: {x: 0, y: 0}
@@ -1368,7 +1440,7 @@ ScriptedImporter:
   - name: "Gro\xDFerToterBaum Ink"
     spriteName: 
     isGroup: 0
-    parentIndex: 95
+    parentIndex: 98
     spriteID: f93b6e4fd87ab38448dfff9d004301fc
     layerID: 466
     mosaicPosition: {x: 0, y: 0}
@@ -1378,7 +1450,7 @@ ScriptedImporter:
   - name: "Gro\xDFerToterBaum Color"
     spriteName: 
     isGroup: 0
-    parentIndex: 95
+    parentIndex: 98
     spriteID: 2dee248c1bc0e6a4791b685e241226d1
     layerID: 465
     mosaicPosition: {x: 0, y: 0}
@@ -1388,7 +1460,7 @@ ScriptedImporter:
   - name: "Gro\xDFerToterBaum Skizze"
     spriteName: 
     isGroup: 0
-    parentIndex: 95
+    parentIndex: 98
     spriteID: ed29491cb1032b44b90e45e864d2aa83
     layerID: 464
     mosaicPosition: {x: 0, y: 0}
@@ -1398,7 +1470,7 @@ ScriptedImporter:
   - name: Steine
     spriteName: 
     isGroup: 1
-    parentIndex: 86
+    parentIndex: 89
     spriteID: 694c115ebb2e56043982fa0ef8ab1d1c
     layerID: 462
     mosaicPosition: {x: 0, y: 0}
@@ -1408,7 +1480,7 @@ ScriptedImporter:
   - name: Stein2
     spriteName: 
     isGroup: 1
-    parentIndex: 99
+    parentIndex: 102
     spriteID: d555e64efbcf12b4ca7e1a4a55190cbb
     layerID: 461
     mosaicPosition: {x: 0, y: 0}
@@ -1418,7 +1490,7 @@ ScriptedImporter:
   - name: Stein2 Ink
     spriteName: 
     isGroup: 0
-    parentIndex: 100
+    parentIndex: 103
     spriteID: eeaf0aacb3a247a4eaa60337f2dcbe40
     layerID: 460
     mosaicPosition: {x: 0, y: 0}
@@ -1428,7 +1500,7 @@ ScriptedImporter:
   - name: Stein2 Color
     spriteName: 
     isGroup: 0
-    parentIndex: 100
+    parentIndex: 103
     spriteID: 0209b06d187d04a4bacab3b0ab990c03
     layerID: 459
     mosaicPosition: {x: 0, y: 0}
@@ -1438,7 +1510,7 @@ ScriptedImporter:
   - name: Stein3
     spriteName: 
     isGroup: 1
-    parentIndex: 99
+    parentIndex: 102
     spriteID: b234d2573fb876043ad5eb3831b580b6
     layerID: 457
     mosaicPosition: {x: 0, y: 0}
@@ -1448,7 +1520,7 @@ ScriptedImporter:
   - name: Stein3 Ink
     spriteName: 
     isGroup: 0
-    parentIndex: 103
+    parentIndex: 106
     spriteID: 692fba84eb6d2024d80aea839192cc9a
     layerID: 456
     mosaicPosition: {x: 0, y: 0}
@@ -1458,7 +1530,7 @@ ScriptedImporter:
   - name: Stein3 Color
     spriteName: 
     isGroup: 0
-    parentIndex: 103
+    parentIndex: 106
     spriteID: bc923c7d1a0075d4881f75e06851d160
     layerID: 455
     mosaicPosition: {x: 0, y: 0}
@@ -1468,7 +1540,7 @@ ScriptedImporter:
   - name: Stein1
     spriteName: 
     isGroup: 1
-    parentIndex: 99
+    parentIndex: 102
     spriteID: 315d547c5c8fdbf4787713827d3a2dbb
     layerID: 453
     mosaicPosition: {x: 0, y: 0}
@@ -1478,7 +1550,7 @@ ScriptedImporter:
   - name: Stein1 Ink
     spriteName: 
     isGroup: 0
-    parentIndex: 106
+    parentIndex: 109
     spriteID: b3259812d6a517347b706e05d51de6de
     layerID: 452
     mosaicPosition: {x: 0, y: 0}
@@ -1488,7 +1560,7 @@ ScriptedImporter:
   - name: Stein1 Color
     spriteName: 
     isGroup: 0
-    parentIndex: 106
+    parentIndex: 109
     spriteID: 74515d2cf6b326942ad7068606c91884
     layerID: 451
     mosaicPosition: {x: 0, y: 0}
