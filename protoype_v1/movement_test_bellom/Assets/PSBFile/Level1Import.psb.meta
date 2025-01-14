@@ -143,7 +143,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 3608
-      y: 840
+      y: 4
       width: 368
       height: 627
     spriteID: 9dbfb84a29611a1499f00c5777d31826
@@ -154,7 +154,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3608, y: 840}
+    uvTransform: {x: 3608, y: 4}
     spritePosition: {x: 3033, y: 3326}
   - name: Bett
     originalName: 
@@ -227,7 +227,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 3984
-      y: 840
+      y: 4
       width: 89
       height: 431
     spriteID: f7e3d10bf35b4064d83da8d00f8aa0cc
@@ -238,7 +238,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3984, y: 840}
+    uvTransform: {x: 3984, y: 4}
     spritePosition: {x: 1193, y: 1253}
   - name: StacheldrahtStock Schief
     originalName: 
@@ -269,7 +269,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 3608
-      y: 4
+      y: 840
       width: 412
       height: 641
     spriteID: e6ef2dc8bbc354a4381b41ab34bc7d82
@@ -280,8 +280,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3608, y: 4}
-    spritePosition: {x: 855, y: 1057}
+    uvTransform: {x: 3608, y: 840}
+    spritePosition: {x: 861, y: 1155}
   - name: Lautsprecher
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -310,8 +310,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1447
-      y: 7155
+      x: 3608
+      y: 1347
       width: 467
       height: 261
     spriteID: baf891460f8175d4091b77b0079130a9
@@ -322,7 +322,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1447, y: 7155}
+    uvTransform: {x: 3608, y: 1347}
     spritePosition: {x: 2382, y: 1565}
   - name: Tisch
     originalName: 
@@ -1583,7 +1583,7 @@ ScriptedImporter:
     parentIndex: 7
     spriteID: 9dbfb84a29611a1499f00c5777d31826
     layerID: 353
-    mosaicPosition: {x: 3608, y: 840}
+    mosaicPosition: {x: 3608, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1673,7 +1673,7 @@ ScriptedImporter:
     parentIndex: 16
     spriteID: f7e3d10bf35b4064d83da8d00f8aa0cc
     layerID: 334
-    mosaicPosition: {x: 3984, y: 840}
+    mosaicPosition: {x: 3984, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1703,7 +1703,7 @@ ScriptedImporter:
     parentIndex: 15
     spriteID: e6ef2dc8bbc354a4381b41ab34bc7d82
     layerID: 328
-    mosaicPosition: {x: 3608, y: 4}
+    mosaicPosition: {x: 3608, y: 840}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1743,7 +1743,7 @@ ScriptedImporter:
     parentIndex: 23
     spriteID: baf891460f8175d4091b77b0079130a9
     layerID: 297
-    mosaicPosition: {x: 1447, y: 7155}
+    mosaicPosition: {x: 3608, y: 1347}
     flatten: 0
     isImported: 1
     isVisible: 1
