@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class CornerWallSor : MonoBehaviour
+public class CornerWallSort : MonoBehaviour
 {
     [SerializeField] PlayerMovement playerMovement; 
     SpriteRenderer spriteRenderer;

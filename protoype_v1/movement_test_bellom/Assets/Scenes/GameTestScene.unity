@@ -2654,7 +2654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 1113841108}
-  offset: 0.15
+  offset: 0.1
 --- !u!1 &175298292
 GameObject:
   m_ObjectHideFlags: 0
@@ -6939,7 +6939,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 1113841108}
-  offset: 0.15
+  offset: 0.1
 --- !u!1 &498739305
 GameObject:
   m_ObjectHideFlags: 0
@@ -9003,7 +9003,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9ec3791083ad9024ba16a6d21c678f6a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.2
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -9128,7 +9128,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: fe832b2e819862d4fa223a7c20201021, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.06
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -11839,7 +11839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 1113841108}
-  offset: 0.15
+  offset: 0.1
 --- !u!1 &785009308
 GameObject:
   m_ObjectHideFlags: 0
@@ -19136,7 +19136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 1113841108}
-  offset: 0.15
+  offset: 0.1
 --- !u!1 &1307177277
 GameObject:
   m_ObjectHideFlags: 0
@@ -20103,6 +20103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1366636298}
   - component: {fileID: 1366636297}
+  - component: {fileID: 1366636299}
   m_Layer: 0
   m_Name: Tisch
   m_TagString: Untagged
@@ -20177,6 +20178,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 220327496}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1366636299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366636296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54734f1c71de29647ae675e448664c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 1113841108}
+  offset: 0.4
 --- !u!1 &1374866778
 GameObject:
   m_ObjectHideFlags: 0
@@ -26675,7 +26690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e82eb0279d3604448e1e556e36073db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  next_scene: 0
+  next_scene: 1
 --- !u!4 &1783375182
 Transform:
   m_ObjectHideFlags: 0
