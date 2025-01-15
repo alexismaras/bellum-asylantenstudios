@@ -270,8 +270,8 @@ ScriptedImporter:
       serializedVersion: 2
       x: 3608
       y: 840
-      width: 412
-      height: 641
+      width: 399
+      height: 499
     spriteID: e6ef2dc8bbc354a4381b41ab34bc7d82
     spriteBone: []
     spriteOutline: []
@@ -1495,35 +1495,35 @@ ScriptedImporter:
   spriteCategoryList:
     categories: []
   spritePackingTag: 
-  resliceFromLayer: 0
+  resliceFromLayer: 1
   mosaicPSDLayers:
   - name: Sketches
-    spriteName: 
+    spriteName: Sketches
     isGroup: 0
     parentIndex: -1
     spriteID: 3e910bc8766b3ea428f3ab22f04da17a
     layerID: 6
-    mosaicPosition: {x: 0, y: 0}
+    mosaicPosition: {x: 4, y: 12133}
     flatten: 0
     isImported: 0
     isVisible: 0
   - name: IsometricGrid
-    spriteName: 
+    spriteName: IsometricGrid
     isGroup: 0
     parentIndex: -1
     spriteID: 565813a99b2ed414f9596bb2fa71e26e
     layerID: 9
-    mosaicPosition: {x: 0, y: 0}
+    mosaicPosition: {x: 4, y: 4108}
     flatten: 0
     isImported: 0
     isVisible: 0
   - name: ReferenceCube
-    spriteName: 
+    spriteName: ReferenceCube
     isGroup: 0
     parentIndex: -1
     spriteID: e5dbf84eea88dcf429ce777ca661e48a
     layerID: 37
-    mosaicPosition: {x: 0, y: 0}
+    mosaicPosition: {x: 2588, y: 12133}
     flatten: 0
     isImported: 0
     isVisible: 0
@@ -1808,32 +1808,32 @@ ScriptedImporter:
     isImported: 1
     isVisible: 1
   - name: CharacterMC ColorPalette
-    spriteName: 
+    spriteName: CharacterMC ColorPalette
     isGroup: 0
     parentIndex: 29
     spriteID: 5fcb7910c52ec074e97ce56997ef9d43
     layerID: 283
-    mosaicPosition: {x: 0, y: 0}
+    mosaicPosition: {x: 7882, y: 2524}
     flatten: 0
     isImported: 0
     isVisible: 0
   - name: GGD_CharacterSheetMC
-    spriteName: 
+    spriteName: GGD_CharacterSheetMC
     isGroup: 0
     parentIndex: 29
     spriteID: 61ba78129e108b8429e6de762b1e0bb7
     layerID: 282
-    mosaicPosition: {x: 0, y: 0}
+    mosaicPosition: {x: 5549, y: 5032}
     flatten: 0
     isImported: 0
     isVisible: 0
   - name: CharakterMCSketch
-    spriteName: 
+    spriteName: CharakterMCSketch
     isGroup: 0
     parentIndex: 29
     spriteID: 5a409e89057877645932b0392018364d
     layerID: 278
-    mosaicPosition: {x: 0, y: 0}
+    mosaicPosition: {x: 7727, y: 846}
     flatten: 0
     isImported: 0
     isVisible: 0
@@ -2178,22 +2178,22 @@ ScriptedImporter:
     isImported: 1
     isVisible: 1
   - name: Warmup
-    spriteName: 
+    spriteName: Warmup
     isGroup: 0
     parentIndex: -1
     spriteID: cdec8f39cb07441448108b96c3444347
     layerID: 7
-    mosaicPosition: {x: 0, y: 0}
+    mosaicPosition: {x: 4, y: 8191}
     flatten: 0
     isImported: 0
     isVisible: 0
   - name: Hintergrund
-    spriteName: 
+    spriteName: Hintergrund
     isGroup: 0
     parentIndex: -1
     spriteID: 5b9571ef17e0ec24e8767b7efd6facf5
     layerID: 1
-    mosaicPosition: {x: 0, y: 0}
+    mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 0
     isVisible: 0
