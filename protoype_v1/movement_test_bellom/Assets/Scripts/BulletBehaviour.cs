@@ -20,10 +20,8 @@ public class BulletBehaviour : MonoBehaviour
     SpriteRenderer spriteRenderer;
 
     [SerializeField]
-    LayerMask layerMask;
-
-    [SerializeField]
-    float bulletPlacement;
+    LayerMask layerMaskEntity;
+    LayerMask layerMaskObjectCollider;
 
     float bulletSpeed;
     public float volume;
@@ -39,6 +37,11 @@ public class BulletBehaviour : MonoBehaviour
     bool bulletHasSpray;
     int randomSprayValue;
 
+    bool firstInvoke = true;
+
+    int raycastSegments = 8;
+
+
     
     // Start is called before the first frame update
     void Start()
@@ -46,12 +49,11 @@ public class BulletBehaviour : MonoBehaviour
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         if (gameObject.tag =="ProjectileInstance")
         {   
-            spriteRenderer.enabled = true;
+            spriteRenderer.enabled=true;
             bulletSpeed = bulletManager.bulletSpeed;
             volume = bulletManager.volume;
-            
-
-            layerMask = LayerMask.GetMask("Entity");
+            layerMaskEntity = LayerMask.GetMask("Entity");
+            layerMaskObjectCollider = LayerMask.GetMask("ObjectCollider");
             bulletDir = playerMovement.viewDir;
             randomSprayValue = Random.Range(1, 3);
             if (randomSprayValue == 1)
@@ -67,8 +69,9 @@ public class BulletBehaviour : MonoBehaviour
                 bulletDir.x += Random.Range(-0.03f, 0.03f);
                 bulletDir.y += Random.Range(-0.03f, 0.03f);
             }
-            transform.position = player.transform.position + bulletDir * bulletPlacement;
+            transform.position = player.transform.position;
             currentPosition = transform.position;
+            previousPosition = currentPosition;
             transform.rotation = Quaternion.LookRotation(Vector3.forward, bulletDir);
             volume = 1;
         }
@@ -91,42 +94,61 @@ public class BulletBehaviour : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+
     }
     void MoveBullet()
     {
-        previousPosition = currentPosition;
+        // Beim ersten Aufruf der funktion bleibt previousPosition auf der Ursprünglichen-Position
+        // Dannach wird previousPosition auf currentPosition gesetzt und currentPosition ist die neue Position des Projectils
+        if (firstInvoke == false)
+        {
+            previousPosition = currentPosition;
+        }
         transform.position = transform.position + bulletDir * bulletSpeed;
         currentPosition = transform.position;
-        Debug.DrawRay(previousPosition, currentPosition-previousPosition, Color.red, 0f, false); 
-        RaycastHit2D hit = Physics2D.Raycast(previousPosition, currentPosition-previousPosition, bulletSpeed);
-        if (hit)
-        {  
-            if (hit.collider.tag == "Enemy")
-            {
-                gameSounds.PlayHitmarker();
-                ShootableObject shootableObject = hit.collider.GetComponent<ShootableObject>();
-                shootableObject.health -= volume;
-                volume -= shootableObject.hardness;
-                Debug.DrawRay(previousPosition, currentPosition-previousPosition, Color.white, 10f, false); 
-            }
-            else if (hit.collider.tag == "NPC")
-            {
-                gameSounds.PlayHitmarker();
-                GoreNPC goreNPC = hit.collider.GetComponent<GoreNPC>();
-                goreNPC.health -= volume;
-                volume -= goreNPC.hardness;
-                Debug.DrawRay(previousPosition, currentPosition-previousPosition, Color.white, 10f, false); 
-            }
-            else if (hit.collider.tag == "Obstacle")
-            {
-                volume = 0;
-                Debug.DrawRay(previousPosition, currentPosition-previousPosition, Color.white, 10f, false); 
-            }
+        Debug.DrawRay(previousPosition, currentPosition-previousPosition, Color.red, 1f, false);
+        
+        // Dieser Loop spaltet die Distanz von previousPositon und currentPosition des Projectils in Segmente (raycastSegments) und checkt in welchem Segment sich der RaycastHit befindet
+        for (var i = 0; i<raycastSegments; i++)
+        {
+            float dist = (Vector3.Distance(previousPosition, currentPosition))/raycastSegments;
+            RaycastHit2D hit = Physics2D.Raycast(previousPosition + ((currentPosition-previousPosition)/raycastSegments) * i, currentPosition-previousPosition, dist, layerMaskEntity | layerMaskObjectCollider);
+            if (hit)
+            {  
+                if (hit.collider.tag == "ShootableNpcHitbox")
+                {
+                    gameSounds.PlayHitmarker();
+                    GameObject hitBox = hit.collider.gameObject;
+                    Transform parentTransform = hitBox.transform.parent;
+                    GoreNPC goreNPC = parentTransform.GetComponent<GoreNPC>();
+                    goreNPC.health -= volume;
+                    volume = 0;
+
+                    Vector3 debugSegmentRayStart = previousPosition + ((currentPosition-previousPosition)/raycastSegments) * i;
+                    Vector3 debugSegmentRayDirection = (currentPosition-previousPosition)/raycastSegments;
+                    Debug.DrawRay(debugSegmentRayStart, debugSegmentRayDirection, Color.white, 10f, false); 
+                    
+                    break;
+                }
+                else if (hit.collider.tag == "Obstacle")
+                {
+                    volume = 0;
+
+                    Vector3 debugSegmentRayStart = previousPosition + ((currentPosition-previousPosition)/raycastSegments) * i;
+                    Vector3 debugSegmentRayDirection = (currentPosition-previousPosition)/raycastSegments;
+                    Debug.DrawRay(debugSegmentRayStart, debugSegmentRayDirection, Color.white, 10f, false); 
+
+                    break;
+                }
         }
+        }
+        //Beim ersten aufruf auf false gesetzt (siehe line 101)
+        firstInvoke = false;
     }
 
     void OnBecameInvisible()
     {
+        //Zerstört das gameObject sobald es ausser Sichtweite ist
         Destroy(gameObject);
     }
 }

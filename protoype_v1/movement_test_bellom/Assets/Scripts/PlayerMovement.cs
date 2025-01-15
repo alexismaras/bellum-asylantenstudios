@@ -69,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-        Debug.DrawRay(transform.position, viewDir * 20f, Color.white, 0.0f, false);
+        // Debug.DrawRay(transform.position, viewDir * 20f, Color.white, 0.0f, false);
    
     }
     private void MovePlayer()

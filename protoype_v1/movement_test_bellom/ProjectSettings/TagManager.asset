@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - NPC
   - Obstacle
+  - ShootableNpcHitbox
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - Water
   - UI
   - Projectile
-  - 
+  - ObjectCollider
   - 
   - 
   - 
@@ -73,14 +74,14 @@ TagManager:
   - name: Player
     uniqueID: 3439038475
     locked: 0
+  - name: FX
+    uniqueID: 830942371
+    locked: 0
   - name: WallBeforePlayer
     uniqueID: 624761815
     locked: 0
   - name: Projectiles
     uniqueID: 669578295
-    locked: 0
-  - name: FX
-    uniqueID: 830942371
     locked: 0
   - name: ForegroundTrenchesDeckeDepthSeite
     uniqueID: 1051104015
