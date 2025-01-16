@@ -9,6 +9,12 @@ public class DialogManager : MonoBehaviour
     [SerializeField] PlayerMovement playerMovement;
     bool dialogActive = false;
     public bool approachActive = false;
+
+    List<string> dialog = new List<string> { "Du kleiner Go!", "Was los yane", "Du schuldest mir Fuchs du pic", "Geiz nicht so du lümmeltüte"};
+
+    int dialogTextIndex;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +32,18 @@ public class DialogManager : MonoBehaviour
         else if (dialogActive)
         {
             playerMovement.playerDialogActive = true;
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                if (dialogTextIndex < (dialog.Count - 1))
+                {   
+                    NextDialogElement();
+                }
+                else
+                {
+                    EndDialog();
+                }
+            }
 
             if (Input.GetKeyDown(KeyCode.Escape))
             {
@@ -45,7 +63,14 @@ public class DialogManager : MonoBehaviour
     void StartDialog()
     {
         dialogActive = true;
-        uiDialogInfo.text = $"Du kleiner Go";   
+        dialogTextIndex = 0;
+        uiDialogInfo.text = dialog[dialogTextIndex];   
+    }
+
+    void NextDialogElement()
+    {
+        dialogTextIndex += 1;
+        uiDialogInfo.text = dialog[dialogTextIndex];        
     }
 
     void EndDialog()
