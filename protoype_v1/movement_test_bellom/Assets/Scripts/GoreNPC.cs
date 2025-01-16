@@ -11,42 +11,71 @@ public class GoreNPC : MonoBehaviour
 
     [SerializeField] GoreMeter goreMeter;
 
-    public float health = 4;
+    [SerializeField] DialogManager dialogManager;
 
-    // Start is called before the first frame update
+    [SerializeField] bool npcApproachable;
+
+    public float health = 4;
+    
+    Vector3 circleCastOrigin;
+
+
     void Start()
     {
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
+    void Update()
+    {
+        HealthSystem();
+    }
+
     void FixedUpdate()
     {
-        spriteRenderer.material.color = new Color(1.0f, 0.25f * health, 0.0f, 1.0f);
+        if (npcApproachable)
+        {
+            ApproachSystem();
+        }
+    }
 
+    void ApproachSystem()
+    {
+        circleCastOrigin = new Vector3(transform.position.x, transform.position.y - 0.7f, transform.position.z);
+        RaycastHit2D hit = Physics2D.CircleCast(circleCastOrigin, 1, Vector3.zero, 0);
+        if (hit)
+        {
+            if (hit.collider.tag == "Player")
+            {
+                Debug.Log("PlayerHit");
+                dialogManager.approachActive = true;
+            }
+            else
+            {
+                Debug.Log("NoHit");
+                dialogManager.approachActive = false;
+            }
+        }
+    }
+
+    void HealthSystem()
+    {
         if (health <= 0)
         {
             Destroy(gameObject);
         }
     }
-
-    // void OnTriggerEnter2D(Collider2D collision)
-    // {
-    //     Debug.Log("Typeshit");
-    //     if (collision.gameObject.tag == "ProjectileInstance")
-    //     {
-    //         BulletBehaviour bullet_behaviour = collision.gameObject.GetComponent<BulletBehaviour>();
-    //         float volume = bullet_behaviour.volume;
-    //         health -= volume;
-    //     }
-
-        
-    // }
-
-    private void OnDestroy()
+    void OnDestroy()
     {
         goreMeter.RaiseGoremeter(10);
     }
 
-
+    void OnDrawGizmos()
+    {   
+        if (npcApproachable)
+        {
+            circleCastOrigin = new Vector3(transform.position.x, transform.position.y - 0.7f, transform.position.z);
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireSphere(circleCastOrigin, 1f);
+        }
+    }
 }

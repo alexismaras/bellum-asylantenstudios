@@ -23,35 +23,25 @@ public class PlayerMovement : MonoBehaviour
     public float goreMeterMultiplier;
 
 
-    LayerMask layerMask;
-
     // public Animator animator;
 
     [Header("Movement")]
     public float moveSpeed;
-    public float fastRollSpeed;
     public float walkingShootMultiplier;
-    public bool fastRollPerforming;
-    public float fastRollTimer;
+
+    public bool playerDialogActive = false;
 
     
     // Start is called before the first frame update
     void Start()
     {
         rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
-        fastRollSpeed = 10;
-        layerMask = LayerMask.GetMask("Entity");
     }
 
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            if (moving && !bulletManager.shooting)
-                FastRollMove();
-        }
         horizontalInput = Input.GetAxisRaw("Horizontal");
         moving = Input.GetMouseButton(1);
 
@@ -67,57 +57,30 @@ public class PlayerMovement : MonoBehaviour
         inputDir = orientation.up * verticalInput;
         viewDir = orientation.up * 1f;
 
-
-
         // Debug.DrawRay(transform.position, viewDir * 20f, Color.white, 0.0f, false);
    
     }
-    private void MovePlayer()
+    void MovePlayer()
     {
-        rigidbody2D.MovePosition(transform.position + inputDir * (moveSpeed+(moveSpeed*goreMeterMultiplier)) * (fastRollPerforming? fastRollSpeed : 1) * (bulletManager.shooting? walkingShootMultiplier : 1));
-        // transform.position = transform.position + inputDir * (moveSpeed+(moveSpeed*goreMeterMultiplier)) * (fastRollPerforming? fastRollSpeed : 1) * (bulletManager.shooting? walkingShootMultiplier : 1);
+        rigidbody2D.MovePosition(transform.position + inputDir * (moveSpeed+(moveSpeed*goreMeterMultiplier)) * (bulletManager.shooting? walkingShootMultiplier : 1));
         camera.transform.position = new Vector3(transform.position.x, transform.position.y, camera.transform.position.z);
-
         Debug.Log(goreMeterMultiplier);
         
     }
 
-    void FastRollMove()
+    void ShootGun()
     {
-        fastRollPerforming = true;
-        fastRollTimer = 10;
-
-    }
-
-    void FastRollReset()
-    {  
-        if (fastRollTimer > 0)
-        {
-            fastRollTimer -= 1;
-        }
-        else
-        {
-            fastRollPerforming = false;
-        }
+        bulletManager.shooting = Input.GetMouseButton(0)? true : false;
     }
 
 
     void FixedUpdate()
     {
-        FastRollReset();
-        MovePlayer();
-        if (Input.GetMouseButton(0) && !fastRollPerforming)
-        {   
-            bulletManager.shooting = true;
-        }
-        else 
+        if (!playerDialogActive)
         {
-            bulletManager.shooting = false;
+            MovePlayer();
+            ShootGun();
         }
-        // animator.SetBool("shooting", bulletManager.shooting);
     }
 
-    void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log("Etz aber");
-    }
 }

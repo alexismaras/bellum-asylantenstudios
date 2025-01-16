@@ -49,7 +49,7 @@ public class BulletBehaviour : MonoBehaviour
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         if (gameObject.tag =="ProjectileInstance")
         {   
-            spriteRenderer.enabled=true;
+            spriteRenderer.enabled = false;
             bulletSpeed = bulletManager.bulletSpeed;
             volume = bulletManager.volume;
             layerMaskEntity = LayerMask.GetMask("Entity");
@@ -83,16 +83,11 @@ public class BulletBehaviour : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         if (gameObject.tag =="ProjectileInstance")
         {
             MoveBullet();
-            if (volume <= 0)
-            {
-                Destroy(gameObject);
-            }
         }
 
     }
@@ -126,21 +121,31 @@ public class BulletBehaviour : MonoBehaviour
 
                     Vector3 debugSegmentRayStart = previousPosition + ((currentPosition-previousPosition)/raycastSegments) * i;
                     Vector3 debugSegmentRayDirection = (currentPosition-previousPosition)/raycastSegments;
-                    Debug.DrawRay(debugSegmentRayStart, debugSegmentRayDirection, Color.white, 10f, false); 
+                    Debug.DrawRay(debugSegmentRayStart, debugSegmentRayDirection, Color.white, 10f, false);
+
+                    Destroy(gameObject);
                     
                     break;
                 }
                 else if (hit.collider.tag == "Obstacle")
                 {
-                    volume = 0;
-
                     Vector3 debugSegmentRayStart = previousPosition + ((currentPosition-previousPosition)/raycastSegments) * i;
                     Vector3 debugSegmentRayDirection = (currentPosition-previousPosition)/raycastSegments;
-                    Debug.DrawRay(debugSegmentRayStart, debugSegmentRayDirection, Color.white, 10f, false); 
+                    Debug.DrawRay(debugSegmentRayStart, debugSegmentRayDirection, Color.white, 10f, false);
+
+                    Destroy(gameObject);
 
                     break;
                 }
-        }
+                if (hit.collider.tag == "Player")
+                {
+                    spriteRenderer.enabled = false;
+                }
+            }
+            else
+            {
+                spriteRenderer.enabled = true; 
+            }
         }
         //Beim ersten aufruf auf false gesetzt (siehe line 101)
         firstInvoke = false;
