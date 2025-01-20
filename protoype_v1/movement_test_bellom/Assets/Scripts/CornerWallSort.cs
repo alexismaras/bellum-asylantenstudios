@@ -6,19 +6,30 @@ using System;
 public class CornerWallSort : MonoBehaviour
 {
     [SerializeField] PlayerMovement playerMovement; 
+    [SerializeField] GameObject playerSprite; 
     SpriteRenderer spriteRenderer;
 
-    [SerializeField] float offset; 
+    SpriteRenderer playerSpriteRenderer;
+
+    float spriteOffset; 
+    float playerOffset;
+    float playerHeight;
+    float spriteHeight;
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        SpriteRenderer playerSpriteRenderer = playerSprite.GetComponent<SpriteRenderer>();
+        spriteHeight = spriteRenderer.bounds.size.y;
+        spriteOffset = spriteHeight * 0.5f;
+        playerHeight = playerSpriteRenderer.bounds.size.y;
+        playerOffset = playerHeight * 0.5f;
     }
 
     void Update()
     {
 
-        if (playerMovement.transform.position.y < transform.position.y + offset)
+        if (playerMovement.transform.position.y - playerOffset < transform.position.y - spriteOffset)
         {
             spriteRenderer.sortingLayerName = "WallBehindPlayer";
             // spriteRenderer.sortingOrder = Mathf.RoundToInt(transform.position.y * -100) - 1;
