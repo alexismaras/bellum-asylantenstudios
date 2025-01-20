@@ -10,7 +10,7 @@ public class DialogManager : MonoBehaviour
     bool dialogActive = false;
     public bool approachActive = false;
 
-    List<string> dialog = new List<string> { "Du kleiner Go!", "Was los yane", "Du schuldest mir Fuchs du pic", "Geiz nicht so du lümmeltüte"};
+    List<string> dialog = new List<string> { "Salut MC!", "Die Monster müssen besiegt werden.", "Text3", "Text4"};
 
     int dialogTextIndex;
 
