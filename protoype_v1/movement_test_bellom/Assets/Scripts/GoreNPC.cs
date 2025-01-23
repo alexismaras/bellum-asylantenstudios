@@ -14,6 +14,7 @@ public class GoreNPC : MonoBehaviour
     [SerializeField] DialogManager dialogManager;
 
     [SerializeField] bool npcApproachable;
+    [SerializeField] SceneSwitcher sceneSwitcher;
 
     public float health = 4;
     
@@ -67,6 +68,7 @@ public class GoreNPC : MonoBehaviour
     void OnDestroy()
     {
         goreMeter.RaiseGoremeter(10);
+        sceneSwitcher.ChangeScene();
     }
 
     void OnDrawGizmos()

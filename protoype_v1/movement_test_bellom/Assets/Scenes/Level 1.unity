@@ -8689,7 +8689,6 @@ GameObject:
   m_Component:
   - component: {fileID: 168624552}
   - component: {fileID: 168624554}
-  - component: {fileID: 168624555}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -8753,8 +8752,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -3546059554383461729, guid: 7dfed27643e624b41965a511bde07ccc, type: 3}
-  m_Color: {r: 1, g: 0.18762848, b: 0, a: 1}
+  m_Sprite: {fileID: -8558650820723451816, guid: 63a0c9434161949409b50c8280b3cac5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8764,20 +8763,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &168624555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 168624551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54734f1c71de29647ae675e448664c07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerMovement: {fileID: 1113841108}
-  playerSprite: {fileID: 168624551}
 --- !u!1 &169455974
 GameObject:
   m_ObjectHideFlags: 0
@@ -20273,9 +20258,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 830942371
-  m_SortingLayer: 10
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3783ba06fe7de854e9b601df21accb6e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -25634,7 +25619,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -79112,7 +79097,8 @@ MonoBehaviour:
   mainManager: {fileID: 851383828}
   goreMeter: {fileID: 553884229}
   dialogManager: {fileID: 560422570}
-  npcApproachable: 1
+  npcApproachable: 0
+  sceneSwitcher: {fileID: 1783375181}
   health: 20
 --- !u!4 &1531253284
 Transform:
@@ -91016,9 +91002,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 830942371
-  m_SortingLayer: 10
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0580e51aab92d6843a5fa578066082a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -107610,8 +107596,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278195398
-  m_fontColor: {r: 0.77647066, g: 0.078431375, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

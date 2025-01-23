@@ -1058,6 +1058,7 @@ MonoBehaviour:
   goreMeter: {fileID: 1010472761}
   dialogManager: {fileID: 1082657130}
   npcApproachable: 1
+  sceneSwitcher: {fileID: 890243464}
   health: 20
 --- !u!4 &27108846
 Transform:
