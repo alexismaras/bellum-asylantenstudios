@@ -13,7 +13,15 @@ public class GoreNPC : MonoBehaviour
 
     [SerializeField] DialogManager dialogManager;
 
+    [SerializeField] Transform orientation;
+
     [SerializeField] bool npcApproachable;
+
+    [SerializeField] NpcOrientation npcOrientation;
+
+    [SerializeField] bool fightsBack;
+
+    [SerializeField] float rotationSpeed;
     [SerializeField] SceneSwitcher sceneSwitcher;
 
     public float health = 4;
@@ -35,11 +43,16 @@ public class GoreNPC : MonoBehaviour
     {
         if (npcApproachable)
         {
-            ApproachSystem();
+            NpcApproachSystem();
         }
+        if (fightsBack)
+        {
+            NpcCombatSystem();
+        }
+        
     }
 
-    void ApproachSystem()
+    void NpcApproachSystem()
     {
         circleCastOrigin = new Vector3(transform.position.x, transform.position.y - 0.7f, transform.position.z);
         RaycastHit2D hit = Physics2D.CircleCast(circleCastOrigin, 1, Vector3.zero, 0);
@@ -54,6 +67,22 @@ public class GoreNPC : MonoBehaviour
             {
                 Debug.Log("NoHit");
                 dialogManager.approachActive = false;
+            }
+        }
+    }
+
+    void NpcCombatSystem()
+    {
+        circleCastOrigin = new Vector3(transform.position.x, transform.position.y - 0.7f, transform.position.z);
+        RaycastHit2D hit = Physics2D.CircleCast(circleCastOrigin, 4, Vector3.zero, 0);
+        if (hit)
+        {
+            if (hit.collider.tag == "Player")
+            {
+                Debug.Log("PlayerHitCombat");
+                // Vector3 npsToPlayerDirection = hit.collider.transform.position - transform.position;
+                // float angle = Mathf.Atan2(npcToPlayerDirection.y, npcToPlayerDirection.x) * Mathf.Rad2Deg;
+                npcOrientation.RotateNpc(hit.collider.transform.position, rotationSpeed);
             }
         }
     }
