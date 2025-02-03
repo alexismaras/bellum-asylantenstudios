@@ -57,14 +57,13 @@ public class PlayerMovement : MonoBehaviour
         inputDir = orientation.up * verticalInput;
         viewDir = orientation.up * 1f;
 
-        // Debug.DrawRay(transform.position, viewDir * 20f, Color.white, 0.0f, false);
+        Debug.DrawRay(transform.position, viewDir * 20f, Color.white, 0.0f, false);
    
     }
     void MovePlayer()
     {
         rigidbody2D.MovePosition(transform.position + inputDir * (moveSpeed+(moveSpeed*goreMeterMultiplier)) * (bulletManager.shooting? walkingShootMultiplier : 1));
         camera.transform.position = new Vector3(transform.position.x, transform.position.y, camera.transform.position.z);
-        Debug.Log(goreMeterMultiplier);
         
     }
 

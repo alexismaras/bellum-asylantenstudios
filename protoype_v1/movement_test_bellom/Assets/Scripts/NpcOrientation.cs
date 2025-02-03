@@ -8,7 +8,7 @@ public class NpcOrientation : MonoBehaviour
     float horizontalInputMouse;
     float verticalInputMouse;
 
-    float angleY;
+    public float angleY;
 
     // public GameObject player;
 
