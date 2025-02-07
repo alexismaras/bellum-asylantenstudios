@@ -971,6 +971,53 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1808693367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.953}
+--- !u!1 &234979408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 234979410}
+  - component: {fileID: 234979409}
+  m_Layer: 0
+  m_Name: DialogManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &234979409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234979408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cd3949dbff454b4787b2cc17adac644, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiDialogInfo: {fileID: 2112172406}
+  playerMovement: {fileID: 1937021800}
+  approachActive: 0
+--- !u!4 &234979410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234979408}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.2162833, y: -0.101778135, z: -0.021848792}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &264387145
 GameObject:
   m_ObjectHideFlags: 0
@@ -6243,6 +6290,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1828202841}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1188997275 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7223763861895164449, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+  m_PrefabInstance: {fileID: 2065281560}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e688091fd874144a0dccb39c1f7f1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1189228394
 GameObject:
   m_ObjectHideFlags: 0
@@ -10107,6 +10165,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1864210284}
   - component: {fileID: 1864210283}
+  - component: {fileID: 1864210285}
+  - component: {fileID: 1864210286}
   m_Layer: 0
   m_Name: Einstiegssoldat
   m_TagString: Untagged
@@ -10181,6 +10241,66 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1864210285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864210282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df8ee074d555a9843a1cbe057240ba0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 1864210283}
+  gameSounds: {fileID: 32540594}
+  mainManager: {fileID: 1894019561}
+  goreMeter: {fileID: 1188997275}
+  dialogManager: {fileID: 1970729688}
+  orientation: {fileID: 1864210284}
+  npcApproachable: 1
+  npcOrientation: {fileID: 0}
+  fightsBack: 0
+  rotationSpeed: 0
+  moveSpeed: 0
+  sceneSwitcher: {fileID: 0}
+  health: 4
+--- !u!70 &1864210286
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864210282}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6625, y: 1.77}
+  m_Direction: 0
 --- !u!1 &1887744245
 GameObject:
   m_ObjectHideFlags: 0
@@ -10349,6 +10469,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1828202841}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1894019561 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6841220751026164494, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+  m_PrefabInstance: {fileID: 2065281560}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e61ce52d8597cf443a2127a3bc503a30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1899563434
 GameObject:
   m_ObjectHideFlags: 0
@@ -10716,6 +10847,10 @@ PrefabInstance:
       propertyPath: bulletManager
       value: 
       objectReference: {fileID: 383919803}
+    - target: {fileID: 5077648617839463600, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
+      propertyPath: playerDialogActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8029545739234312277, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
       propertyPath: m_Name
       value: Player
@@ -10798,6 +10933,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1970729688 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7096860825522613748, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+  m_PrefabInstance: {fileID: 2065281560}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cd3949dbff454b4787b2cc17adac644, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1980904051
 GameObject:
   m_ObjectHideFlags: 0
@@ -11475,6 +11621,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2112172406}
     - target: {fileID: 7096860825522613748, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+      propertyPath: approachActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7096860825522613748, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
       propertyPath: playerMovement
       value: 
       objectReference: {fileID: 1937021800}
@@ -12105,3 +12255,4 @@ SceneRoots:
   - {fileID: 1060554832}
   - {fileID: 526584550}
   - {fileID: 777640596}
+  - {fileID: 234979410}

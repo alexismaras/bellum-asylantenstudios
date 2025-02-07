@@ -1072,9 +1072,9 @@ MonoBehaviour:
   goreMeter: {fileID: 1010472761}
   dialogManager: {fileID: 1082657130}
   orientation: {fileID: 10422494}
-  npcApproachable: 0
+  npcApproachable: 1
   npcOrientation: {fileID: 10422495}
-  fightsBack: 1
+  fightsBack: 0
   rotationSpeed: 0.05
   moveSpeed: 0.05
   sceneSwitcher: {fileID: 890243464}
