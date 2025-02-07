@@ -7,6 +7,7 @@ public class DialogManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI uiDialogInfo;
     [SerializeField] PlayerMovement playerMovement;
+    [SerializeField] TextMeshProUGUI MagazineInfo;
     public bool dialogActive = false;
     public bool approachActive = false;
 
@@ -85,7 +86,8 @@ public class DialogManager : MonoBehaviour
     {
         dialogActive = true;
         dialogTextIndex = 0;
-        uiDialogInfo.text = EinstiegsNPC[dialogTextIndex];   
+        uiDialogInfo.text = EinstiegsNPC[dialogTextIndex];
+        MagazineInfo.rectTransform.anchoredPosition += new Vector2(0, 67.5f);
     }
 
     void NextDialogElement()
@@ -97,5 +99,6 @@ public class DialogManager : MonoBehaviour
     void EndDialog()
     {
         dialogActive = false;
+        MagazineInfo.rectTransform.anchoredPosition -= new Vector2(0, 67.5f);
     }
 }

@@ -11710,6 +11710,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1937021801}
     - target: {fileID: 7096860825522613748, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+      propertyPath: MagazineInfo
+      value: 
+      objectReference: {fileID: 2112172405}
+    - target: {fileID: 7096860825522613748, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
       propertyPath: uiDialogInfo
       value: 
       objectReference: {fileID: 2112172406}

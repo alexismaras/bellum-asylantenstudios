@@ -11,9 +11,7 @@ public class MonologTrigger_Lvl2 : MonoBehaviour
     [SerializeField] TextMeshProUGUI uiDialogInfo;
     [SerializeField] TextMeshProUGUI MagazineInfo;
     string MonoLogLvl2 = "Can´t screw this up again... just follow orders.";
-    public Rigidbody2D rb;
     bool alreadyPlayed = false;
-    bool freezed = false;
 
     void Start()
     {
