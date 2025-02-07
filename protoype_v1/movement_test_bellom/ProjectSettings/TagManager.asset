@@ -10,6 +10,8 @@ TagManager:
   - NPC
   - Obstacle
   - ShootableNpcHitbox
+  - EinstiegsNPC
+  - KommandeurNPC
   layers:
   - Default
   - TransparentFX
