@@ -14,7 +14,8 @@ public class DialogManager : MonoBehaviour
     List<string> dialog = new List<string> { "Salut MC!", "Die Monster müssen besiegt werden.", "Text3", "Text4"};
 
     List<string> EinstiegsNPC = new List<string> { "Damn, thought we lost you. We found you out there alone — your squad didn’t make it.",
-                                                   "Wait. What happened to me?", "No memory, huh? Figures.", 
+                                                   "Wait. What happened to me?", 
+                                                    "No memory, huh? Figures.", 
                                                     "After those Monsters took ND City, your team was sent to scout a nearby enemy outpost.", 
                                                     "Mission went to hell.", 
                                                     "But you’re still breathing ay, and that’s all that matters.", 
@@ -32,21 +33,31 @@ public class DialogManager : MonoBehaviour
                                                     "Now get out there. Kill them all. Show them what righteousness looks like.",
                                                     "And if you fail this time, no one’s coming to save you." };
 
-    string MonoLogLvl2 = "Can´t screw this up again... just follow orders.";
-
     int dialogTextIndex;
+    int dialog2TextIndex;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        uiDialogInfo.text = $"";   
+        uiDialogInfo.text = $"";
+        uiDialogInfo.color = Color.green;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!dialogActive)
+        if (dialogTextIndex == 1)
+        {
+            uiDialogInfo.color = Color.red;
+        }
+        else if (dialogTextIndex == 2)
+        {
+            uiDialogInfo.color = Color.green;
+        }
+            
+            
+            if (!dialogActive)
         {
             playerMovement.playerDialogActive = false;
             uiDialogInfo.text = $"";   
@@ -100,5 +111,6 @@ public class DialogManager : MonoBehaviour
     {
         dialogActive = false;
         MagazineInfo.rectTransform.anchoredPosition -= new Vector2(0, 67.5f);
+        dialogTextIndex = 0;
     }
 }

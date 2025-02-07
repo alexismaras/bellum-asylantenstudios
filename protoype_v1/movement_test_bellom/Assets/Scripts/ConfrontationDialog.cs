@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ConfrontationDialog : MonoBehaviour
 {
@@ -17,6 +18,11 @@ public class ConfrontationDialog : MonoBehaviour
                                                     "...",
                                                     "Noone will miss you."};
 
+    private void Start()
+    {
+        uiDialogInfo.text = $"";
+        uiDialogInfo.color = Color.white;
+    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -53,5 +59,6 @@ public class ConfrontationDialog : MonoBehaviour
     void EndDialog()
     {
         MagazineInfo.rectTransform.anchoredPosition -= new Vector2(0, 67.5f);
+        SceneManager.LoadScene(0);
     }
 }
