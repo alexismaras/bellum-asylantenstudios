@@ -135,7 +135,7 @@ public class GoreNPC : MonoBehaviour
     void OnDestroy()
     {
         goreMeter.RaiseGoremeter(10);
-        sceneSwitcher.ChangeScene();
+        
     }
 
     void OnDrawGizmos()

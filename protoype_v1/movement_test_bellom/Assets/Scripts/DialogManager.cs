@@ -7,7 +7,7 @@ public class DialogManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI uiDialogInfo;
     [SerializeField] PlayerMovement playerMovement;
-    bool dialogActive = false;
+    public bool dialogActive = false;
     public bool approachActive = false;
 
     List<string> dialog = new List<string> { "Salut MC!", "Die Monster müssen besiegt werden.", "Text3", "Text4"};
@@ -30,6 +30,8 @@ public class DialogManager : MonoBehaviour
                                                     "We are soldiers of the Holy Motherland. We cleanse. We purge. We do what must be done." ,
                                                     "Now get out there. Kill them all. Show them what righteousness looks like.",
                                                     "And if you fail this time, no one’s coming to save you." };
+
+    string MonoLogLvl2 = "Can´t screw this up again... just follow orders.";
 
     int dialogTextIndex;
 
