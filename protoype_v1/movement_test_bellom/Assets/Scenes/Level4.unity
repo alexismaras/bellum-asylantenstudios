@@ -19275,6 +19275,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 328117615d14c20438cf3c65f62f3fee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  uiDialogInfo: {fileID: 1806261923}
+  MagazineInfo: {fileID: 1806261925}
+  playerMovement: {fileID: 422916284}
 --- !u!58 &1567017857
 CircleCollider2D:
   m_ObjectHideFlags: 0
