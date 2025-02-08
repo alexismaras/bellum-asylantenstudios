@@ -100,8 +100,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 912
-      y: 1299
+      x: 1114
+      y: 3055
       width: 564
       height: 1013
     spriteID: 1cba71d82a163074b80ff916811efe82
@@ -112,7 +112,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 912, y: 1299}
+    uvTransform: {x: 1114, y: 3055}
     spritePosition: {x: 1200, y: 1423}
   - name: "Farbton/S\xE4ttigung 1"
     originalName: 
@@ -121,8 +121,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1981
-      y: 4077
+      x: 609
+      y: 8175
       width: 0
       height: 0
     spriteID: fcd74757ab1a234439039d2b37b63424
@@ -133,7 +133,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1981, y: 4077}
+    uvTransform: {x: 609, y: 8175}
     spritePosition: {x: 0, y: 4096}
   - name: Einstiegssoldat
     originalName: 
@@ -142,8 +142,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3780
-      y: 4
+      x: 1756
+      y: 3369
       width: 265
       height: 708
     spriteID: 99ac6a0b8b0f04e47b4edb5005e78cca
@@ -154,7 +154,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3780, y: 4}
+    uvTransform: {x: 1756, y: 3369}
     spritePosition: {x: 1900, y: 1612}
   - name: EnemyBossCharLeiche
     originalName: 
@@ -177,7 +177,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 1114, y: 4}
     spritePosition: {x: 798, y: 1788}
-  - name: EnemyBossCharBackIdle
+  - name: EnemyBossCharBackSpiegeliIdle
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -185,10 +185,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1299
+      y: 2594
       width: 900
       height: 1378
-    spriteID: 6f86d9d56fe5c184098a792dcc5a3672
+    spriteID: bc054c386ee0ed745ad486e56b9683c3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -196,9 +196,9 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1299}
-    spritePosition: {x: 3109, y: 1971}
-  - name: EnemyBossCharIdle
+    uvTransform: {x: 4, y: 2594}
+    spritePosition: {x: 864, y: 2387}
+  - name: EnemyBossCharIdleSpiegel
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -209,7 +209,7 @@ ScriptedImporter:
       y: 4
       width: 1102
       height: 1287
-    spriteID: 5c68a9c3f5fafb54b81e7593c84b679f
+    spriteID: 5a0d6e9c7b19f674aaf8b29db7e2d440
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -218,6 +218,48 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 1628, y: 385}
+  - name: EnemyBossCharBackIdle
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3980
+      width: 900
+      height: 1378
+    spriteID: 6f86d9d56fe5c184098a792dcc5a3672
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3980}
+    spritePosition: {x: 3109, y: 1971}
+  - name: EnemyBossCharIdle
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1299
+      width: 1102
+      height: 1287
+    spriteID: 5c68a9c3f5fafb54b81e7593c84b679f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1299}
     spritePosition: {x: 2326, y: 1168}
   - name: EnemyCharLeiche
     originalName: 
@@ -240,6 +282,27 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 1114, y: 660}
     spritePosition: {x: 2442, y: 594}
+  - name: EnemyCharIdleSpiegel
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1114
+      y: 1155
+      width: 634
+      height: 942
+    spriteID: 25b033af03a3dde4298621dc7068ea92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1114, y: 1155}
+    spritePosition: {x: 243, y: 2293}
   - name: EnemyCharIdle
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -247,8 +310,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3138
-      y: 4
+      x: 1114
+      y: 2105
       width: 634
       height: 942
     spriteID: 1135754a0d28fd34b904cbff0c9868ad
@@ -259,8 +322,29 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3138, y: 4}
+    uvTransform: {x: 1114, y: 2105}
     spritePosition: {x: 152, y: 1029}
+  - name: EnemyCharBackSpiegelIdle
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5366
+      width: 582
+      height: 1040
+    spriteID: 573eb04fbbadbf74fbad26436e060ad6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 5366}
+    spritePosition: {x: 1023, y: 385}
   - name: EnemyCharBackIdle
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -268,8 +352,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2548
-      y: 4
+      x: 4
+      y: 6414
       width: 582
       height: 1040
     spriteID: 6aed2c8c328dead438c5b35a712422c1
@@ -280,7 +364,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2548, y: 4}
+    uvTransform: {x: 4, y: 6414}
     spritePosition: {x: 697, y: 1580}
   - name: Character Back Spiegel Walk 2
     originalName: 
@@ -289,8 +373,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 538
-      y: 3472
+      x: 2548
+      y: 4
       width: 446
       height: 618
     spriteID: 6f9903c6ca73a524f9e8d079da64c9f7
@@ -301,7 +385,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 538, y: 3472}
+    uvTransform: {x: 2548, y: 4}
     spritePosition: {x: 1482, y: 2458}
   - name: Character Back Spiegel Walk 3
     originalName: 
@@ -310,8 +394,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1034
-      y: 3398
+      x: 2548
+      y: 630
       width: 429
       height: 617
     spriteID: 0b8cc4fe74a18334e873b9f710bc2e26
@@ -322,7 +406,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1034, y: 3398}
+    uvTransform: {x: 2548, y: 630}
     spritePosition: {x: 2013, y: 2147}
   - name: Character Back Spiegel Walk 1
     originalName: 
@@ -331,8 +415,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1034
-      y: 2685
+      x: 609
+      y: 7462
       width: 490
       height: 705
     spriteID: 9e30fcddf70a9aa4781039654e73ee7b
@@ -343,7 +427,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1034, y: 2685}
+    uvTransform: {x: 609, y: 7462}
     spritePosition: {x: 2485, y: 1827}
   - name: Character Back Idle Spiegel
     originalName: 
@@ -352,8 +436,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1981
-      y: 2685
+      x: 1756
+      y: 1155
       width: 405
       height: 751
     spriteID: 3642f417313fb0f4489fff5191329149
@@ -364,7 +448,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1981, y: 2685}
+    uvTransform: {x: 1756, y: 1155}
     spritePosition: {x: 3117, y: 1452}
   - name: Character Back Idle
     originalName: 
@@ -373,8 +457,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1532
-      y: 2685
+      x: 594
+      y: 6414
       width: 441
       height: 783
     spriteID: 79ec602d68bee604b87107167b977421
@@ -385,7 +469,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1532, y: 2685}
+    uvTransform: {x: 594, y: 6414}
     spritePosition: {x: 2105, y: 1170}
   - name: Character Back Walk3
     originalName: 
@@ -394,8 +478,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 2685
+      x: 1114
+      y: 5530
       width: 526
       height: 728
     spriteID: 9379b330f66dac047ae362eb779a2228
@@ -406,7 +490,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 2685}
+    uvTransform: {x: 1114, y: 5530}
     spritePosition: {x: 753, y: 398}
   - name: Character Back Walk2
     originalName: 
@@ -415,8 +499,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 3421
+      x: 3002
+      y: 4
       width: 488
       height: 537
     spriteID: 1a26874f252cc2547bb838ca3c42fdec
@@ -427,7 +511,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 3421}
+    uvTransform: {x: 3002, y: 4}
     spritePosition: {x: 136, y: 171}
   - name: Character Back Walk1
     originalName: 
@@ -436,8 +520,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2038
-      y: 1985
+      x: 1114
+      y: 4842
       width: 574
       height: 680
     spriteID: 4d63ca4cd5740d3449a2b680885bde00
@@ -448,7 +532,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2038, y: 1985}
+    uvTransform: {x: 1114, y: 4842}
     spritePosition: {x: 1382, y: 838}
   - name: CharacterMC
     originalName: 
@@ -457,8 +541,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 538
-      y: 2685
+      x: 594
+      y: 5366
       width: 488
       height: 779
     spriteID: fc58535c89c64c34493ad91b5657d365
@@ -469,7 +553,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 538, y: 2685}
+    uvTransform: {x: 594, y: 5366}
     spritePosition: {x: 0, y: 3308}
   - name: Character Walk1
     originalName: 
@@ -478,8 +562,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3211
-      y: 1299
+      x: 1114
+      y: 6893
       width: 550
       height: 593
     spriteID: 01c4382d3c1f62a41be8489e5725398c
@@ -490,7 +574,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3211, y: 1299}
+    uvTransform: {x: 1114, y: 6893}
     spritePosition: {x: 1401, y: 3299}
   - name: Character Walk2
     originalName: 
@@ -499,8 +583,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1484
-      y: 2065
+      x: 1114
+      y: 7494
       width: 501
       height: 610
     spriteID: dcb79b24a1e10b8459e56a1eefa4ba85
@@ -511,7 +595,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1484, y: 2065}
+    uvTransform: {x: 1114, y: 7494}
     spritePosition: {x: 602, y: 2854}
   - name: Character Walk3
     originalName: 
@@ -520,8 +604,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2643
-      y: 1299
+      x: 1114
+      y: 6266
       width: 560
       height: 619
     spriteID: b353691a6fc4b994d8573331ea2d6a65
@@ -532,7 +616,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2643, y: 1299}
+    uvTransform: {x: 1114, y: 6266}
     spritePosition: {x: 1978, y: 3006}
   - name: CharacterMC Spiegel Walk 2
     originalName: 
@@ -541,8 +625,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1981
-      y: 3444
+      x: 1756
+      y: 2736
       width: 388
       height: 625
     spriteID: 7a39d1d8402f44b4da87372fccaf6fc8
@@ -553,7 +637,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1981, y: 3444}
+    uvTransform: {x: 1756, y: 2736}
     spritePosition: {x: 3659, y: 3471}
   - name: Character MC Idle Spiegel
     originalName: 
@@ -562,8 +646,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2394
-      y: 2685
+      x: 1756
+      y: 1914
       width: 341
       height: 814
     spriteID: d84aa1eba098e6e47ac844bf59810afe
@@ -574,7 +658,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2394, y: 2685}
+    uvTransform: {x: 1756, y: 1914}
     spritePosition: {x: 3300, y: 3076}
   - name: CharacterMC Spiegel Walk3 Ink
     originalName: 
@@ -583,8 +667,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2038
-      y: 1299
+      x: 4
+      y: 7462
       width: 597
       height: 678
     spriteID: 48cb7bd3b1d4f22469b4ae8cd13b53b6
@@ -595,7 +679,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2038, y: 1299}
+    uvTransform: {x: 4, y: 7462}
     spritePosition: {x: 2344, y: 2620}
   - name: CharacterMC Idle Spiegel Walk1
     originalName: 
@@ -604,8 +688,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1484
-      y: 1299
+      x: 1114
+      y: 4076
       width: 546
       height: 758
     spriteID: 297c255ca72804d47b5c2562ccf8c769
@@ -616,7 +700,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1484, y: 1299}
+    uvTransform: {x: 1114, y: 4076}
     spritePosition: {x: 2836, y: 2902}
   rigSpriteImportData:
   - name: Character Back Spiegel Walk 2
@@ -1060,7 +1144,7 @@ ScriptedImporter:
     parentIndex: 3
     spriteID: 1cba71d82a163074b80ff916811efe82
     layerID: 240
-    mosaicPosition: {x: 912, y: 1299}
+    mosaicPosition: {x: 1114, y: 3055}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1080,7 +1164,7 @@ ScriptedImporter:
     parentIndex: 5
     spriteID: fcd74757ab1a234439039d2b37b63424
     layerID: 236
-    mosaicPosition: {x: 1981, y: 4077}
+    mosaicPosition: {x: 609, y: 8175}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1090,7 +1174,7 @@ ScriptedImporter:
     parentIndex: 5
     spriteID: 99ac6a0b8b0f04e47b4edb5005e78cca
     layerID: 232
-    mosaicPosition: {x: 3780, y: 4}
+    mosaicPosition: {x: 1756, y: 3369}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1154,13 +1238,33 @@ ScriptedImporter:
     flatten: 0
     isImported: 1
     isVisible: 1
+  - name: EnemyBossCharBackSpiegeliIdle
+    spriteName: EnemyBossCharBackSpiegeliIdle
+    isGroup: 0
+    parentIndex: 2
+    spriteID: bc054c386ee0ed745ad486e56b9683c3
+    layerID: 247
+    mosaicPosition: {x: 4, y: 2594}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: EnemyBossCharIdleSpiegel
+    spriteName: EnemyBossCharIdleSpiegel
+    isGroup: 0
+    parentIndex: 2
+    spriteID: 5a0d6e9c7b19f674aaf8b29db7e2d440
+    layerID: 248
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: EnemyBossCharBackIdle
     spriteName: EnemyBossCharBackIdle
     isGroup: 0
     parentIndex: 2
     spriteID: 6f86d9d56fe5c184098a792dcc5a3672
     layerID: 218
-    mosaicPosition: {x: 4, y: 1299}
+    mosaicPosition: {x: 4, y: 3980}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1177,17 +1281,17 @@ ScriptedImporter:
   - name: EnemyBossCharIdle
     spriteName: EnemyBossCharIdle
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 17
     spriteID: 5c68a9c3f5fafb54b81e7593c84b679f
     layerID: 215
-    mosaicPosition: {x: 4, y: 4}
+    mosaicPosition: {x: 4, y: 1299}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: EnemyCharIdle Skizze
     spriteName: 
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 17
     spriteID: 535df808a4f1ce141837df0e8b45b361
     layerID: 214
     mosaicPosition: {x: 0, y: 0}
@@ -1197,7 +1301,7 @@ ScriptedImporter:
   - name: EnemyCharIdle Blockout
     spriteName: 
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 17
     spriteID: 1287b577ffd7b38418e45e834cf14bf6
     layerID: 213
     mosaicPosition: {x: 0, y: 0}
@@ -1207,7 +1311,7 @@ ScriptedImporter:
   - name: Enemy Char Concept13_01_25
     spriteName: 
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 17
     spriteID: 52bade511033a714582b881458dd12f8
     layerID: 212
     mosaicPosition: {x: 0, y: 0}
@@ -1224,6 +1328,16 @@ ScriptedImporter:
     flatten: 0
     isImported: 1
     isVisible: 1
+  - name: EnemyCharIdleSpiegel
+    spriteName: EnemyCharIdleSpiegel
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 25b033af03a3dde4298621dc7068ea92
+    layerID: 252
+    mosaicPosition: {x: 1114, y: 1155}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: EnemyCharIdle
     spriteName: 
     isGroup: 1
@@ -1237,10 +1351,20 @@ ScriptedImporter:
   - name: EnemyCharIdle
     spriteName: EnemyCharIdle
     isGroup: 0
-    parentIndex: 21
+    parentIndex: 24
     spriteID: 1135754a0d28fd34b904cbff0c9868ad
     layerID: 204
-    mosaicPosition: {x: 3138, y: 4}
+    mosaicPosition: {x: 1114, y: 2105}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: EnemyCharBackSpiegelIdle
+    spriteName: EnemyCharBackSpiegelIdle
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 573eb04fbbadbf74fbad26436e060ad6
+    layerID: 251
+    mosaicPosition: {x: 4, y: 5366}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1257,10 +1381,10 @@ ScriptedImporter:
   - name: EnemyCharBackIdle
     spriteName: EnemyCharBackIdle
     isGroup: 0
-    parentIndex: 23
+    parentIndex: 27
     spriteID: 6aed2c8c328dead438c5b35a712422c1
     layerID: 197
-    mosaicPosition: {x: 2548, y: 4}
+    mosaicPosition: {x: 4, y: 6414}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1277,7 +1401,7 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk
     spriteName: 
     isGroup: 1
-    parentIndex: 25
+    parentIndex: 29
     spriteID: f0adfb4d896bf0443a6ee35b5cde06f1
     layerID: 115
     mosaicPosition: {x: 0, y: 0}
@@ -1287,7 +1411,7 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk 2
     spriteName: 
     isGroup: 1
-    parentIndex: 26
+    parentIndex: 30
     spriteID: 46a05f100f3f7f9479d3eadb551d28b0
     layerID: 113
     mosaicPosition: {x: 0, y: 0}
@@ -1297,17 +1421,17 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk 2
     spriteName: Character Back Spiegel Walk 2
     isGroup: 0
-    parentIndex: 27
+    parentIndex: 31
     spriteID: 6f9903c6ca73a524f9e8d079da64c9f7
     layerID: 111
-    mosaicPosition: {x: 538, y: 3472}
+    mosaicPosition: {x: 2548, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Character Back Spiegel Walk 3
     spriteName: 
     isGroup: 1
-    parentIndex: 26
+    parentIndex: 30
     spriteID: 25e16d91a3b028741b3b88e5275f8f23
     layerID: 108
     mosaicPosition: {x: 0, y: 0}
@@ -1317,17 +1441,17 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk 3
     spriteName: Character Back Spiegel Walk 3
     isGroup: 0
-    parentIndex: 29
+    parentIndex: 33
     spriteID: 0b8cc4fe74a18334e873b9f710bc2e26
     layerID: 106
-    mosaicPosition: {x: 1034, y: 3398}
+    mosaicPosition: {x: 2548, y: 630}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Character Back Spiegel Walk 1
     spriteName: 
     isGroup: 1
-    parentIndex: 26
+    parentIndex: 30
     spriteID: 78437ce8a8b08034ea0281e8be22f0b8
     layerID: 102
     mosaicPosition: {x: 0, y: 0}
@@ -1337,20 +1461,20 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk 1
     spriteName: Character Back Spiegel Walk 1
     isGroup: 0
-    parentIndex: 31
+    parentIndex: 35
     spriteID: 9e30fcddf70a9aa4781039654e73ee7b
     layerID: 100
-    mosaicPosition: {x: 1034, y: 2685}
+    mosaicPosition: {x: 609, y: 7462}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Character Back Idle Spiegel
     spriteName: Character Back Idle Spiegel
     isGroup: 0
-    parentIndex: 25
+    parentIndex: 29
     spriteID: 3642f417313fb0f4489fff5191329149
     layerID: 8
-    mosaicPosition: {x: 1981, y: 2685}
+    mosaicPosition: {x: 1756, y: 1155}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1367,7 +1491,7 @@ ScriptedImporter:
   - name: Character Back Idle
     spriteName: 
     isGroup: 1
-    parentIndex: 34
+    parentIndex: 38
     spriteID: 8b74e95440603994db3b0682cb369f94
     layerID: 18
     mosaicPosition: {x: 0, y: 0}
@@ -1377,17 +1501,17 @@ ScriptedImporter:
   - name: Character Back Idle
     spriteName: Character Back Idle
     isGroup: 0
-    parentIndex: 35
+    parentIndex: 39
     spriteID: 79ec602d68bee604b87107167b977421
     layerID: 16
-    mosaicPosition: {x: 1532, y: 2685}
+    mosaicPosition: {x: 594, y: 6414}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Character Back Walk3
     spriteName: 
     isGroup: 1
-    parentIndex: 34
+    parentIndex: 38
     spriteID: b0e79b1220ff77e43962f026908dd040
     layerID: 90
     mosaicPosition: {x: 0, y: 0}
@@ -1397,17 +1521,17 @@ ScriptedImporter:
   - name: Character Back Walk3
     spriteName: Character Back Walk3
     isGroup: 0
-    parentIndex: 37
+    parentIndex: 41
     spriteID: 9379b330f66dac047ae362eb779a2228
     layerID: 88
-    mosaicPosition: {x: 4, y: 2685}
+    mosaicPosition: {x: 1114, y: 5530}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Character Back Walk2
     spriteName: 
     isGroup: 1
-    parentIndex: 34
+    parentIndex: 38
     spriteID: 9d89fd771bb66fc48b2f3e960c37ede6
     layerID: 95
     mosaicPosition: {x: 0, y: 0}
@@ -1417,17 +1541,17 @@ ScriptedImporter:
   - name: Character Back Walk2
     spriteName: Character Back Walk2
     isGroup: 0
-    parentIndex: 39
+    parentIndex: 43
     spriteID: 1a26874f252cc2547bb838ca3c42fdec
     layerID: 93
-    mosaicPosition: {x: 4, y: 3421}
+    mosaicPosition: {x: 3002, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Character Back Walk1
     spriteName: 
     isGroup: 1
-    parentIndex: 34
+    parentIndex: 38
     spriteID: 3b0d21d5ed833f14786e958638f6f169
     layerID: 85
     mosaicPosition: {x: 0, y: 0}
@@ -1437,10 +1561,10 @@ ScriptedImporter:
   - name: Character Back Walk1
     spriteName: Character Back Walk1
     isGroup: 0
-    parentIndex: 41
+    parentIndex: 45
     spriteID: 4d63ca4cd5740d3449a2b680885bde00
     layerID: 83
-    mosaicPosition: {x: 2038, y: 1985}
+    mosaicPosition: {x: 1114, y: 4842}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1457,17 +1581,17 @@ ScriptedImporter:
   - name: CharacterMC
     spriteName: CharacterMC
     isGroup: 0
-    parentIndex: 43
+    parentIndex: 47
     spriteID: fc58535c89c64c34493ad91b5657d365
     layerID: 4
-    mosaicPosition: {x: 538, y: 2685}
+    mosaicPosition: {x: 594, y: 5366}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Character Walk1
     spriteName: 
     isGroup: 1
-    parentIndex: 43
+    parentIndex: 47
     spriteID: 132e0d5a612be1840b9b89d6a80c65bd
     layerID: 30
     mosaicPosition: {x: 0, y: 0}
@@ -1477,17 +1601,17 @@ ScriptedImporter:
   - name: Character Walk1
     spriteName: Character Walk1
     isGroup: 0
-    parentIndex: 45
+    parentIndex: 49
     spriteID: 01c4382d3c1f62a41be8489e5725398c
     layerID: 27
-    mosaicPosition: {x: 3211, y: 1299}
+    mosaicPosition: {x: 1114, y: 6893}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Character Walk 2
     spriteName: 
     isGroup: 1
-    parentIndex: 43
+    parentIndex: 47
     spriteID: a08a6f8af83c7ba4ea8b6de48de8e97e
     layerID: 59
     mosaicPosition: {x: 0, y: 0}
@@ -1497,17 +1621,17 @@ ScriptedImporter:
   - name: Character Walk2
     spriteName: Character Walk2
     isGroup: 0
-    parentIndex: 47
+    parentIndex: 51
     spriteID: dcb79b24a1e10b8459e56a1eefa4ba85
     layerID: 58
-    mosaicPosition: {x: 1484, y: 2065}
+    mosaicPosition: {x: 1114, y: 7494}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Character Walk3
     spriteName: 
     isGroup: 1
-    parentIndex: 43
+    parentIndex: 47
     spriteID: d1684326c6a09b046a9f10690b808c72
     layerID: 35
     mosaicPosition: {x: 0, y: 0}
@@ -1517,10 +1641,10 @@ ScriptedImporter:
   - name: Character Walk3
     spriteName: Character Walk3
     isGroup: 0
-    parentIndex: 49
+    parentIndex: 53
     spriteID: b353691a6fc4b994d8573331ea2d6a65
     layerID: 33
-    mosaicPosition: {x: 2643, y: 1299}
+    mosaicPosition: {x: 1114, y: 6266}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1537,17 +1661,17 @@ ScriptedImporter:
   - name: CharacterMC Spiegel Walk 2
     spriteName: CharacterMC Spiegel Walk 2
     isGroup: 0
-    parentIndex: 51
+    parentIndex: 55
     spriteID: 7a39d1d8402f44b4da87372fccaf6fc8
     layerID: 77
-    mosaicPosition: {x: 1981, y: 3444}
+    mosaicPosition: {x: 1756, y: 2736}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: CharacterMC Idle Spiegel
     spriteName: 
     isGroup: 1
-    parentIndex: 51
+    parentIndex: 55
     spriteID: f05fb281c0c9fc144bd7916246964063
     layerID: 23
     mosaicPosition: {x: 0, y: 0}
@@ -1557,17 +1681,17 @@ ScriptedImporter:
   - name: Character MC Idle Spiegel
     spriteName: Character MC Idle Spiegel
     isGroup: 0
-    parentIndex: 53
+    parentIndex: 57
     spriteID: d84aa1eba098e6e47ac844bf59810afe
     layerID: 21
-    mosaicPosition: {x: 2394, y: 2685}
+    mosaicPosition: {x: 1756, y: 1914}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: CharacterMC Spiegel Walk 3
     spriteName: 
     isGroup: 1
-    parentIndex: 51
+    parentIndex: 55
     spriteID: 78f482e8ebbb80c4eb1ce4120970f303
     layerID: 70
     mosaicPosition: {x: 0, y: 0}
@@ -1577,17 +1701,17 @@ ScriptedImporter:
   - name: CharacterMC Spiegel Walk3 Ink
     spriteName: CharacterMC Spiegel Walk3 Ink
     isGroup: 0
-    parentIndex: 55
+    parentIndex: 59
     spriteID: 48cb7bd3b1d4f22469b4ae8cd13b53b6
     layerID: 68
-    mosaicPosition: {x: 2038, y: 1299}
+    mosaicPosition: {x: 4, y: 7462}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: CharacterMC Spiegel Walk 1
     spriteName: 
     isGroup: 1
-    parentIndex: 51
+    parentIndex: 55
     spriteID: 5d1be08d90ab9fb4588e43b2db13c53b
     layerID: 65
     mosaicPosition: {x: 0, y: 0}
@@ -1597,10 +1721,10 @@ ScriptedImporter:
   - name: CharacterMC Idle Spiegel Walk1
     spriteName: CharacterMC Idle Spiegel Walk1
     isGroup: 0
-    parentIndex: 57
+    parentIndex: 61
     spriteID: 297c255ca72804d47b5c2562ccf8c769
     layerID: 63
-    mosaicPosition: {x: 1484, y: 1299}
+    mosaicPosition: {x: 1114, y: 4076}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1647,7 +1771,7 @@ ScriptedImporter:
   - name: Character Back Idle Spiegel
     spriteName: 
     isGroup: 1
-    parentIndex: 62
+    parentIndex: 66
     spriteID: 176833dd9baa9044396038973f4c690d
     layerID: 195
     mosaicPosition: {x: 0, y: 0}
@@ -1657,7 +1781,7 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk
     spriteName: 
     isGroup: 1
-    parentIndex: 63
+    parentIndex: 67
     spriteID: 241ab44acb1bcc845829eb08f2a3270c
     layerID: 194
     mosaicPosition: {x: 0, y: 0}
@@ -1667,7 +1791,7 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk 2
     spriteName: 
     isGroup: 1
-    parentIndex: 64
+    parentIndex: 68
     spriteID: 7188da388bd8e2843ba6c0411184ddf4
     layerID: 193
     mosaicPosition: {x: 0, y: 0}
@@ -1677,7 +1801,7 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk 2 Ink
     spriteName: 
     isGroup: 0
-    parentIndex: 65
+    parentIndex: 69
     spriteID: bdb47dddc5fd24443935eec6d7801aad
     layerID: 192
     mosaicPosition: {x: 0, y: 0}
@@ -1687,7 +1811,7 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk 2 Color
     spriteName: 
     isGroup: 0
-    parentIndex: 65
+    parentIndex: 69
     spriteID: 9ddeb86bbea23e94db782ed3566541cf
     layerID: 191
     mosaicPosition: {x: 0, y: 0}
@@ -1697,7 +1821,7 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk 2 Skizze
     spriteName: 
     isGroup: 0
-    parentIndex: 65
+    parentIndex: 69
     spriteID: db1dcb3e1bb744140a16bc6072ea8415
     layerID: 190
     mosaicPosition: {x: 0, y: 0}
@@ -1707,7 +1831,7 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk 3
     spriteName: 
     isGroup: 1
-    parentIndex: 64
+    parentIndex: 68
     spriteID: b4aa81a2fc68de1448065449b4b3cea0
     layerID: 188
     mosaicPosition: {x: 0, y: 0}
@@ -1717,7 +1841,7 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk 3 Ink
     spriteName: 
     isGroup: 0
-    parentIndex: 69
+    parentIndex: 73
     spriteID: e22b350a64661ae4b87337c46b824778
     layerID: 187
     mosaicPosition: {x: 0, y: 0}
@@ -1727,7 +1851,7 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk 3 Color
     spriteName: 
     isGroup: 0
-    parentIndex: 69
+    parentIndex: 73
     spriteID: b8f114b220abd534a878809c642a6587
     layerID: 186
     mosaicPosition: {x: 0, y: 0}
@@ -1737,7 +1861,7 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk 3 Skizze
     spriteName: 
     isGroup: 0
-    parentIndex: 69
+    parentIndex: 73
     spriteID: 81d469a0680c21e44ab62cf896774133
     layerID: 185
     mosaicPosition: {x: 0, y: 0}
@@ -1747,7 +1871,7 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk 1
     spriteName: 
     isGroup: 1
-    parentIndex: 64
+    parentIndex: 68
     spriteID: f15615c0486b52c428750ef26ba16f48
     layerID: 183
     mosaicPosition: {x: 0, y: 0}
@@ -1757,7 +1881,7 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk 1 Ink
     spriteName: 
     isGroup: 0
-    parentIndex: 73
+    parentIndex: 77
     spriteID: c11f4cdcaef2ae447ba02cba6f0b9d4d
     layerID: 182
     mosaicPosition: {x: 0, y: 0}
@@ -1767,7 +1891,7 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk 1 Color
     spriteName: 
     isGroup: 0
-    parentIndex: 73
+    parentIndex: 77
     spriteID: 3b3a2f2eebda37541a3ab0dcec61737a
     layerID: 181
     mosaicPosition: {x: 0, y: 0}
@@ -1777,7 +1901,7 @@ ScriptedImporter:
   - name: Character Back Spiegel Walk1 Skizze
     spriteName: 
     isGroup: 0
-    parentIndex: 73
+    parentIndex: 77
     spriteID: 7066ed1417476544b92b045fea13cf9a
     layerID: 180
     mosaicPosition: {x: 0, y: 0}
@@ -1787,7 +1911,7 @@ ScriptedImporter:
   - name: Character Back Idle Ink Spiegel
     spriteName: 
     isGroup: 0
-    parentIndex: 63
+    parentIndex: 67
     spriteID: b46fde6b41051cf48841bd9a8b6d9e93
     layerID: 177
     mosaicPosition: {x: 0, y: 0}
@@ -1797,7 +1921,7 @@ ScriptedImporter:
   - name: Character Back Idle Color Spiegel
     spriteName: 
     isGroup: 0
-    parentIndex: 63
+    parentIndex: 67
     spriteID: 08149a54b56a54445bd9c789112608d5
     layerID: 176
     mosaicPosition: {x: 0, y: 0}
@@ -1807,7 +1931,7 @@ ScriptedImporter:
   - name: Character Back Idle Spiegel Sketches
     spriteName: 
     isGroup: 0
-    parentIndex: 63
+    parentIndex: 67
     spriteID: d5192bd8b706b8d489ebc9712cbcb021
     layerID: 175
     mosaicPosition: {x: 0, y: 0}
@@ -1817,7 +1941,7 @@ ScriptedImporter:
   - name: Character Back Walk
     spriteName: 
     isGroup: 1
-    parentIndex: 62
+    parentIndex: 66
     spriteID: be54471b1c236dd4dad66e43343783d7
     layerID: 173
     mosaicPosition: {x: 0, y: 0}
@@ -1827,7 +1951,7 @@ ScriptedImporter:
   - name: Character Back Idle
     spriteName: 
     isGroup: 1
-    parentIndex: 80
+    parentIndex: 84
     spriteID: 766d99cd1da59bb40aba632b0a2de102
     layerID: 172
     mosaicPosition: {x: 0, y: 0}
@@ -1837,7 +1961,7 @@ ScriptedImporter:
   - name: Character Back Idle Ink
     spriteName: 
     isGroup: 0
-    parentIndex: 81
+    parentIndex: 85
     spriteID: 458e00f0b7413c843ac0fdd4c71e2936
     layerID: 171
     mosaicPosition: {x: 0, y: 0}
@@ -1847,7 +1971,7 @@ ScriptedImporter:
   - name: CharacterBack Idle Color
     spriteName: 
     isGroup: 0
-    parentIndex: 81
+    parentIndex: 85
     spriteID: 123215a10700e7a45900851fc1f53826
     layerID: 170
     mosaicPosition: {x: 0, y: 0}
@@ -1857,7 +1981,7 @@ ScriptedImporter:
   - name: Character Back Idle Sketch
     spriteName: 
     isGroup: 0
-    parentIndex: 81
+    parentIndex: 85
     spriteID: b110735db10cdc443acaa415e686975f
     layerID: 169
     mosaicPosition: {x: 0, y: 0}
@@ -1867,7 +1991,7 @@ ScriptedImporter:
   - name: Character Back Walk3
     spriteName: 
     isGroup: 1
-    parentIndex: 80
+    parentIndex: 84
     spriteID: 103c716b79a9c694ba261744f2463cf4
     layerID: 167
     mosaicPosition: {x: 0, y: 0}
@@ -1877,7 +2001,7 @@ ScriptedImporter:
   - name: Character Back Walk3 Ink
     spriteName: 
     isGroup: 0
-    parentIndex: 85
+    parentIndex: 89
     spriteID: faeff85089947e549884ab269de299df
     layerID: 166
     mosaicPosition: {x: 0, y: 0}
@@ -1887,7 +2011,7 @@ ScriptedImporter:
   - name: Character Back Walk3 Color
     spriteName: 
     isGroup: 0
-    parentIndex: 85
+    parentIndex: 89
     spriteID: ddc023c8ed6c8fb42be8b1b0034af5cd
     layerID: 165
     mosaicPosition: {x: 0, y: 0}
@@ -1897,7 +2021,7 @@ ScriptedImporter:
   - name: Character Back Walk3  Skizze
     spriteName: 
     isGroup: 0
-    parentIndex: 85
+    parentIndex: 89
     spriteID: 863e893758d7b214cb58ec37f9b0f01e
     layerID: 164
     mosaicPosition: {x: 0, y: 0}
@@ -1907,7 +2031,7 @@ ScriptedImporter:
   - name: Character Back Walk2
     spriteName: 
     isGroup: 1
-    parentIndex: 80
+    parentIndex: 84
     spriteID: 848b4ca1694c45741be9b5b97bf79b2c
     layerID: 162
     mosaicPosition: {x: 0, y: 0}
@@ -1917,7 +2041,7 @@ ScriptedImporter:
   - name: Character Back Walk2 Ink
     spriteName: 
     isGroup: 0
-    parentIndex: 89
+    parentIndex: 93
     spriteID: 9fb02857d5bb19448bb8a5e239880357
     layerID: 161
     mosaicPosition: {x: 0, y: 0}
@@ -1927,7 +2051,7 @@ ScriptedImporter:
   - name: Character Back Walk2 Color
     spriteName: 
     isGroup: 0
-    parentIndex: 89
+    parentIndex: 93
     spriteID: a533b675bc753514d8eb75b70eb0f556
     layerID: 160
     mosaicPosition: {x: 0, y: 0}
@@ -1937,7 +2061,7 @@ ScriptedImporter:
   - name: Character Back Walk2 Skizze
     spriteName: 
     isGroup: 0
-    parentIndex: 89
+    parentIndex: 93
     spriteID: c6d5224123298844e9baadb5af30be2f
     layerID: 159
     mosaicPosition: {x: 0, y: 0}
@@ -1947,7 +2071,7 @@ ScriptedImporter:
   - name: Character Back Walk1
     spriteName: 
     isGroup: 1
-    parentIndex: 80
+    parentIndex: 84
     spriteID: 3c5be0f4dc0ea594ab0d2ec1dfaa9825
     layerID: 157
     mosaicPosition: {x: 0, y: 0}
@@ -1957,7 +2081,7 @@ ScriptedImporter:
   - name: Character Back Walk1 Ink
     spriteName: 
     isGroup: 0
-    parentIndex: 93
+    parentIndex: 97
     spriteID: 9b48def938c1aba4a83793ad5f7f8ae5
     layerID: 156
     mosaicPosition: {x: 0, y: 0}
@@ -1967,7 +2091,7 @@ ScriptedImporter:
   - name: Character Back Walk1 Color
     spriteName: 
     isGroup: 0
-    parentIndex: 93
+    parentIndex: 97
     spriteID: 0ed2e2c0cdfbec345874250442ad0ecc
     layerID: 155
     mosaicPosition: {x: 0, y: 0}
@@ -1977,7 +2101,7 @@ ScriptedImporter:
   - name: Character Back Walk1 Skizze
     spriteName: 
     isGroup: 0
-    parentIndex: 93
+    parentIndex: 97
     spriteID: 2202162e23de77746a3779bd32a0b967
     layerID: 154
     mosaicPosition: {x: 0, y: 0}
@@ -1987,7 +2111,7 @@ ScriptedImporter:
   - name: CharacterMC Walk
     spriteName: 
     isGroup: 1
-    parentIndex: 62
+    parentIndex: 66
     spriteID: a7d8d27e0b1267e45a3621375aef35d8
     layerID: 151
     mosaicPosition: {x: 0, y: 0}
@@ -1997,7 +2121,7 @@ ScriptedImporter:
   - name: CharacterMC
     spriteName: 
     isGroup: 0
-    parentIndex: 97
+    parentIndex: 101
     spriteID: 1c5046ec741ab264682d8aeef71dd0bc
     layerID: 150
     mosaicPosition: {x: 0, y: 0}
@@ -2007,7 +2131,7 @@ ScriptedImporter:
   - name: Character Walk1
     spriteName: 
     isGroup: 1
-    parentIndex: 97
+    parentIndex: 101
     spriteID: 5e5d0b4ccafdbdf4e9d50a2799328b6c
     layerID: 149
     mosaicPosition: {x: 0, y: 0}
@@ -2017,7 +2141,7 @@ ScriptedImporter:
   - name: Character Walk1
     spriteName: 
     isGroup: 0
-    parentIndex: 99
+    parentIndex: 103
     spriteID: b3727788ecb795f46b43798970ba0da6
     layerID: 148
     mosaicPosition: {x: 0, y: 0}
@@ -2027,7 +2151,7 @@ ScriptedImporter:
   - name: Character Walk1 Skizze
     spriteName: 
     isGroup: 0
-    parentIndex: 99
+    parentIndex: 103
     spriteID: 1c7fd243662aa844594e462acb8958e2
     layerID: 147
     mosaicPosition: {x: 0, y: 0}
@@ -2037,7 +2161,7 @@ ScriptedImporter:
   - name: Character Walk 2
     spriteName: 
     isGroup: 1
-    parentIndex: 97
+    parentIndex: 101
     spriteID: 511e5d52c0ca7c04ba1ff9e4246ce78c
     layerID: 145
     mosaicPosition: {x: 0, y: 0}
@@ -2047,7 +2171,7 @@ ScriptedImporter:
   - name: Character Walk2
     spriteName: 
     isGroup: 0
-    parentIndex: 102
+    parentIndex: 106
     spriteID: b9c85ab5c40645748b461ead73888620
     layerID: 144
     mosaicPosition: {x: 0, y: 0}
@@ -2057,7 +2181,7 @@ ScriptedImporter:
   - name: Character Walk2 Skizze
     spriteName: 
     isGroup: 0
-    parentIndex: 102
+    parentIndex: 106
     spriteID: b2511b08d3dfa08458d0dee89082b2b7
     layerID: 143
     mosaicPosition: {x: 0, y: 0}
@@ -2067,7 +2191,7 @@ ScriptedImporter:
   - name: Character Walk3
     spriteName: 
     isGroup: 1
-    parentIndex: 97
+    parentIndex: 101
     spriteID: 9b8782d851143b449aa04e31ba87d2d8
     layerID: 141
     mosaicPosition: {x: 0, y: 0}
@@ -2077,7 +2201,7 @@ ScriptedImporter:
   - name: Character Walk3
     spriteName: 
     isGroup: 0
-    parentIndex: 105
+    parentIndex: 109
     spriteID: 2e3cedaf74f91104b886bf2ffcd05072
     layerID: 140
     mosaicPosition: {x: 0, y: 0}
@@ -2087,7 +2211,7 @@ ScriptedImporter:
   - name: Character Walk3 Skizze
     spriteName: 
     isGroup: 0
-    parentIndex: 105
+    parentIndex: 109
     spriteID: be02e2970e85a974f868ee2c23cc90d9
     layerID: 139
     mosaicPosition: {x: 0, y: 0}
@@ -2097,7 +2221,7 @@ ScriptedImporter:
   - name: CharacterMC Spiegel Walk
     spriteName: 
     isGroup: 1
-    parentIndex: 62
+    parentIndex: 66
     spriteID: 53557bd96563e3b48b67a973dc517862
     layerID: 136
     mosaicPosition: {x: 0, y: 0}
@@ -2107,7 +2231,7 @@ ScriptedImporter:
   - name: CharacterMC Spiegel Walk 2 Ink
     spriteName: 
     isGroup: 0
-    parentIndex: 108
+    parentIndex: 112
     spriteID: 29ac05e16c4229d46a029570ae9b7374
     layerID: 135
     mosaicPosition: {x: 0, y: 0}
@@ -2117,7 +2241,7 @@ ScriptedImporter:
   - name: CharacterMC Spiegel Walk 2 Color
     spriteName: 
     isGroup: 0
-    parentIndex: 108
+    parentIndex: 112
     spriteID: 78d48ba117e95f641a32e17a319c3a13
     layerID: 134
     mosaicPosition: {x: 0, y: 0}
@@ -2127,7 +2251,7 @@ ScriptedImporter:
   - name: CharacterMC Spiegel Walk 2 Skizzen
     spriteName: 
     isGroup: 0
-    parentIndex: 108
+    parentIndex: 112
     spriteID: e4b7cf51625b05f43899184b5967873e
     layerID: 133
     mosaicPosition: {x: 0, y: 0}
@@ -2137,7 +2261,7 @@ ScriptedImporter:
   - name: CharacterMC Idle Spiegel
     spriteName: 
     isGroup: 1
-    parentIndex: 108
+    parentIndex: 112
     spriteID: 50d8b300d3b81b04697e9ef6e6546164
     layerID: 132
     mosaicPosition: {x: 0, y: 0}
@@ -2147,7 +2271,7 @@ ScriptedImporter:
   - name: Character MC Idle Spiegel Ink
     spriteName: 
     isGroup: 0
-    parentIndex: 112
+    parentIndex: 116
     spriteID: ba6b31499129eb749bdf53fdb68fbc6a
     layerID: 131
     mosaicPosition: {x: 0, y: 0}
@@ -2157,7 +2281,7 @@ ScriptedImporter:
   - name: CharacterMC Idle Spiegel Color
     spriteName: 
     isGroup: 0
-    parentIndex: 112
+    parentIndex: 116
     spriteID: 1a8b547b6c328cc48b2625f042815a23
     layerID: 130
     mosaicPosition: {x: 0, y: 0}
@@ -2167,7 +2291,7 @@ ScriptedImporter:
   - name: Character MC Idle Spiegel Skizze
     spriteName: 
     isGroup: 0
-    parentIndex: 112
+    parentIndex: 116
     spriteID: e7a282a5f8c04dd4d894344bd0062097
     layerID: 129
     mosaicPosition: {x: 0, y: 0}
@@ -2177,7 +2301,7 @@ ScriptedImporter:
   - name: CharacterMC Spiegel Walk 3
     spriteName: 
     isGroup: 1
-    parentIndex: 108
+    parentIndex: 112
     spriteID: 9e8593c3d03f28a4eac7983b4b845eee
     layerID: 127
     mosaicPosition: {x: 0, y: 0}
@@ -2187,7 +2311,7 @@ ScriptedImporter:
   - name: Character MC Spiegel Walk 3 Skizze
     spriteName: 
     isGroup: 0
-    parentIndex: 116
+    parentIndex: 120
     spriteID: cd0fda64dc3fa9949b29b2c787889c5a
     layerID: 126
     mosaicPosition: {x: 0, y: 0}
@@ -2197,7 +2321,7 @@ ScriptedImporter:
   - name: CharacterMC Spiegel Walk3 Ink
     spriteName: 
     isGroup: 0
-    parentIndex: 116
+    parentIndex: 120
     spriteID: 9bcea80153ab96f4ab2a1a1f7ee2a407
     layerID: 125
     mosaicPosition: {x: 0, y: 0}
@@ -2207,7 +2331,7 @@ ScriptedImporter:
   - name: CharacterMC Spiegel Walk3 Color
     spriteName: 
     isGroup: 0
-    parentIndex: 116
+    parentIndex: 120
     spriteID: 4ed88b29d32b1014694d9b450771c791
     layerID: 124
     mosaicPosition: {x: 0, y: 0}
@@ -2217,7 +2341,7 @@ ScriptedImporter:
   - name: CharacterMC Spiegel Walk 1
     spriteName: 
     isGroup: 1
-    parentIndex: 108
+    parentIndex: 112
     spriteID: def7d3918dfd62a4b841ef96bb346957
     layerID: 122
     mosaicPosition: {x: 0, y: 0}
@@ -2227,7 +2351,7 @@ ScriptedImporter:
   - name: CharacterMC Idle Spiegel Walk1 Ink
     spriteName: 
     isGroup: 0
-    parentIndex: 120
+    parentIndex: 124
     spriteID: 2f83704e87c042e4484c7ccfa9b85cb5
     layerID: 121
     mosaicPosition: {x: 0, y: 0}
@@ -2237,7 +2361,7 @@ ScriptedImporter:
   - name: CharacterMC Idle Spiegel Walk1 Color
     spriteName: 
     isGroup: 0
-    parentIndex: 120
+    parentIndex: 124
     spriteID: ff959e1652f575b4d983866c3f061fa4
     layerID: 120
     mosaicPosition: {x: 0, y: 0}
@@ -2247,7 +2371,7 @@ ScriptedImporter:
   - name: CharacterMC Idle Spiegel Walk1 Skizze
     spriteName: 
     isGroup: 0
-    parentIndex: 120
+    parentIndex: 124
     spriteID: 6284fd07b01ca3d428d7917bb0eb977d
     layerID: 119
     mosaicPosition: {x: 0, y: 0}
@@ -2257,7 +2381,7 @@ ScriptedImporter:
   - name: Character Walk 2 Skizze
     spriteName: 
     isGroup: 1
-    parentIndex: 62
+    parentIndex: 66
     spriteID: b3d4c70976f9b55468902031398f6d84
     layerID: 53
     mosaicPosition: {x: 0, y: 0}
@@ -2267,7 +2391,7 @@ ScriptedImporter:
   - name: Character Walk2 Ink
     spriteName: 
     isGroup: 0
-    parentIndex: 124
+    parentIndex: 128
     spriteID: f061d71d6be0d3f46b2c61f6fb5c7891
     layerID: 51
     mosaicPosition: {x: 0, y: 0}
@@ -2277,7 +2401,7 @@ ScriptedImporter:
   - name: Character Walk2 Color
     spriteName: 
     isGroup: 0
-    parentIndex: 124
+    parentIndex: 128
     spriteID: 51a3e5fe1c0f3a6478afd9ce3cdd2d47
     layerID: 52
     mosaicPosition: {x: 0, y: 0}
@@ -2287,7 +2411,7 @@ ScriptedImporter:
   - name: Character Walk2 Skizze
     spriteName: 
     isGroup: 0
-    parentIndex: 124
+    parentIndex: 128
     spriteID: 96f99f35bcf8d944288e980bb5209221
     layerID: 50
     mosaicPosition: {x: 0, y: 0}
@@ -2297,7 +2421,7 @@ ScriptedImporter:
   - name: Character Walk1
     spriteName: 
     isGroup: 1
-    parentIndex: 62
+    parentIndex: 66
     spriteID: 5c8e98d722f60414ebc965f8f7771d32
     layerID: 48
     mosaicPosition: {x: 0, y: 0}
@@ -2307,7 +2431,7 @@ ScriptedImporter:
   - name: Character Walk1 Ink
     spriteName: 
     isGroup: 0
-    parentIndex: 128
+    parentIndex: 132
     spriteID: 828f923d1e6c432478190bc1b53fd8a9
     layerID: 47
     mosaicPosition: {x: 0, y: 0}
@@ -2317,7 +2441,7 @@ ScriptedImporter:
   - name: Character Walk1 Color
     spriteName: 
     isGroup: 0
-    parentIndex: 128
+    parentIndex: 132
     spriteID: 3c156f1ab9986b049b74af5aae481612
     layerID: 46
     mosaicPosition: {x: 0, y: 0}
@@ -2327,7 +2451,7 @@ ScriptedImporter:
   - name: Character Walk1 Skizze
     spriteName: 
     isGroup: 0
-    parentIndex: 128
+    parentIndex: 132
     spriteID: ea77cf0f4ceda0e48935ba6b75906071
     layerID: 45
     mosaicPosition: {x: 0, y: 0}
@@ -2337,7 +2461,7 @@ ScriptedImporter:
   - name: Character Walk2
     spriteName: 
     isGroup: 1
-    parentIndex: 62
+    parentIndex: 66
     spriteID: 6022389b7b543db4ba17d730720259d8
     layerID: 43
     mosaicPosition: {x: 0, y: 0}
@@ -2347,7 +2471,7 @@ ScriptedImporter:
   - name: Character Walk2 Ink
     spriteName: 
     isGroup: 0
-    parentIndex: 132
+    parentIndex: 136
     spriteID: 7aab26f53fa30ae48be4f092966dd1d5
     layerID: 42
     mosaicPosition: {x: 0, y: 0}
@@ -2357,7 +2481,7 @@ ScriptedImporter:
   - name: Character Walk2 Color
     spriteName: 
     isGroup: 0
-    parentIndex: 132
+    parentIndex: 136
     spriteID: 83dd1ad685dcd8440b63b54001594d13
     layerID: 41
     mosaicPosition: {x: 0, y: 0}
@@ -2367,7 +2491,7 @@ ScriptedImporter:
   - name: Character Walk2 Skizze
     spriteName: 
     isGroup: 0
-    parentIndex: 132
+    parentIndex: 136
     spriteID: fc8cc480281026c448583afdd9271953
     layerID: 40
     mosaicPosition: {x: 0, y: 0}
