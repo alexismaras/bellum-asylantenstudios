@@ -14,7 +14,8 @@ public class KommandeurDialog : MonoBehaviour
                                                     "The enemy is not like us. They are filth, corruption—an infection on our land." ,
                                                     "We are soldiers of the Holy Motherland. We cleanse. We purge. We do what must be done." ,
                                                     "Now get out there. Kill them all. Show them what righteousness looks like.",
-                                                    "And if you fail this time, no one’s coming to save you." };
+                                                    "And if you fail this time, no one’s coming to save you.",
+                                                    "Now follow the path on the right. You are already late."};
     [SerializeField] TextMeshProUGUI uiDialogInfo;
     [SerializeField] PlayerMovement playerMovement;
     [SerializeField] TextMeshProUGUI MagazineInfo;
@@ -26,9 +27,6 @@ public class KommandeurDialog : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        uiDialogInfo.text = $"";
-        uiDialogInfo.color = Color.green;
-
         if (playerMovement == null)
         {
             playerMovement = FindObjectOfType<PlayerMovement>();
@@ -47,7 +45,7 @@ public class KommandeurDialog : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                if (KommandeurDialogIndex <= KommandeurNPC.Count - 1 )
+                if (KommandeurDialogIndex < KommandeurNPC.Count - 1 )
                 {
                     NextDialogElementKommandeur();
                 }
@@ -94,5 +92,6 @@ public class KommandeurDialog : MonoBehaviour
         rb.constraints = RigidbodyConstraints2D.None;
         MagazineInfo.rectTransform.anchoredPosition -= new Vector2(0, 67.5f);
         KommandeurDialogIndex = 0;
+        uiDialogInfo.text = $"";
     }
 }
