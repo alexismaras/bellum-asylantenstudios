@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class MonologTrigger : MonoBehaviour
 {
-
     [SerializeField] DialogManager dialogManager;
 
 
@@ -24,6 +23,6 @@ public class MonologTrigger : MonoBehaviour
             GetComponent<Collider2D>().enabled = false;
             dialogManager.StartDialog();
             dialogManager.dialogActive = true;
-        }
+        } 
     }
 }
