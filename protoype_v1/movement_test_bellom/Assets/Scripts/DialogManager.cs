@@ -117,6 +117,40 @@ public class DialogManager : MonoBehaviour
 
     List<string> dialog = new List<string> { "Du kleiner Go!", "Was los yane", "Du schuldest mir Fuchs du pic", "Geiz nicht so du lümmeltüte"};
 
+    List<Dictionary<int,string>> dialogDict = new List<Dictionary<int,string>>();
+
+    Dictionary<int,string> dialog1 = new Dictionary<string, int>
+    {
+        { 2, "Damn, thought we lost you. We found you out there alone — your squad didn't make it." },
+        { 1, "Wait. What happened to me?" },
+        { 2, "No memory, huh? Figures." }, 
+        { 2, "After those Monsters took ND City, your team was sent to scout a nearby enemy outpost." },
+        { 2, "Mission went to hell." }, 
+        { 2, "But you're still breathing ay, and that's all that matters." }, 
+        { 2, "Now go south to the dummy and warm up your shooting." },
+        { 2, "The commanders wants to talk to you after that." },
+        { 2, "He's north east." }
+    };
+
+    Dictionary<string, int> dialog2 = new Dictionary<string, int>
+    {
+        { 2, "Took your damn time waking up." },
+        { 2, "You know what it cost us to drag your sorry ass back? Two squads. Two full squads. Gone."  },
+        { 2, "All because your team couldn't handle one damn mission." },
+        { 2, "And now, those bastards are gearing up to hit us first." },
+        { 2, "But there's still a way to prove your worth." },
+        { 2, "The enemy is not like us. They are filth, corruption�an infection on our land." },
+        { 2, "We are soldiers of the Holy Motherland. We cleanse. We purge. We do what must be done." },
+        { 2, "Now get out there. Kill them all. Show them what righteousness looks like." },
+        { 2, "And if you fail this time, no one's coming to save you." },
+        { 2, "Now follow the path on the right. You are already late." }
+    };
+
+    Dictionary<string, int> dialog3 = new Dictionary<string, int>
+        {
+        { 1, "Can't screw this up again... just follow orders." };
+    };
+
     int dialogTextIndex;
 
 
@@ -159,7 +193,6 @@ public class DialogManager : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                Debug.Log("xxx");
                 StartDialog();
                 approachActive = false;
             }

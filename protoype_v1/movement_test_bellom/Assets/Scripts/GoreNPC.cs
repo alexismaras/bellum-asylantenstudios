@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class GoreNPC : MonoBehaviour
 {
-    [SerializeField] SpriteRenderer spriteRenderer;
+
+    [SerializeField] Sprite deadEnemySprite;
     [SerializeField] GameSounds gameSounds;
 
     [SerializeField] MainManager mainManager;
@@ -24,15 +25,18 @@ public class GoreNPC : MonoBehaviour
     [SerializeField] float rotationSpeed;
     [SerializeField] float moveSpeed;
 
+    SpriteRenderer spriteRenderer;
+
+    LayerMask playerLayerMask;
+
     Rigidbody2D rigidbody2D;
 
     public float health = 4;
     
     Vector3 circleCastOrigin;
+    string approachColliderHitTag;
 
-    Vector3 viewDir;
-
-    LayerMask playerLayerMask;
+    Vector3 viewDir;    
 
 
     void Start()
@@ -70,47 +74,37 @@ public class GoreNPC : MonoBehaviour
         RaycastHit2D hit = Physics2D.CircleCast(circleCastOrigin, 1, Vector3.zero, 0);
         if (hit)
         {
+            approachColliderHitTag = hit.collider.tag;
+            Debug.Log(approachColliderHitTag);
             if (hit.collider.tag == "Player")
             {
-                Debug.Log("PlayerHit");
-                dialogManager.approachActive = true;
-            }
-            else
-            {
-                dialogManager.approachActive = false;
+                StartCoroutine(ApproachTimeWindow());
             }
         }
     }
+    
+    IEnumerator ApproachTimeWindow()
+    {
+        while (approachColliderHitTag == "Player")
+        {
+            yield return null;
+            if (!dialogManager.approachActive)
+            {
+                dialogManager.approachActive = true;
+            }
+        }
+        dialogManager.approachActive = false;
+    }
 
-    // void NpcCombatSystem()
-    // {
-    //     circleCastOrigin = new Vector3(transform.position.x, transform.position.y - 0.7f, transform.position.z);
-    //     RaycastHit2D hit = Physics2D.CircleCast(circleCastOrigin, 4, Vector3.zero, 0);
-    //     if (hit)
-    //     {
-    //         Debug.Log(hit.collider);
-    //         if (hit.collider.tag == "Player")
-    //         {
-    //             Debug.Log("PlayerHitCombat");
-    //             // Vector3 npsToPlayerDirection = hit.collider.transform.position - transform.position;
-    //             // float angle = Mathf.Atan2(npcToPlayerDirection.y, npcToPlayerDirection.x) * Mathf.Rad2Deg;
-    //             npcOrientation.RotateNpc(hit.collider.transform.position, rotationSpeed);
-    //             FollowPlayer(hit.collider.transform.position);
-    //         }
-    //     }
-    // }
     void NpcCombatSystem()
     {
-        // Calculate the detection center based on the NPC's position
         circleCastOrigin = new Vector3(transform.position.x, transform.position.y - 0.7f, transform.position.z);
         
-        // Check if any collider overlaps with the detection circle
         Collider2D hitCollider = Physics2D.OverlapCircle(circleCastOrigin, 4f, playerLayerMask);
 
-        Debug.Log(hitCollider.gameObject.name);
-        if (hitCollider.tag == "Player")
-        {
-            Debug.Log("PlayerHitCombat");
+        // Debug.Log(hitCollider.gameObject.name);
+        if (hitCollider != null && hitCollider.tag == "Player")
+        {;
             npcOrientation.RotateNpc(hitCollider.transform.position, rotationSpeed);
             FollowPlayer(hitCollider.transform.position);
         }
@@ -128,12 +122,25 @@ public class GoreNPC : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
+            CreateDeadbodyInstance();
         }
     }
     void OnDestroy()
     {
         goreMeter.RaiseGoremeter(10);
-        
+    }
+
+    void CreateDeadbodyInstance()
+    {
+        GameObject deadEnemyBody = Instantiate(gameObject, new Vector3(transform.position.x, transform.position.y - 1f, transform.position.z), transform.rotation);
+        deadEnemyBody.GetComponent<GoreNPC>().enabled = false;
+        deadEnemyBody.GetComponent<Rigidbody2D>().simulated = false;
+        deadEnemyBody.GetComponent<Collider2D>().enabled = false;
+        deadEnemyBody.transform.Find("Hitbox").gameObject.SetActive(false);
+        deadEnemyBody.transform.Find("EnemyAnimationManager").gameObject.SetActive(false);
+        deadEnemyBody.transform.Find("EnemyOrientation").gameObject.SetActive(false);
+        deadEnemyBody.transform.Find("EnemySprite").gameObject.GetComponent<SpriteRenderer>().sprite = deadEnemySprite;
+        deadEnemyBody.SetActive(true);
     }
 
     void OnDrawGizmos()
