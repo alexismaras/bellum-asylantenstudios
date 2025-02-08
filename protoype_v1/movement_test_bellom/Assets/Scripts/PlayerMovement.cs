@@ -16,9 +16,9 @@ public class PlayerMovement : MonoBehaviour
     
     public Vector3 inputDir;
     public Vector3 viewDir;
-    public GameObject camera;
+    [SerializeField] GameObject camera;
 
-    public BulletManager bulletManager;
+    [SerializeField] BulletManager bulletManager;
 
     public float goreMeterMultiplier;
 

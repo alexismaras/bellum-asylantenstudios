@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour
 {
-    public int next_scene;
-    public GameObject Player;
+    [SerializeField] int nextScene;
+    // public GameObject Player;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,16 +18,22 @@ public class SceneSwitcher : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (Player.CompareTag("Player"))
-        {
-            SceneManager.LoadScene(2);
-        }
-    }
+    // private void OnTriggerEnter2D(Collider2D collision)
+    // {
+    //     if (Player.CompareTag("Player"))
+    //     {
+    //         SceneManager.LoadScene(2);
+    //     }
+    // }
+    // public void ChangeScene()
+    // {
+    //     next_scene += 1;
+    //     SceneManager.LoadScene(2);
+    // }
+
     public void ChangeScene()
-    {
-        next_scene += 1;
-        SceneManager.LoadScene(2);
+    {  
+        SceneManager.LoadScene(nextScene);
+
     }
 }

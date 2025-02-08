@@ -23,7 +23,6 @@ public class GoreNPC : MonoBehaviour
 
     [SerializeField] float rotationSpeed;
     [SerializeField] float moveSpeed;
-    [SerializeField] SceneSwitcher sceneSwitcher;
 
     Rigidbody2D rigidbody2D;
 
@@ -78,7 +77,6 @@ public class GoreNPC : MonoBehaviour
             }
             else
             {
-                Debug.Log("NoHit");
                 dialogManager.approachActive = false;
             }
         }

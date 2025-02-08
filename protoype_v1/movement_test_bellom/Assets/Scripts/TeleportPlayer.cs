@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class TeleportPlayer : MonoBehaviour
 {
-    public Transform TeleportDestination;
-    public GameObject Player;
+    [SerializeField] Transform TeleportDestination;
+    [SerializeField] GameObject Player;
     
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-            Player.transform.position = TeleportDestination.position;
+        if (collision.gameObject.tag == "Player")
+        {
+            collision.gameObject.transform.position = TeleportDestination.position;
+        }
     }
 }

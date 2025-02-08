@@ -70,6 +70,9 @@ TagManager:
   - name: Enemy
     uniqueID: 2764460505
     locked: 0
+  - name: Entity
+    uniqueID: 2149835
+    locked: 0
   - name: WallBehindPlayer
     uniqueID: 842221875
     locked: 0
