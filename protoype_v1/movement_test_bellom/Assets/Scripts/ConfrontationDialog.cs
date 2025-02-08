@@ -47,7 +47,10 @@ public class ConfrontationDialog : MonoBehaviour
     {
         dialogsenTextIndex = 0;
         uiDialogInfo.text = ConfrontationNPC[dialogsenTextIndex];
-        MagazineInfo.rectTransform.anchoredPosition += new Vector2(0, 67.5f);
+        if (MagazineInfo.rectTransform.anchoredPosition != new Vector2(10, 67.5f))
+        {
+            MagazineInfo.rectTransform.anchoredPosition += new Vector2(0, 67.5f);
+        }
     }
 
     void NextDialogElement()

@@ -9454,8 +9454,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1781376917}
   - component: {fileID: 1781376916}
-  - component: {fileID: 1781376918}
   - component: {fileID: 1781376919}
+  - component: {fileID: 1781376918}
   m_Layer: 0
   m_Name: Kommandeur
   m_TagString: KommandeurNPC
@@ -9531,33 +9531,8 @@ Transform:
   - {fileID: 1819585546}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1781376918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1781376915}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df8ee074d555a9843a1cbe057240ba0a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 1781376916}
-  gameSounds: {fileID: 32540594}
-  mainManager: {fileID: 1894019561}
-  goreMeter: {fileID: 1188997275}
-  dialogManager: {fileID: 1970729688}
-  orientation: {fileID: 1781376917}
-  npcApproachable: 1
-  npcOrientation: {fileID: 1819585545}
-  fightsBack: 0
-  rotationSpeed: 0
-  moveSpeed: 0
-  sceneSwitcher: {fileID: 0}
-  health: 4
---- !u!70 &1781376919
-CapsuleCollider2D:
+--- !u!58 &1781376918
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9585,12 +9560,29 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.06}
-  m_Size: {x: 0.6, y: 2.11}
-  m_Direction: 0
+  m_Offset: {x: 0, y: -0.99}
+  serializedVersion: 2
+  m_Radius: 1.21
+--- !u!114 &1781376919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781376915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3ae2bb43b5ab384c84d339f607db22a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiDialogInfo: {fileID: 2112172406}
+  playerMovement: {fileID: 1937021800}
+  MagazineInfo: {fileID: 2112172405}
+  dialogManager: {fileID: 1970729688}
+  rb: {fileID: 1929201569}
 --- !u!1 &1781403142
 GameObject:
   m_ObjectHideFlags: 0
@@ -10884,6 +10876,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1828202841}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1929201569 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 6678676123988069669, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
+  m_PrefabInstance: {fileID: 1937021799}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1937021799
 PrefabInstance:
   m_ObjectHideFlags: 0

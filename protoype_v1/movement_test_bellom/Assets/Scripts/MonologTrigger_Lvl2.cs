@@ -41,7 +41,11 @@ public class MonologTrigger_Lvl2 : MonoBehaviour
     {
         uiDialogInfo.text = MonoLogLvl2;
         PlayerMovement.playerDialogActive = true;
-        MagazineInfo.rectTransform.anchoredPosition += new Vector2 (0, 67.5f);
+        if (MagazineInfo.rectTransform.anchoredPosition != new Vector2(10, 67.5f))
+        {
+            MagazineInfo.rectTransform.anchoredPosition += new Vector2(0, 67.5f);
+        }
+
     }
 
     void EndMonolog()

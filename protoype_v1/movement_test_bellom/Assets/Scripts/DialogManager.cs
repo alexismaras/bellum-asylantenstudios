@@ -98,7 +98,10 @@ public class DialogManager : MonoBehaviour
         dialogActive = true;
         dialogTextIndex = 0;
         uiDialogInfo.text = EinstiegsNPC[dialogTextIndex];
-        MagazineInfo.rectTransform.anchoredPosition += new Vector2(0, 67.5f);
+        if (MagazineInfo.rectTransform.anchoredPosition != new Vector2(10, 67.5f))
+        {
+            MagazineInfo.rectTransform.anchoredPosition += new Vector2(0, 67.5f);
+        }
     }
 
     void NextDialogElement()
