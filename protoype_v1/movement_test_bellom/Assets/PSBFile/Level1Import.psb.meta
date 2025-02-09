@@ -248,7 +248,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 7450
-      y: 2807
+      y: 3142
       width: 209
       height: 130
     spriteID: 01d2250486d63ab47826cb4e0335a0c7
@@ -259,7 +259,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 7450, y: 2807}
+    uvTransform: {x: 7450, y: 3142}
     spritePosition: {x: 1818, y: 928}
   - name: AntiPersonellMine
     originalName: 
@@ -268,8 +268,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 7450
-      y: 2533
+      x: 7043
+      y: 3040
       width: 247
       height: 266
     spriteID: cce3bc268a906944b9607aee851dbf3e
@@ -280,7 +280,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 7450, y: 2533}
+    uvTransform: {x: 7043, y: 3040}
     spritePosition: {x: 1368, y: 888}
   - name: StacheldrahtStock SchiefSpiegel
     originalName: 
@@ -289,7 +289,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 7823
+      x: 7857
       y: 2533
       width: 89
       height: 431
@@ -301,7 +301,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 7823, y: 2533}
+    uvTransform: {x: 7857, y: 2533}
     spritePosition: {x: 1193, y: 1253}
   - name: StacheldrahtStock Schief
     originalName: 
@@ -310,7 +310,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 7705
+      x: 7739
       y: 2533
       width: 110
       height: 422
@@ -322,7 +322,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 7705, y: 2533}
+    uvTransform: {x: 7739, y: 2533}
     spritePosition: {x: 830, y: 1054}
   - name: Stacheldraht
     originalName: 
@@ -639,6 +639,27 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 1107, y: 3369}
     spritePosition: {x: 1229, y: 2718}
+  - name: TrainingDummy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7450
+      y: 2533
+      width: 281
+      height: 601
+    spriteID: 0c57c43e6e52071488849b0ca585505b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7450, y: 2533}
+    spritePosition: {x: 2073, y: 1077}
   - name: "TrenchesWandEckeAu\xDFen"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1746,7 +1767,7 @@ ScriptedImporter:
     parentIndex: 17
     spriteID: 01d2250486d63ab47826cb4e0335a0c7
     layerID: 343
-    mosaicPosition: {x: 7450, y: 2807}
+    mosaicPosition: {x: 7450, y: 3142}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1766,7 +1787,7 @@ ScriptedImporter:
     parentIndex: 19
     spriteID: cce3bc268a906944b9607aee851dbf3e
     layerID: 338
-    mosaicPosition: {x: 7450, y: 2533}
+    mosaicPosition: {x: 7043, y: 3040}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1796,7 +1817,7 @@ ScriptedImporter:
     parentIndex: 22
     spriteID: f7e3d10bf35b4064d83da8d00f8aa0cc
     layerID: 334
-    mosaicPosition: {x: 7823, y: 2533}
+    mosaicPosition: {x: 7857, y: 2533}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1816,7 +1837,7 @@ ScriptedImporter:
     parentIndex: 24
     spriteID: 7b2ea842a15ee5f4b9dc32eef3675967
     layerID: 326
-    mosaicPosition: {x: 7705, y: 2533}
+    mosaicPosition: {x: 7739, y: 2533}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -2160,6 +2181,26 @@ ScriptedImporter:
     flatten: 0
     isImported: 1
     isVisible: 1
+  - name: TrainingDummy
+    spriteName: 
+    isGroup: 1
+    parentIndex: 55
+    spriteID: 77c5f246c4a95654d9fc23173ef0eeca
+    layerID: 423
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TrainingDummy
+    spriteName: TrainingDummy
+    isGroup: 0
+    parentIndex: 60
+    spriteID: 0c57c43e6e52071488849b0ca585505b
+    layerID: 422
+    mosaicPosition: {x: 7450, y: 2533}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: "TrenchesWandEckeAu\xDFen"
     spriteName: 
     isGroup: 1
@@ -2173,7 +2214,7 @@ ScriptedImporter:
   - name: "TrenchesWandEckeAu\xDFen"
     spriteName: "TrenchesWandEckeAu\xDFen"
     isGroup: 0
-    parentIndex: 60
+    parentIndex: 62
     spriteID: 01ca772263e3a0c4ba5278f363862292
     layerID: 132
     mosaicPosition: {x: 4, y: 1267}
@@ -2193,7 +2234,7 @@ ScriptedImporter:
   - name: TrenchesWandEckeInnen
     spriteName: TrenchesWandEckeInnen
     isGroup: 0
-    parentIndex: 62
+    parentIndex: 64
     spriteID: b8ee7bfe81223d64a9ad1568560a4ad3
     layerID: 158
     mosaicPosition: {x: 4, y: 4}
@@ -2213,7 +2254,7 @@ ScriptedImporter:
   - name: TrenchesWandSpiegel
     spriteName: TrenchesWandSpiegel
     isGroup: 0
-    parentIndex: 64
+    parentIndex: 66
     spriteID: 8c984f70197389d49a6815ad636edefc
     layerID: 203
     mosaicPosition: {x: 2210, y: 3369}
@@ -2233,7 +2274,7 @@ ScriptedImporter:
   - name: TrenchesWand
     spriteName: TrenchesWand
     isGroup: 0
-    parentIndex: 66
+    parentIndex: 68
     spriteID: 50c9254c51d831b40a03483359086ac4
     layerID: 114
     mosaicPosition: {x: 3313, y: 3369}
@@ -2253,7 +2294,7 @@ ScriptedImporter:
   - name: MitteBoden4
     spriteName: MitteBoden4
     isGroup: 0
-    parentIndex: 68
+    parentIndex: 70
     spriteID: 51b765660d2d00845a3e2ef6f21114b2
     layerID: 73
     mosaicPosition: {x: 4, y: 2533}
@@ -2263,7 +2304,7 @@ ScriptedImporter:
   - name: MitteBoden3
     spriteName: MitteBoden3
     isGroup: 0
-    parentIndex: 68
+    parentIndex: 70
     spriteID: a5a91738f43e3ab43bcdea982d48b759
     layerID: 72
     mosaicPosition: {x: 1444, y: 2533}
@@ -2273,7 +2314,7 @@ ScriptedImporter:
   - name: MitteBoden2
     spriteName: MitteBoden2
     isGroup: 0
-    parentIndex: 68
+    parentIndex: 70
     spriteID: 29ef23381aa036442b7b61e6b88ce23b
     layerID: 71
     mosaicPosition: {x: 2884, y: 2533}
@@ -2283,7 +2324,7 @@ ScriptedImporter:
   - name: MitteBodenGelbeMarkierung
     spriteName: MitteBodenGelbeMarkierung
     isGroup: 0
-    parentIndex: 68
+    parentIndex: 70
     spriteID: 642a621a9d020f9488e67225dca01d7f
     layerID: 277
     mosaicPosition: {x: 4331, y: 4}
@@ -2293,7 +2334,7 @@ ScriptedImporter:
   - name: MitteBoden1
     spriteName: MitteBoden1
     isGroup: 0
-    parentIndex: 68
+    parentIndex: 70
     spriteID: 022090ac32e188c41ba1b94020628975
     layerID: 70
     mosaicPosition: {x: 5772, y: 4}
