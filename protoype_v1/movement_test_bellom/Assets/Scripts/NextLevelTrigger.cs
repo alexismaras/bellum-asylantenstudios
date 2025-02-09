@@ -7,6 +7,8 @@ public class NextLevelTrigger : MonoBehaviour
 
     [SerializeField] SceneSwitcher sceneSwitcher;
 
+    [SerializeField] int level;
+
     public bool isAvailable = false;
 
     void Start()
@@ -21,7 +23,15 @@ public class NextLevelTrigger : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player" && isAvailable)
+        if (collision.gameObject.tag == "Player" && isAvailable && level == 1)
+        {
+            sceneSwitcher.ChangeScene();
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player" && isAvailable && level == 2)
         {
             sceneSwitcher.ChangeScene();
         }

@@ -12902,6 +12902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneSwitcher: {fileID: 2065281561}
+  level: 1
   isAvailable: 0
 --- !u!1 &2137965268
 GameObject:
