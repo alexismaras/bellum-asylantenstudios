@@ -289,7 +289,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 7857
+      x: 8012
       y: 2533
       width: 89
       height: 431
@@ -301,7 +301,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 7857, y: 2533}
+    uvTransform: {x: 8012, y: 2533}
     spritePosition: {x: 1193, y: 1253}
   - name: StacheldrahtStock Schief
     originalName: 
@@ -310,7 +310,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 7739
+      x: 7894
       y: 2533
       width: 110
       height: 422
@@ -322,7 +322,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 7739, y: 2533}
+    uvTransform: {x: 7894, y: 2533}
     spritePosition: {x: 830, y: 1054}
   - name: Stacheldraht
     originalName: 
@@ -639,6 +639,69 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 1107, y: 3369}
     spritePosition: {x: 1229, y: 2718}
+  - name: BuletAni3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7894
+      y: 2963
+      width: 89
+      height: 332
+    spriteID: 27dff3b95cb539041913b618c0d8dbb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7894, y: 2963}
+    spritePosition: {x: 3691, y: 2726}
+  - name: BulletAni2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7298
+      y: 3040
+      width: 137
+      height: 297
+    spriteID: e1818e66741679945a834b705b1fbf95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7298, y: 3040}
+    spritePosition: {x: 3687, y: 2429}
+  - name: BulletAni1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7739
+      y: 2533
+      width: 147
+      height: 407
+    spriteID: b8a6cdf2c06e70046a8959901f3a4492
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7739, y: 2533}
+    spritePosition: {x: 3703, y: 1998}
   - name: TrainingDummy
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1817,7 +1880,7 @@ ScriptedImporter:
     parentIndex: 22
     spriteID: f7e3d10bf35b4064d83da8d00f8aa0cc
     layerID: 334
-    mosaicPosition: {x: 7857, y: 2533}
+    mosaicPosition: {x: 8012, y: 2533}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1837,7 +1900,7 @@ ScriptedImporter:
     parentIndex: 24
     spriteID: 7b2ea842a15ee5f4b9dc32eef3675967
     layerID: 326
-    mosaicPosition: {x: 7739, y: 2533}
+    mosaicPosition: {x: 7894, y: 2533}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -2181,6 +2244,66 @@ ScriptedImporter:
     flatten: 0
     isImported: 1
     isVisible: 1
+  - name: BulletAni3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 55
+    spriteID: 7129129b10a14c24aab1c2aebdf2a17b
+    layerID: 434
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BuletAni3
+    spriteName: BuletAni3
+    isGroup: 0
+    parentIndex: 60
+    spriteID: 27dff3b95cb539041913b618c0d8dbb9
+    layerID: 433
+    mosaicPosition: {x: 7894, y: 2963}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BulletAni2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 55
+    spriteID: 06ee376c6516dfd48814a805a2c3e105
+    layerID: 431
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BulletAni2
+    spriteName: BulletAni2
+    isGroup: 0
+    parentIndex: 62
+    spriteID: e1818e66741679945a834b705b1fbf95
+    layerID: 430
+    mosaicPosition: {x: 7298, y: 3040}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BulletAni1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 55
+    spriteID: 9a4fb7177e0dfda4bb001b9207a4050c
+    layerID: 428
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BulletAni1
+    spriteName: BulletAni1
+    isGroup: 0
+    parentIndex: 64
+    spriteID: b8a6cdf2c06e70046a8959901f3a4492
+    layerID: 427
+    mosaicPosition: {x: 7739, y: 2533}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: TrainingDummy
     spriteName: 
     isGroup: 1
@@ -2194,7 +2317,7 @@ ScriptedImporter:
   - name: TrainingDummy
     spriteName: TrainingDummy
     isGroup: 0
-    parentIndex: 60
+    parentIndex: 66
     spriteID: 0c57c43e6e52071488849b0ca585505b
     layerID: 422
     mosaicPosition: {x: 7450, y: 2533}
@@ -2214,7 +2337,7 @@ ScriptedImporter:
   - name: "TrenchesWandEckeAu\xDFen"
     spriteName: "TrenchesWandEckeAu\xDFen"
     isGroup: 0
-    parentIndex: 62
+    parentIndex: 68
     spriteID: 01ca772263e3a0c4ba5278f363862292
     layerID: 132
     mosaicPosition: {x: 4, y: 1267}
@@ -2234,7 +2357,7 @@ ScriptedImporter:
   - name: TrenchesWandEckeInnen
     spriteName: TrenchesWandEckeInnen
     isGroup: 0
-    parentIndex: 64
+    parentIndex: 70
     spriteID: b8ee7bfe81223d64a9ad1568560a4ad3
     layerID: 158
     mosaicPosition: {x: 4, y: 4}
@@ -2254,7 +2377,7 @@ ScriptedImporter:
   - name: TrenchesWandSpiegel
     spriteName: TrenchesWandSpiegel
     isGroup: 0
-    parentIndex: 66
+    parentIndex: 72
     spriteID: 8c984f70197389d49a6815ad636edefc
     layerID: 203
     mosaicPosition: {x: 2210, y: 3369}
@@ -2274,7 +2397,7 @@ ScriptedImporter:
   - name: TrenchesWand
     spriteName: TrenchesWand
     isGroup: 0
-    parentIndex: 68
+    parentIndex: 74
     spriteID: 50c9254c51d831b40a03483359086ac4
     layerID: 114
     mosaicPosition: {x: 3313, y: 3369}
@@ -2294,7 +2417,7 @@ ScriptedImporter:
   - name: MitteBoden4
     spriteName: MitteBoden4
     isGroup: 0
-    parentIndex: 70
+    parentIndex: 76
     spriteID: 51b765660d2d00845a3e2ef6f21114b2
     layerID: 73
     mosaicPosition: {x: 4, y: 2533}
@@ -2304,7 +2427,7 @@ ScriptedImporter:
   - name: MitteBoden3
     spriteName: MitteBoden3
     isGroup: 0
-    parentIndex: 70
+    parentIndex: 76
     spriteID: a5a91738f43e3ab43bcdea982d48b759
     layerID: 72
     mosaicPosition: {x: 1444, y: 2533}
@@ -2314,7 +2437,7 @@ ScriptedImporter:
   - name: MitteBoden2
     spriteName: MitteBoden2
     isGroup: 0
-    parentIndex: 70
+    parentIndex: 76
     spriteID: 29ef23381aa036442b7b61e6b88ce23b
     layerID: 71
     mosaicPosition: {x: 2884, y: 2533}
@@ -2324,7 +2447,7 @@ ScriptedImporter:
   - name: MitteBodenGelbeMarkierung
     spriteName: MitteBodenGelbeMarkierung
     isGroup: 0
-    parentIndex: 70
+    parentIndex: 76
     spriteID: 642a621a9d020f9488e67225dca01d7f
     layerID: 277
     mosaicPosition: {x: 4331, y: 4}
@@ -2334,7 +2457,7 @@ ScriptedImporter:
   - name: MitteBoden1
     spriteName: MitteBoden1
     isGroup: 0
-    parentIndex: 70
+    parentIndex: 76
     spriteID: 022090ac32e188c41ba1b94020628975
     layerID: 70
     mosaicPosition: {x: 5772, y: 4}
