@@ -4,22 +4,17 @@ using UnityEngine;
 
 public class AnimationManager : MonoBehaviour
 {
-    [SerializeField]
-    PlayerMovement playerMovement;
+    [SerializeField] PlayerMovement playerMovement;
 
-    [SerializeField]
-    PlayerOrientation playerOrientation;
+    [SerializeField] PlayerOrientation playerOrientation;
 
-    [SerializeField]
-    Animator animator;
+    [SerializeField] Animator animator;
     
     public float goreMeterMultiplier;
 
-    [SerializeField]
-    float initAnimSpeed = 2f;
+    [SerializeField] float initAnimSpeed = 2f;
 
-    [SerializeField]
-    float maxAnimSpeed = 2.5f;
+    [SerializeField] float maxAnimSpeed = 2.5f;
 
 
     void Start()
