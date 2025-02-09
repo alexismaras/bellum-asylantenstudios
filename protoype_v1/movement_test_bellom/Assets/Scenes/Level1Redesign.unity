@@ -525,6 +525,7 @@ GameObject:
   m_Component:
   - component: {fileID: 174444495}
   - component: {fileID: 174444494}
+  - component: {fileID: 174444496}
   m_Layer: 0
   m_Name: StacheldrahtStock SchiefSpiegel (1)
   m_TagString: Untagged
@@ -599,6 +600,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1345746497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &174444496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174444493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54734f1c71de29647ae675e448664c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 1937021800}
+  playerSprite: {fileID: 2135349145}
 --- !u!1 &185209698
 GameObject:
   m_ObjectHideFlags: 0
@@ -2483,6 +2498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 454141466}
   - component: {fileID: 454141465}
+  - component: {fileID: 454141467}
   m_Layer: 0
   m_Name: StacheldrahtStock Schief (1)
   m_TagString: Untagged
@@ -2557,6 +2573,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1345746497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &454141467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454141464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54734f1c71de29647ae675e448664c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 1937021800}
+  playerSprite: {fileID: 2135349145}
 --- !u!1 &464783085
 GameObject:
   m_ObjectHideFlags: 0
@@ -5155,6 +5185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 958380977}
   - component: {fileID: 958380976}
+  - component: {fileID: 958380978}
   m_Layer: 0
   m_Name: StacheldrahtStock Schief (3)
   m_TagString: Untagged
@@ -5229,6 +5260,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1345746497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &958380978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958380975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54734f1c71de29647ae675e448664c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 1937021800}
+  playerSprite: {fileID: 2135349145}
 --- !u!1 &961019421
 GameObject:
   m_ObjectHideFlags: 0
@@ -5239,6 +5284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 961019423}
   - component: {fileID: 961019422}
+  - component: {fileID: 961019424}
   m_Layer: 0
   m_Name: StacheldrahtStock SchiefSpiegel (2)
   m_TagString: Untagged
@@ -5313,6 +5359,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1345746497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &961019424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961019421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54734f1c71de29647ae675e448664c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 1937021800}
+  playerSprite: {fileID: 2135349145}
 --- !u!1 &975126488
 GameObject:
   m_ObjectHideFlags: 0
@@ -5878,6 +5938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1068375433}
   - component: {fileID: 1068375432}
+  - component: {fileID: 1068375434}
   m_Layer: 0
   m_Name: StacheldrahtStock Schief (2)
   m_TagString: Untagged
@@ -5952,6 +6013,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1345746497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1068375434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068375431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54734f1c71de29647ae675e448664c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 1937021800}
+  playerSprite: {fileID: 2135349145}
 --- !u!1 &1072652147
 GameObject:
   m_ObjectHideFlags: 0
@@ -6887,7 +6962,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1280104760}
   - component: {fileID: 1280104759}
-  - component: {fileID: 1280104761}
   m_Layer: 0
   m_Name: TrenchesWandEnde
   m_TagString: Untagged
@@ -6933,8 +7007,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1874825745
-  m_SortingLayer: 5
+  m_SortingLayerID: -1935871799
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 3828860945899154754, guid: e22035c6a7ae106448f6bdb0c39bf02d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6962,20 +7036,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1214779973}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1280104761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1280104758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54734f1c71de29647ae675e448664c07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerMovement: {fileID: 1937021800}
-  playerSprite: {fileID: 2135349145}
 --- !u!1 &1292847364
 GameObject:
   m_ObjectHideFlags: 0
@@ -7154,6 +7214,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1306922348}
   - component: {fileID: 1306922347}
+  - component: {fileID: 1306922349}
   m_Layer: 0
   m_Name: StacheldrahtStock SchiefSpiegel
   m_TagString: Untagged
@@ -7228,6 +7289,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1345746497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1306922349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306922346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54734f1c71de29647ae675e448664c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 1937021800}
+  playerSprite: {fileID: 2135349145}
 --- !u!1 &1338247460
 GameObject:
   m_ObjectHideFlags: 0
@@ -9565,6 +9640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1726047567}
   - component: {fileID: 1726047566}
+  - component: {fileID: 1726047568}
   m_Layer: 0
   m_Name: StacheldrahtStock Schief
   m_TagString: Untagged
@@ -9639,6 +9715,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1345746497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1726047568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726047565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54734f1c71de29647ae675e448664c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 1937021800}
+  playerSprite: {fileID: 2135349145}
 --- !u!1 &1740825939
 GameObject:
   m_ObjectHideFlags: 0
@@ -9692,23 +9782,24 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 7.4434576, y: -6.7673874}
-  - {x: 9.571276, y: -5.7091823}
+  - {x: 7.4787235, y: -6.9613514}
+  - {x: 9.585562, y: -5.7663245}
   - {x: 11.572482, y: -6.8577104}
-  - {x: 15.2132435, y: -4.737669}
-  - {x: 13.230068, y: -3.6817772}
-  - {x: 20.249142, y: 0.36705685}
-  - {x: 22.21972, y: -0.7754817}
+  - {x: 15.253549, y: -4.772935}
+  - {x: 13.178725, y: -3.640711}
+  - {x: 20.271336, y: 0.42254496}
+  - {x: 22.27521, y: -0.79767704}
   - {x: 25.890566, y: 1.2840734}
   - {x: 29.664732, y: -0.8984554}
   - {x: 28.799103, y: -1.4147737}
   - {x: 26.122213, y: 0.22955823}
-  - {x: 23.59811, y: -1.3816693}
-  - {x: 27.087837, y: -3.3924813}
-  - {x: 20.459476, y: -7.3381815}
-  - {x: 17.512327, y: -5.466912}
-  - {x: 11.370784, y: -9.0559845}
-  - {x: 7.4453955, y: -6.8099494}
+  - {x: 23.509329, y: -1.4704499}
+  - {x: 27.032347, y: -3.525653}
+  - {x: 20.201141, y: -7.4673486}
+  - {x: 17.584085, y: -5.7970057}
+  - {x: 11.59499, y: -9.464888}
+  - {x: 11.099977, y: -9.17785}
+  - {x: 7.498295, y: -6.9686475}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -10038,6 +10129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1802743405}
   - component: {fileID: 1802743404}
+  - component: {fileID: 1802743406}
   m_Layer: 0
   m_Name: TrainingDummy
   m_TagString: Untagged
@@ -10112,6 +10204,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1802743406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802743403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54734f1c71de29647ae675e448664c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 1937021800}
+  playerSprite: {fileID: 2135349145}
 --- !u!1 &1808693366
 GameObject:
   m_ObjectHideFlags: 0
@@ -10841,6 +10947,15 @@ GameObject:
   m_Component:
   - component: {fileID: 1871701851}
   - component: {fileID: 1871701852}
+  - component: {fileID: 1871701858}
+  - component: {fileID: 1871701857}
+  - component: {fileID: 1871701856}
+  - component: {fileID: 1871701855}
+  - component: {fileID: 1871701854}
+  - component: {fileID: 1871701853}
+  - component: {fileID: 1871701861}
+  - component: {fileID: 1871701860}
+  - component: {fileID: 1871701859}
   m_Layer: 0
   m_Name: AssetsCollider
   m_TagString: Untagged
@@ -10910,6 +11025,402 @@ EdgeCollider2D:
   - {x: 3.1118715, y: 3.4293492}
   - {x: 2.4977217, y: 3.6023986}
   - {x: 1.8632774, y: 3.7841616}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &1871701853
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871701850}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 9.154237, y: 2.193437}
+  - {x: 9.678471, y: 1.82213}
+  - {x: 9.831873, y: 1.8925236}
+  - {x: 9.273137, y: 2.256794}
+  - {x: 9.144338, y: 2.192767}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &1871701854
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871701850}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 8.423036, y: 1.9758635}
+  - {x: 8.6027, y: 1.9763749}
+  - {x: 8.620547, y: 1.872089}
+  - {x: 8.43954, y: 1.8466115}
+  - {x: 8.421185, y: 1.9751048}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &1871701855
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871701850}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 7.3224707, y: 1.1303494}
+  - {x: 7.4751315, y: 1.0525411}
+  - {x: 7.574428, y: 1.1504619}
+  - {x: 7.4329634, y: 1.2270632}
+  - {x: 7.324775, y: 1.1347699}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &1871701856
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871701850}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 6.6268497, y: 0.56905425}
+  - {x: 6.612926, y: 0.46752304}
+  - {x: 6.803583, y: 0.4645596}
+  - {x: 6.7988005, y: 0.5323459}
+  - {x: 6.62968, y: 0.5683494}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &1871701857
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871701850}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 5.9081335, y: -0.0892396}
+  - {x: 5.9843383, y: -0.043748617}
+  - {x: 5.883304, y: 0.055119038}
+  - {x: 5.771811, y: -0.01673007}
+  - {x: 5.8994026, y: -0.09271264}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &1871701858
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871701850}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 4.9446726, y: 2.0410671}
+  - {x: 4.9273615, y: 1.8570147}
+  - {x: 4.6662693, y: 1.850875}
+  - {x: 4.7059813, y: 2.082632}
+  - {x: 4.948265, y: 2.0585668}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &1871701859
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871701850}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 9.614482, y: 0.6312547}
+  - {x: 9.742737, y: 0.5589014}
+  - {x: 9.823358, y: 0.6582876}
+  - {x: 9.712345, y: 0.7255853}
+  - {x: 9.624163, y: 0.65794456}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &1871701860
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871701850}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 9.024552, y: 0.36719054}
+  - {x: 8.849293, y: 0.26883423}
+  - {x: 8.966438, y: 0.18738204}
+  - {x: 9.105468, y: 0.24702269}
+  - {x: 9.04097, y: 0.34663463}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &1871701861
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871701850}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 7.641282, y: -0.6125978}
+  - {x: 7.477229, y: -0.47024214}
+  - {x: 7.320256, y: -0.5658958}
+  - {x: 7.4548903, y: -0.71937406}
+  - {x: 7.659312, y: -0.62308264}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -13088,8 +13599,11 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.3670453, y: -0.8674124}
-  - {x: 0.9532909, y: -0.61483914}
+  - {x: -0.6993826, y: -1.7870733}
+  - {x: 0.77080315, y: -1.5015817}
+  - {x: 0.78082496, y: -1.1277515}
+  - {x: -0.65647787, y: -1.4274251}
+  - {x: -0.70610726, y: -1.7527223}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
