@@ -28,36 +28,43 @@ public class AnimationManager : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Spieler bewegt sich
-        if (playerMovement.moving)
+        if (!playerMovement.playerDialogActive)
         {
-            animator.SetBool("moving", true);
+        // Spieler bewegt sich
+            if (playerMovement.moving)
+            {
+                animator.SetBool("moving", true);
+            }
+            else if (!playerMovement.moving)
+            {
+                animator.SetBool("moving", false);
+            }
+
+            // Ausrichtung des Spielers
+            if (-180f <= playerOrientation.angleY && playerOrientation.angleY <= -90f)
+            {
+                animator.SetInteger("orientation", 3);
+            }
+            else if (-90f < playerOrientation.angleY && playerOrientation.angleY <= 0f)
+            {
+                animator.SetInteger("orientation", 2);
+            }
+            else if (0f < playerOrientation.angleY && playerOrientation.angleY <= 90f)
+            {
+                animator.SetInteger("orientation", 1);
+            }
+            else if (90f < playerOrientation.angleY && playerOrientation.angleY <= 180f)
+            {
+                animator.SetInteger("orientation", 4);
+            }
+
+            //Animation Laufgeschwindigkeit und Player Laufgeschwindigkeit abgleichen Part2 - Beihilfe von Musa
+            animator.SetFloat("animSpeedMultiplier", ((initAnimSpeed + ((maxAnimSpeed - initAnimSpeed) * goreMeterMultiplier)) / initAnimSpeed));
         }
-        else if (!playerMovement.moving)
+        else
         {
             animator.SetBool("moving", false);
         }
-
-        // Ausrichtung des Spielers
-        if (-180f <= playerOrientation.angleY && playerOrientation.angleY <= -90f)
-        {
-            animator.SetInteger("orientation", 3);
-        }
-        else if (-90f < playerOrientation.angleY && playerOrientation.angleY <= 0f)
-        {
-            animator.SetInteger("orientation", 2);
-        }
-        else if (0f < playerOrientation.angleY && playerOrientation.angleY <= 90f)
-        {
-            animator.SetInteger("orientation", 1);
-        }
-        else if (90f < playerOrientation.angleY && playerOrientation.angleY <= 180f)
-        {
-            animator.SetInteger("orientation", 4);
-        }
-
-        //Animation Laufgeschwindigkeit und Player Laufgeschwindigkeit abgleichen Part2 - Beihilfe von Musa
-        animator.SetFloat("animSpeedMultiplier", ((initAnimSpeed + ((maxAnimSpeed - initAnimSpeed) * goreMeterMultiplier)) / initAnimSpeed));
 
 
     }

@@ -115,6 +115,8 @@ public class DialogManager : MonoBehaviour
     public bool dialogActive = false;
     public bool approachActive = false;
 
+    public int dialogIndex;
+
     List<string> dialog = new List<string> { "Du kleiner Go!", "Was los yane", "Du schuldest mir Fuchs du pic", "Geiz nicht so du lümmeltüte"};
 
     List<List<(int, string)>> dialogDict = new   List<List<(int, string)>>();
@@ -179,7 +181,7 @@ public class DialogManager : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                if (dialogTextIndex < (dialog.Count - 1))
+                if (dialogTextIndex < (dialogDict[dialogIndex].Count - 1))
                 {   
                     NextDialogElement();
                 }
@@ -208,17 +210,35 @@ public class DialogManager : MonoBehaviour
     {
         dialogActive = true;
         dialogTextIndex = 0;
-        uiDialogInfo.text = dialog[dialogTextIndex];   
+        uiDialogInfo.color = GetDialogColor(dialogDict[dialogIndex][dialogTextIndex].Item1);
+        uiDialogInfo.text = dialogDict[dialogIndex][dialogTextIndex].Item2;
     }
 
     void NextDialogElement()
     {
         dialogTextIndex += 1;
-        uiDialogInfo.text = dialog[dialogTextIndex];        
+        uiDialogInfo.color = GetDialogColor(dialogDict[dialogIndex][dialogTextIndex].Item1);
+        uiDialogInfo.text = dialogDict[dialogIndex][dialogTextIndex].Item2;       
     }
 
     void EndDialog()
     {
         dialogActive = false;
+    }
+
+    Color GetDialogColor(int role)
+    {
+        if (role == 1)
+        {
+            return Color.red;
+        }
+        else if (role == 2)
+        {
+            return Color.green;
+        }
+        else
+        {
+            return Color.blue;
+        }
     }
 }

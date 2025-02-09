@@ -12,7 +12,6 @@ public class BulletManager : MonoBehaviour
     GameObject bullet;
 
     [SerializeField]
-    MuzzleFlashFX muzzleFlashFx;
 
     public bool shooting;
     bool performing;
@@ -62,7 +61,6 @@ public class BulletManager : MonoBehaviour
         {
             magazineFill -= 1;
             StartCoroutine(BulletInstantiate());
-            StartCoroutine(ShowMuzzleFlashFX());
         }
         if (previousGoremeterMultiplier != goreMeterMultiplier)
         {
@@ -98,12 +96,6 @@ public class BulletManager : MonoBehaviour
         bullet_instance.tag = "ProjectileInstance";
         yield return new WaitForSeconds(shootingInterval);
         performing = false;
-    }
-    IEnumerator ShowMuzzleFlashFX()
-    {
-        muzzleFlashFx.EnableRenderer();
-        yield return new WaitForSeconds(muzzleFlashTime);
-        muzzleFlashFx.DisableRenderer();
     }
 
     void MagazineReload()

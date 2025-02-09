@@ -750,6 +750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogManager: {fileID: 1891438334}
+  dialogIndex: 2
 --- !u!4 &41779149
 Transform:
   m_ObjectHideFlags: 0
@@ -5026,26 +5027,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2365019277244692081, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-      propertyPath: m_Size.x
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2365019277244692081, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-      propertyPath: m_Size.y
-      value: 1.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2365019277244692081, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3291487562952715421, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3291487562952715421, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3291487562952715421, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.791397
@@ -5086,22 +5067,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3480511288869719363, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3480511288869719363, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3480511288869719363, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3480511288869719363, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5077648617839463600, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
       propertyPath: camera
       value: 
@@ -5110,34 +5075,6 @@ PrefabInstance:
       propertyPath: bulletManager
       value: 
       objectReference: {fileID: 823869466}
-    - target: {fileID: 6407344423061086553, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6407344423061086553, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7940577227146537850, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-      propertyPath: m_Size.x
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7940577227146537850, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-      propertyPath: m_Size.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7940577227146537850, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9a45a09869146a44c882969f32f52218, type: 3}
-    - target: {fileID: 7940577227146537850, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7940577227146537850, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8029545739234312277, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
       propertyPath: m_Name
       value: Player
@@ -5145,10 +5082,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8029545739234312277, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 422916288}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
 --- !u!114 &422916284 stripped
 MonoBehaviour:
@@ -5182,66 +5116,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8029545739234312277, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
   m_PrefabInstance: {fileID: 422916283}
   m_PrefabAsset: {fileID: 0}
---- !u!60 &422916288
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 422916287}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.8}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1.5, y: 1.5}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.39, y: 0.19999999}
-      - {x: 0.29, y: 0.22999999}
-      - {x: 0.24, y: 0.26999998}
-      - {x: 0.13, y: 0.28}
-      - {x: -0.22999999, y: 0.28}
-      - {x: -0.44, y: 0.19}
-      - {x: -0.5, y: 0.099999994}
-      - {x: -0.5, y: -0.089999996}
-      - {x: -0.39999998, y: -0.21}
-      - {x: -0.19, y: -0.28}
-      - {x: 0.089999996, y: -0.28}
-      - {x: 0.24, y: -0.26999998}
-      - {x: 0.42, y: -0.17999999}
-      - {x: 0.5, y: -0.099999994}
-      - {x: 0.5, y: 0.11}
-  m_UseDelaunayMesh: 0
 --- !u!1 &431198336
 GameObject:
   m_ObjectHideFlags: 0
@@ -10791,7 +10665,7 @@ PrefabInstance:
     - target: {fileID: 6900153239382377449, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
       propertyPath: muzzleFlashFx
       value: 
-      objectReference: {fileID: 1751585772}
+      objectReference: {fileID: 0}
     - target: {fileID: 7096860825522613748, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
       propertyPath: uiDialogInfo
       value: 
@@ -13287,7 +13161,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameSounds: {fileID: 0}
   bullet: {fileID: 0}
-  muzzleFlashFx: {fileID: 0}
   shooting: 0
   magazineSize: 0
   magazineFill: 0
@@ -21769,17 +21642,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1751585772 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8651848282522389558, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
-  m_PrefabInstance: {fileID: 422916283}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2148b6a0e69cae4391f7dcb97ddf83f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1758696282
 GameObject:
   m_ObjectHideFlags: 0

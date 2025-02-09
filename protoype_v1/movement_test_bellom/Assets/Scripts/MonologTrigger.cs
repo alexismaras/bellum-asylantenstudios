@@ -6,6 +6,8 @@ public class MonologTrigger : MonoBehaviour
 {
     [SerializeField] DialogManager dialogManager;
 
+    [SerializeField] int dialogIndex;
+
 
     void Start()
     {
@@ -21,6 +23,7 @@ public class MonologTrigger : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             GetComponent<Collider2D>().enabled = false;
+            dialogManager.dialogIndex = dialogIndex;
             dialogManager.StartDialog();
             dialogManager.dialogActive = true;
         } 

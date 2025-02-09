@@ -17,6 +17,7 @@ public class GoreNPC : MonoBehaviour
     [SerializeField] Transform orientation;
 
     [SerializeField] bool npcApproachable;
+    [SerializeField] int dialogIndex;
 
     [SerializeField] NpcOrientation npcOrientation;
 
@@ -90,6 +91,7 @@ public class GoreNPC : MonoBehaviour
             yield return null;
             if (!dialogManager.approachActive)
             {
+                dialogManager.dialogIndex = dialogIndex;
                 dialogManager.approachActive = true;
             }
         }
