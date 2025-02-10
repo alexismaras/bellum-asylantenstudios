@@ -29,7 +29,7 @@ public class CornerWallSort : MonoBehaviour
     void Update()
     {
 
-        if (playerMovement.transform.position.y - playerOffset < transform.position.y - spriteOffset)
+        if (playerMovement.transform.position.y - playerOffset < transform.position.y)
         {
             spriteRenderer.sortingLayerName = "WallBehindPlayer";
             // spriteRenderer.sortingOrder = Mathf.RoundToInt(transform.position.y * -100) - 1;

@@ -39,7 +39,6 @@ public class GoreNPC : MonoBehaviour
 
     Vector3 viewDir;    
 
-
     void Start()
     {
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
