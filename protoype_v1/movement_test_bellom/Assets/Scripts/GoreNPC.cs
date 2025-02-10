@@ -71,15 +71,18 @@ public class GoreNPC : MonoBehaviour
     void NpcApproachSystem()
     {
         circleCastOrigin = new Vector3(transform.position.x, transform.position.y - 0.7f, transform.position.z);
-        RaycastHit2D hit = Physics2D.CircleCast(circleCastOrigin, 1, Vector3.zero, 0);
+        RaycastHit2D hit = Physics2D.CircleCast(circleCastOrigin, 1, Vector3.zero, 0, playerLayerMask);
         if (hit)
         {
             approachColliderHitTag = hit.collider.tag;
-            Debug.Log(approachColliderHitTag);
             if (hit.collider.tag == "Player")
             {
                 StartCoroutine(ApproachTimeWindow());
             }
+        }
+        else
+        {
+            approachColliderHitTag = "";
         }
     }
     
@@ -100,7 +103,7 @@ public class GoreNPC : MonoBehaviour
     void NpcCombatSystem()
     {
         circleCastOrigin = new Vector3(transform.position.x, transform.position.y - 0.7f, transform.position.z);
-        
+
         Collider2D hitCollider = Physics2D.OverlapCircle(circleCastOrigin, 4f, playerLayerMask);
 
         // Debug.Log(hitCollider.gameObject.name);

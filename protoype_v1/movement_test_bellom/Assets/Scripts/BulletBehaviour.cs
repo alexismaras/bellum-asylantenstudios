@@ -127,8 +127,21 @@ public class BulletBehaviour : MonoBehaviour
                     
                     break;
                 }
+                
                 else if (hit.collider.tag == "Obstacle")
                 {
+                    Vector3 debugSegmentRayStart = previousPosition + ((currentPosition-previousPosition)/raycastSegments) * i;
+                    Vector3 debugSegmentRayDirection = (currentPosition-previousPosition)/raycastSegments;
+                    Debug.DrawRay(debugSegmentRayStart, debugSegmentRayDirection, Color.white, 10f, false);
+
+                    Destroy(gameObject);
+
+                    break;
+                }
+
+                else if (hit.collider.tag == "DummyHitbox")
+                {
+                    gameSounds.PlayHitmarker();
                     Vector3 debugSegmentRayStart = previousPosition + ((currentPosition-previousPosition)/raycastSegments) * i;
                     Vector3 debugSegmentRayDirection = (currentPosition-previousPosition)/raycastSegments;
                     Debug.DrawRay(debugSegmentRayStart, debugSegmentRayDirection, Color.white, 10f, false);

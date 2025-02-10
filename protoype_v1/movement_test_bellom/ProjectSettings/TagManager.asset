@@ -12,6 +12,7 @@ TagManager:
   - ShootableNpcHitbox
   - EinstiegsNPC
   - KommandeurNPC
+  - DummyHitbox
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - Projectile
   - ObjectCollider
   - Player
-  - 
+  - Dummy
   - 
   - 
   - 
@@ -76,7 +77,7 @@ TagManager:
   - name: WallBehindPlayer
     uniqueID: 842221875
     locked: 0
-  - name: Player
+  - name: PlayerEnemy
     uniqueID: 3439038475
     locked: 0
   - name: FX

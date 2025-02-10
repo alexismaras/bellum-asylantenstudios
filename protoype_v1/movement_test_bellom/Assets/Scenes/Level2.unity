@@ -4971,6 +4971,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 197296938129121626, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1353902178546207379, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3175988955960466661, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
       propertyPath: m_ForceReceiveLayers.m_Bits
       value: 4294967295
@@ -5023,9 +5031,17 @@ PrefabInstance:
       propertyPath: bulletManager
       value: 
       objectReference: {fileID: 823869466}
+    - target: {fileID: 6975218265411323159, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8029545739234312277, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 9194060996734709389, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10829,6 +10845,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6648151630408651547, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+      propertyPath: playerAnimator
+      value: 
+      objectReference: {fileID: 422916285}
     - target: {fileID: 6900153239382377449, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
       propertyPath: bullet
       value: 
@@ -20193,7 +20213,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1557183768
 Transform:
   m_ObjectHideFlags: 0
@@ -22687,6 +22707,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4735270940653470558, guid: 88690b1fb707d534e9e16b66691c3862, type: 3}
+      propertyPath: playerSprite
+      value: 
+      objectReference: {fileID: 642389831}
+    - target: {fileID: 4735270940653470558, guid: 88690b1fb707d534e9e16b66691c3862, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 422916284}
     - target: {fileID: 6125798632581524535, guid: 88690b1fb707d534e9e16b66691c3862, type: 3}
       propertyPath: m_CallbackLayers.m_Bits
       value: 4294967295
@@ -22701,7 +22729,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8576300284278557048, guid: 88690b1fb707d534e9e16b66691c3862, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
-      value: 0
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

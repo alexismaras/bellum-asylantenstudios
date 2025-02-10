@@ -4676,8 +4676,8 @@ EdgeCollider2D:
   - {x: -9.510052, y: -3.1787965}
   - {x: -11.901379, y: -1.7667801}
   - {x: -8.307979, y: 0.26945055}
-  - {x: -9.977234, y: 1.2137275}
-  - {x: -8.576873, y: 2.0813665}
+  - {x: -10.08578, y: 1.3261497}
+  - {x: -8.63911, y: 2.1758604}
   - {x: -10.274782, y: 3.1760175}
   - {x: -8.627318, y: 4.22008}
   - {x: -10.512399, y: 5.324526}
@@ -4832,11 +4832,11 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -7.515359, y: 2.2320712}
-  - {x: -6.578645, y: 1.6111476}
-  - {x: -6.0907307, y: 1.8712971}
-  - {x: -7.0717306, y: 2.4394722}
-  - {x: -7.512652, y: 2.2375906}
+  - {x: -7.467729, y: 2.21421}
+  - {x: -6.5620313, y: 1.6277614}
+  - {x: -6.111498, y: 1.85053}
+  - {x: -7.050964, y: 2.468546}
+  - {x: -7.470976, y: 2.22866}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -9067,6 +9067,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6648151630408651547, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+      propertyPath: playerAnimator
+      value: 
+      objectReference: {fileID: 1584348595}
     - target: {fileID: 6900153239382377449, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
       propertyPath: bullet
       value: 

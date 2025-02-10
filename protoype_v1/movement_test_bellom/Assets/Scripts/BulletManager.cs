@@ -71,7 +71,6 @@ public class BulletManager : MonoBehaviour
         }
 
         
-        
     }
 
     void RaiseVolumeByGoremeter()
@@ -102,6 +101,8 @@ public class BulletManager : MonoBehaviour
     {
         if (magazineFill < magazineSize && Input.GetKeyDown(KeyCode.R))
         {
+            gameSounds.PlayReload();
+            
             if (ammoReserve >= magazineSize)
             {
                 ammoReserve = ammoReserve - (magazineSize - magazineFill);
