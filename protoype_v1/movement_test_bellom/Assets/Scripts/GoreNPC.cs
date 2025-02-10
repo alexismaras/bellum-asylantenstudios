@@ -10,6 +10,8 @@ public class GoreNPC : MonoBehaviour
 
     [SerializeField] MainManager mainManager;
 
+    [SerializeField] EnemyBulletManager enemyBulletManager;
+
     [SerializeField] GoreMeter goreMeter;
 
     [SerializeField] DialogManager dialogManager;
@@ -37,7 +39,7 @@ public class GoreNPC : MonoBehaviour
     Vector3 circleCastOrigin;
     string approachColliderHitTag;
 
-    Vector3 viewDir;    
+    public Vector3 viewDir;    
 
     void Start()
     {
@@ -108,16 +110,20 @@ public class GoreNPC : MonoBehaviour
 
         // Debug.Log(hitCollider.gameObject.name);
         if (hitCollider != null && hitCollider.tag == "Player")
-        {;
+        {
             npcOrientation.RotateNpc(hitCollider.transform.position, rotationSpeed);
             FollowPlayer(hitCollider.transform.position);
+            enemyBulletManager.shooting = true;
+        }
+        else
+        {
+            enemyBulletManager.shooting = false;
         }
     }
 
     void FollowPlayer(Vector3 playerTransform)
     {
         Vector3 moveDir = (playerTransform - transform.position);
-        Debug.Log(moveDir);
         rigidbody2D.MovePosition(transform.position + moveDir * moveSpeed);
     }
 
@@ -125,6 +131,7 @@ public class GoreNPC : MonoBehaviour
     {
         if (health <= 0)
         {
+            enemyBulletManager.shooting = false;
             Destroy(gameObject);
             CreateDeadbodyInstance();
         }
@@ -144,6 +151,7 @@ public class GoreNPC : MonoBehaviour
         deadEnemyBody.transform.Find("EnemyAnimationManager").gameObject.SetActive(false);
         deadEnemyBody.transform.Find("EnemyOrientation").gameObject.SetActive(false);
         deadEnemyBody.transform.Find("EnemySprite").gameObject.GetComponent<SpriteRenderer>().sprite = deadEnemySprite;
+        deadEnemyBody.transform.Find("EnemySprite").gameObject.GetComponent<EnemySort>().enabled = true;
         deadEnemyBody.SetActive(true);
     }
 

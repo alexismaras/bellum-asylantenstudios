@@ -5,38 +5,30 @@ using System;
 
 public class BulletManager : MonoBehaviour
 {
-    [SerializeField]
-    GameSounds gameSounds;
+    [SerializeField] GameSounds gameSounds;
 
-    [SerializeField]
-    GameObject bullet;
+    [SerializeField] GameObject bullet;
 
-    [SerializeField]
-
-    public bool shooting;
+    [SerializeField] public bool shooting;
     bool performing;
 
     public int magazineSize;
     public int magazineFill;
     public int ammoReserve;
 
-    [SerializeField]
-    float initialShootingInterval;
+    [SerializeField] float initialShootingInterval;
     public float shootingInterval;
 
-    [SerializeField]
-    float initialBulletSpeed;
+    [SerializeField] float initialBulletSpeed;
     public float bulletSpeed;
 
-    [SerializeField]
-    float initialVolume;
+    [SerializeField] float initialVolume;
     public float volume;
 
     float previousGoremeterMultiplier;
     public float goreMeterMultiplier;
 
-    [SerializeField]
-    float muzzleFlashTime;
+    [SerializeField] float muzzleFlashTime;
 
     // Start is called before the first frame update
     void Start()
@@ -91,8 +83,8 @@ public class BulletManager : MonoBehaviour
     {
         performing = true;
         gameSounds.PlayGunshot();
-        GameObject bullet_instance = GameObject.Instantiate(bullet) as GameObject;
-        bullet_instance.tag = "ProjectileInstance";
+        GameObject bulletInstance = GameObject.Instantiate(bullet) as GameObject;
+        bulletInstance.tag = "ProjectileInstance";
         yield return new WaitForSeconds(shootingInterval);
         performing = false;
     }

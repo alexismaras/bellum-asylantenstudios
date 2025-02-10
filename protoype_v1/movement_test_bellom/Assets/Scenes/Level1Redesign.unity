@@ -7912,10 +7912,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bullet
       objectReference: {fileID: 0}
-    - target: {fileID: 5222398346069655211, guid: c5dbbb9e40e5a6543b1b18f7b0f16a18, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 3884501754350581241, guid: 7dfed27643e624b41965a511bde07ccc, type: 3}
     - target: {fileID: 8281134718600031618, guid: c5dbbb9e40e5a6543b1b18f7b0f16a18, type: 3}
       propertyPath: player
       value: 

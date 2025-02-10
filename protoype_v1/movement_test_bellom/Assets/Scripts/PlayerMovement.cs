@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     float verticalInput;
     public bool moving;
 
+    public float health = 10;
+
     
     
     public Vector3 inputDir;
@@ -42,6 +44,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        HealthSystem();
+
         horizontalInput = Input.GetAxisRaw("Horizontal");
         moving = Input.GetMouseButton(1);
 
@@ -70,6 +74,15 @@ public class PlayerMovement : MonoBehaviour
     void ShootGun()
     {
         bulletManager.shooting = Input.GetMouseButton(0)? true : false;
+    }
+
+    void HealthSystem()
+    {
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+            // CreateDeadbodyInstance();
+        }
     }
 
 

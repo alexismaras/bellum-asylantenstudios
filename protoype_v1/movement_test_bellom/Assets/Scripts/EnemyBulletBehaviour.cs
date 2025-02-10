@@ -3,19 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
-public class BulletBehaviour : MonoBehaviour
+public class EnemyBulletBehaviour : MonoBehaviour
 {
-    [SerializeField] GameObject player;
-
-    [SerializeField] BulletManager bulletManager;
-
-    [SerializeField] PlayerMovement playerMovement;
-
     [SerializeField] GameSounds gameSounds;
 
     [SerializeField] SpriteRenderer spriteRenderer;
 
     [SerializeField] Light2D bulletLight;
+    [SerializeField] GameObject parentEnemy;
+    [SerializeField] GoreNPC goreNpc;
+    [SerializeField] EnemyBulletManager enemyBulletManager;
 
     LayerMask layerMaskEntity;
     LayerMask layerMaskObjectCollider;
@@ -43,17 +40,20 @@ public class BulletBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // if (transform.parent != null)
+        // {Debug.Log("a");}
+        // parentEnemy = transform.parent.gameObject;
+        goreNpc = parentEnemy.GetComponent<GoreNPC>();
+        enemyBulletManager = parentEnemy.GetComponentInChildren<EnemyBulletManager>();
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         bulletLight = gameObject.GetComponentInChildren<Light2D>();
-        if (gameObject.tag =="ProjectileInstance")
+        if (gameObject.tag == "ProjectileInstance")
         {   
             spriteRenderer.enabled = false;
             bulletLight.enabled = false;
-            bulletSpeed = bulletManager.bulletSpeed;
-            volume = bulletManager.volume;
-            layerMaskEntity = LayerMask.GetMask("Entity");
-            layerMaskObjectCollider = LayerMask.GetMask("ObjectCollider");
-            bulletDir = playerMovement.viewDir;
+            bulletSpeed = enemyBulletManager.bulletSpeed;
+            volume = enemyBulletManager.volume;
+            bulletDir = goreNpc.viewDir;
             randomSprayValue = Random.Range(1, 3);
             if (randomSprayValue == 1)
             {
@@ -68,7 +68,7 @@ public class BulletBehaviour : MonoBehaviour
                 bulletDir.x += Random.Range(-0.03f, 0.03f);
                 bulletDir.y += Random.Range(-0.03f, 0.03f);
             }
-            transform.position = player.transform.position;
+            transform.position = parentEnemy.transform.position;
             currentPosition = transform.position;
             previousPosition = currentPosition;
             transform.rotation = Quaternion.LookRotation(Vector3.forward, bulletDir);
@@ -107,16 +107,16 @@ public class BulletBehaviour : MonoBehaviour
         for (var i = 0; i<raycastSegments; i++)
         {
             float dist = (Vector3.Distance(previousPosition, currentPosition))/raycastSegments;
-            RaycastHit2D hit = Physics2D.Raycast(previousPosition + ((currentPosition-previousPosition)/raycastSegments) * i, currentPosition-previousPosition, dist, layerMaskEntity | layerMaskObjectCollider);
+            RaycastHit2D hit = Physics2D.Raycast(previousPosition + ((currentPosition-previousPosition)/raycastSegments) * i, currentPosition-previousPosition, dist);
             if (hit)
             {  
-                if (hit.collider.tag == "ShootableNpcHitbox")
+                if (hit.collider.tag == "PlayerHitbox")
                 {
                     gameSounds.PlayHitmarker();
                     GameObject hitBox = hit.collider.gameObject;
                     Transform parentTransform = hitBox.transform.parent;
-                    GoreNPC goreNPC = parentTransform.GetComponent<GoreNPC>();
-                    goreNPC.health -= volume;
+                    PlayerMovement playerMovement = parentTransform.GetComponent<PlayerMovement>();
+                    playerMovement.health -= volume;
                     volume = 0;
 
                     Vector3 debugSegmentRayStart = previousPosition + ((currentPosition-previousPosition)/raycastSegments) * i;
@@ -139,18 +139,7 @@ public class BulletBehaviour : MonoBehaviour
                     break;
                 }
 
-                else if (hit.collider.tag == "DummyHitbox")
-                {
-                    gameSounds.PlayHitmarker();
-                    Vector3 debugSegmentRayStart = previousPosition + ((currentPosition-previousPosition)/raycastSegments) * i;
-                    Vector3 debugSegmentRayDirection = (currentPosition-previousPosition)/raycastSegments;
-                    Debug.DrawRay(debugSegmentRayStart, debugSegmentRayDirection, Color.white, 10f, false);
-
-                    Destroy(gameObject);
-
-                    break;
-                }
-                if (hit.collider.tag == "Player")
+                if (hit.collider.tag == "Enemy")
                 {
                     spriteRenderer.enabled = false;
                     bulletLight.enabled = false;

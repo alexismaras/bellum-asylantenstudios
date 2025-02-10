@@ -13,6 +13,7 @@ TagManager:
   - EinstiegsNPC
   - KommandeurNPC
   - DummyHitbox
+  - PlayerHitbox
   layers:
   - Default
   - TransparentFX
