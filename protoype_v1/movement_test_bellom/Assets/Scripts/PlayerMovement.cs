@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
     public Vector3 viewDir;
     [SerializeField] GameObject camera;
 
+    [SerializeField] SceneSwitcher sceneSwitcher;
+
     BulletManager bulletManager;
 
     public float goreMeterMultiplier;
@@ -80,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (health <= 0)
         {
-            Destroy(gameObject);
+            sceneSwitcher.ReloadScene();
             // CreateDeadbodyInstance();
         }
     }

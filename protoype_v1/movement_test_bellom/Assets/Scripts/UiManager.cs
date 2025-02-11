@@ -43,8 +43,6 @@ public class UiManager : MonoBehaviour
         newPosition.x = (healthBarMinPosX + (uiHealthBar.rectTransform.rect.width * uiHealthBar.rectTransform.localScale.x * 0.5f));
         uiHealthBar.rectTransform.anchoredPosition = newPosition;
 
-        Debug.Log(newPosition);
-
         uiMagazineInfo.text = $"{bulletManager.magazineFill}/{bulletManager.ammoReserve}";
         if (goreMeter.goreMeterActive)
         {

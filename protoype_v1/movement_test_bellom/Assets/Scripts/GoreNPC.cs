@@ -209,6 +209,15 @@ public class GoreNPC : MonoBehaviour
         deadEnemyBody.transform.Find("EnemyOrientation").gameObject.SetActive(false);
         deadEnemyBody.transform.Find("EnemySprite").gameObject.GetComponent<SpriteRenderer>().sprite = deadEnemySprite;
         deadEnemyBody.transform.Find("EnemySprite").gameObject.GetComponent<EnemySort>().enabled = true;
+        deadEnemyBody.transform.Find("EnemyBullet").gameObject.SetActive(false);
+        deadEnemyBody.transform.Find("EnemyBulletManager").gameObject.SetActive(false);
+        foreach (Transform childTransform in deadEnemyBody.transform)
+        {   
+            if (childTransform.gameObject.tag == "ProjectileInstance")
+            {
+                Destroy(childTransform.gameObject);
+            }
+        }
         deadEnemyBody.SetActive(true);
     }
 

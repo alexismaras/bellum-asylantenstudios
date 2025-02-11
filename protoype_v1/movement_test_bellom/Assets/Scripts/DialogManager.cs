@@ -151,7 +151,7 @@ public class DialogManager : MonoBehaviour
     List<(int, string)> dialog3 = new List<(int, string)>
     {
         ( 1, "Can't screw this up again... just follow orders." ),
-        (2, "Der Gore Meter: Unsere neueste Erfindung! Das Subjekt wird schneller, stärker und präsiser als jeder andere Soldat! Alles was er dazu tun muss, ist es Feinde auszulöschen.")
+        ( 5, "Der Gore Meter: Unsere neueste Erfindung! Das Subjekt wird schneller, stärker und präsiser als jeder andere Soldat! Alles was er dazu tun muss, ist es Feinde auszulöschen." )
     };
 
 
@@ -212,6 +212,10 @@ public class DialogManager : MonoBehaviour
         dialogActive = true;
         dialogTextIndex = 0;
         uiDialogInfo.color = GetDialogColor(dialogDict[dialogIndex][dialogTextIndex].Item1);
+        uiDialogInfo.rectTransform.anchorMin = GetDialogPosition(dialogDict[dialogIndex][dialogTextIndex].Item1);
+        uiDialogInfo.rectTransform.anchorMax = uiDialogInfo.rectTransform.anchorMin;
+        uiDialogInfo.rectTransform.pivot = new Vector2(0.5f, 0.5f);
+        uiDialogInfo.rectTransform.anchoredPosition = GetDialogPositionOffset(dialogDict[dialogIndex][dialogTextIndex].Item1);
         uiDialogInfo.text = dialogDict[dialogIndex][dialogTextIndex].Item2;
     }
 
@@ -219,7 +223,11 @@ public class DialogManager : MonoBehaviour
     {
         dialogTextIndex += 1;
         uiDialogInfo.color = GetDialogColor(dialogDict[dialogIndex][dialogTextIndex].Item1);
-        uiDialogInfo.text = dialogDict[dialogIndex][dialogTextIndex].Item2;       
+        uiDialogInfo.rectTransform.anchorMin = GetDialogPosition(dialogDict[dialogIndex][dialogTextIndex].Item1);
+        uiDialogInfo.rectTransform.anchorMax = uiDialogInfo.rectTransform.anchorMin;
+        uiDialogInfo.rectTransform.pivot = new Vector2(0.5f, 0.5f);
+        uiDialogInfo.rectTransform.anchoredPosition = GetDialogPositionOffset(dialogDict[dialogIndex][dialogTextIndex].Item1);
+        uiDialogInfo.text = dialogDict[dialogIndex][dialogTextIndex].Item2;
     }
 
     void EndDialog()
@@ -237,9 +245,53 @@ public class DialogManager : MonoBehaviour
         {
             return Color.green;
         }
+        else if (role == 5)
+        {
+            return Color.white;
+        }
         else
         {
             return Color.blue;
+        }
+    }
+
+    Vector2 GetDialogPosition(int role)
+    {
+        if (role == 1)
+        {
+            return new Vector2(0.5f, 0f);
+        }
+        else if (role == 2)
+        {
+            return new Vector2(0.5f, 0f);
+        }
+        else if (role == 5)
+        {
+            return new Vector2(0.5f, 0.5f);
+        }
+        else
+        {
+            return new Vector2(0.5f, 0f);
+        }
+    }
+
+    Vector2 GetDialogPositionOffset(int role)
+    {
+        if (role == 1)
+        {
+            return new Vector2(0f, 30f);
+        }
+        else if (role == 2)
+        {
+            return new Vector2(0f, 30f);
+        }
+        else if (role == 5)
+        {
+            return Vector2.zero;
+        }
+        else
+        {
+            return new Vector2(0f, 30f);
         }
     }
 }

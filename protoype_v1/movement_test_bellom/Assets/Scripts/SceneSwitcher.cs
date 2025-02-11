@@ -18,18 +18,12 @@ public class SceneSwitcher : MonoBehaviour
     {
         
     }
-    // private void OnTriggerEnter2D(Collider2D collision)
-    // {
-    //     if (Player.CompareTag("Player"))
-    //     {
-    //         SceneManager.LoadScene(2);
-    //     }
-    // }
-    // public void ChangeScene()
-    // {
-    //     next_scene += 1;
-    //     SceneManager.LoadScene(2);
-    // }
+    
+    public void ReloadScene()
+    {  
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+    }
 
     public void ChangeScene()
     {  
