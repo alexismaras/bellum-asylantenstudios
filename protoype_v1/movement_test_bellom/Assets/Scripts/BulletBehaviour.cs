@@ -19,6 +19,7 @@ public class BulletBehaviour : MonoBehaviour
 
     LayerMask layerMaskEntity;
     LayerMask layerMaskObjectCollider;
+    LayerMask layerMaskFillerSprites;
 
     float bulletSpeed;
     public float volume;
@@ -53,6 +54,7 @@ public class BulletBehaviour : MonoBehaviour
             volume = bulletManager.volume;
             layerMaskEntity = LayerMask.GetMask("Entity");
             layerMaskObjectCollider = LayerMask.GetMask("ObjectCollider");
+            layerMaskFillerSprites = LayerMask.GetMask("FillerSprites");
             bulletDir = playerMovement.viewDir;
             randomSprayValue = Random.Range(1, 3);
             if (randomSprayValue == 1)
@@ -107,7 +109,7 @@ public class BulletBehaviour : MonoBehaviour
         for (var i = 0; i<raycastSegments; i++)
         {
             float dist = (Vector3.Distance(previousPosition, currentPosition))/raycastSegments;
-            RaycastHit2D hit = Physics2D.Raycast(previousPosition + ((currentPosition-previousPosition)/raycastSegments) * i, currentPosition-previousPosition, dist, layerMaskEntity | layerMaskObjectCollider);
+            RaycastHit2D hit = Physics2D.Raycast(previousPosition + ((currentPosition-previousPosition)/raycastSegments) * i, currentPosition-previousPosition, dist, layerMaskEntity | layerMaskFillerSprites);
             if (hit)
             {  
                 if (hit.collider.tag == "ShootableNpcHitbox")

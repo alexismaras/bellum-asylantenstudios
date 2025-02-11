@@ -216,9 +216,9 @@ GameObject:
   m_Component:
   - component: {fileID: 11882398}
   - component: {fileID: 11882397}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (22)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -311,9 +311,9 @@ GameObject:
   m_Component:
   - component: {fileID: 12890155}
   - component: {fileID: 12890154}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (40)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -561,9 +561,9 @@ GameObject:
   m_Component:
   - component: {fileID: 25939445}
   - component: {fileID: 25939444}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (16)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -645,9 +645,9 @@ GameObject:
   m_Component:
   - component: {fileID: 31979617}
   - component: {fileID: 31979616}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (59)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -823,7 +823,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &47485489
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -901,9 +901,9 @@ GameObject:
   m_Component:
   - component: {fileID: 64542477}
   - component: {fileID: 64542476}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthEckeInnen (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -985,9 +985,9 @@ GameObject:
   m_Component:
   - component: {fileID: 85507973}
   - component: {fileID: 85507972}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (35)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1069,9 +1069,9 @@ GameObject:
   m_Component:
   - component: {fileID: 89102645}
   - component: {fileID: 89102644}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1347,9 +1347,9 @@ GameObject:
   m_Component:
   - component: {fileID: 100355835}
   - component: {fileID: 100355834}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (46)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1431,9 +1431,9 @@ GameObject:
   m_Component:
   - component: {fileID: 108861857}
   - component: {fileID: 108861858}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (81)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1515,9 +1515,9 @@ GameObject:
   m_Component:
   - component: {fileID: 114126712}
   - component: {fileID: 114126711}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeiteSpiegel (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1599,9 +1599,9 @@ GameObject:
   m_Component:
   - component: {fileID: 117149100}
   - component: {fileID: 117149099}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (15)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1683,9 +1683,9 @@ GameObject:
   m_Component:
   - component: {fileID: 117227211}
   - component: {fileID: 117227210}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: "TrenchesWandEckeAu\xDFen (4)"
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1767,9 +1767,9 @@ GameObject:
   m_Component:
   - component: {fileID: 126472989}
   - component: {fileID: 126472988}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (24)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1961,9 +1961,9 @@ GameObject:
   m_Component:
   - component: {fileID: 132968799}
   - component: {fileID: 132968798}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2169,9 +2169,9 @@ GameObject:
   m_Component:
   - component: {fileID: 142747957}
   - component: {fileID: 142747958}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (25)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2363,9 +2363,9 @@ GameObject:
   m_Component:
   - component: {fileID: 172582754}
   - component: {fileID: 172582753}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: "TrenchesDeckeDepthEckeAu\xDFen (3)"
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2453,7 +2453,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &189746393
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2532,9 +2532,9 @@ GameObject:
   - component: {fileID: 196108831}
   - component: {fileID: 196108830}
   - component: {fileID: 196108832}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWandEnde (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2620,6 +2620,166 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 422916284}
   playerSprite: {fileID: 642389831}
+--- !u!1 &201308183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 201308186}
+  - component: {fileID: 201308185}
+  - component: {fileID: 201308184}
+  m_Layer: 10
+  m_Name: Bullet Collider Map
+  m_TagString: Obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!68 &201308184
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201308183}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 10.084167, y: 4.011717}
+  - {x: 13.025704, y: 2.284762}
+  - {x: 14.240876, y: 2.9999573}
+  - {x: 12.994188, y: 3.7083886}
+  - {x: 17.014572, y: 6.0271273}
+  - {x: 18.879442, y: 5.00976}
+  - {x: 20.674292, y: 6.0872602}
+  - {x: 22.333448, y: 5.136453}
+  - {x: 23.428406, y: 5.800692}
+  - {x: 19.7239, y: 8.019037}
+  - {x: 17.093931, y: 6.5171814}
+  - {x: 13.943422, y: 8.360754}
+  - {x: 18.10387, y: 10.785427}
+  - {x: 12.774248, y: 13.870102}
+  - {x: 7.590216, y: 10.590142}
+  - {x: 12.921149, y: 7.547276}
+  - {x: 11.356913, y: 6.518538}
+  - {x: 12.826446, y: 5.5707245}
+  - {x: 10.06191, y: 4.015792}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &201308185
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201308183}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 5.5495377, y: 2.1526122}
+  - {x: 2.0844502, y: 4.277103}
+  - {x: 5.6811457, y: 6.394509}
+  - {x: 7.957514, y: 5.2131863}
+  - {x: 9.193901, y: 5.9434166}
+  - {x: 5.3646073, y: 8.119799}
+  - {x: 6.828789, y: 8.960712}
+  - {x: 5.4117775, y: 9.820666}
+  - {x: 3.220049, y: 8.58631}
+  - {x: -0.49745178, y: 10.950227}
+  - {x: 5.8505697, y: 14.561027}
+  - {x: 7.8817434, y: 13.438943}
+  - {x: 10.753123, y: 15.124175}
+  - {x: 5.311865, y: 18.493763}
+  - {x: 12.917906, y: 22.930302}
+  - {x: 20.9565, y: 18.349073}
+  - {x: 15.505547, y: 15.173198}
+  - {x: 24.160793, y: 10.006054}
+  - {x: 22.63097, y: 9.111231}
+  - {x: 27.904312, y: 5.9165735}
+  - {x: 22.076548, y: 2.4203277}
+  - {x: 20.003454, y: 3.5979807}
+  - {x: 10.266894, y: -2.1970298}
+  - {x: 9.947905, y: -1.9735689}
+  - {x: 7.59971, y: -0.47433734}
+  - {x: 1.4918933, y: -4.0058503}
+  - {x: 1.3670068, y: -3.924444}
+  - {x: -0.958066, y: -2.4474845}
+  - {x: -1.6532927, y: -2.0616906}
+  - {x: 5.528443, y: 2.159647}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!4 &201308186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201308183}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.958944, y: -0.99004555, z: -0.02741763}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &205567835
 GameObject:
   m_ObjectHideFlags: 0
@@ -2714,9 +2874,9 @@ GameObject:
   m_Component:
   - component: {fileID: 213185524}
   - component: {fileID: 213185523}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2846,7 +3006,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &225266585
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2985,9 +3145,9 @@ GameObject:
   m_Component:
   - component: {fileID: 250751846}
   - component: {fileID: 250751845}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (48)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3069,9 +3229,9 @@ GameObject:
   m_Component:
   - component: {fileID: 252041948}
   - component: {fileID: 252041947}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (38)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3154,9 +3314,9 @@ GameObject:
   - component: {fileID: 255744916}
   - component: {fileID: 255744915}
   - component: {fileID: 255744917}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWandEnde (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3252,9 +3412,9 @@ GameObject:
   m_Component:
   - component: {fileID: 258327102}
   - component: {fileID: 258327101}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (45)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3336,9 +3496,9 @@ GameObject:
   m_Component:
   - component: {fileID: 258707051}
   - component: {fileID: 258707050}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (36)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3588,9 +3748,9 @@ GameObject:
   m_Component:
   - component: {fileID: 282930669}
   - component: {fileID: 282930668}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (32)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3866,9 +4026,9 @@ GameObject:
   m_Component:
   - component: {fileID: 302456663}
   - component: {fileID: 302456662}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (44)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3950,9 +4110,9 @@ GameObject:
   m_Component:
   - component: {fileID: 312659141}
   - component: {fileID: 312659140}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4034,9 +4194,9 @@ GameObject:
   m_Component:
   - component: {fileID: 312939498}
   - component: {fileID: 312939499}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (77)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4118,9 +4278,9 @@ GameObject:
   m_Component:
   - component: {fileID: 320742692}
   - component: {fileID: 320742691}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (30)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4202,9 +4362,9 @@ GameObject:
   m_Component:
   - component: {fileID: 321032110}
   - component: {fileID: 321032109}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (54)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4379,9 +4539,9 @@ GameObject:
   m_Component:
   - component: {fileID: 347533621}
   - component: {fileID: 347533620}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: "TrenchesDeckeDepthEckeAu\xDFen (4)"
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4463,9 +4623,9 @@ GameObject:
   m_Component:
   - component: {fileID: 347927953}
   - component: {fileID: 347927952}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeiteSpiegel (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4657,9 +4817,9 @@ GameObject:
   m_Component:
   - component: {fileID: 368992203}
   - component: {fileID: 368992202}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (24)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4741,9 +4901,9 @@ GameObject:
   m_Component:
   - component: {fileID: 386047630}
   - component: {fileID: 386047629}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (67)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4952,8 +5112,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1216760885
+  m_SortingLayer: 6
   m_SortingOrder: 4
   m_Sprite: {fileID: 4295788680315307517, guid: af72223179df922498a9cbc5e1eabb51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5088,9 +5248,9 @@ GameObject:
   m_Component:
   - component: {fileID: 403410609}
   - component: {fileID: 403410608}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (11)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5173,9 +5333,9 @@ GameObject:
   - component: {fileID: 403619786}
   - component: {fileID: 403619785}
   - component: {fileID: 403619787}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWandEnde (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5439,9 +5599,9 @@ GameObject:
   m_Component:
   - component: {fileID: 415976205}
   - component: {fileID: 415976204}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (64)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5523,7 +5683,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 197296938129121626, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 197296938129121626, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
       propertyPath: m_TagString
@@ -5593,6 +5753,10 @@ PrefabInstance:
       propertyPath: bulletManager
       value: 
       objectReference: {fileID: 823869466}
+    - target: {fileID: 6678676123988069669, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 1024
+      objectReference: {fileID: 0}
     - target: {fileID: 6975218265411323159, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -5736,9 +5900,9 @@ GameObject:
   m_Component:
   - component: {fileID: 444440935}
   - component: {fileID: 444440936}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (27)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5820,9 +5984,9 @@ GameObject:
   m_Component:
   - component: {fileID: 448476698}
   - component: {fileID: 448476697}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (23)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5904,9 +6068,9 @@ GameObject:
   m_Component:
   - component: {fileID: 452603763}
   - component: {fileID: 452603762}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeiteSpiegel (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6147,9 +6311,9 @@ GameObject:
   m_Component:
   - component: {fileID: 475385380}
   - component: {fileID: 475385379}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (65)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6360,8 +6524,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1216760885
+  m_SortingLayer: 6
   m_SortingOrder: 4
   m_Sprite: {fileID: 4295788680315307517, guid: af72223179df922498a9cbc5e1eabb51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6399,9 +6563,9 @@ GameObject:
   m_Component:
   - component: {fileID: 477298235}
   - component: {fileID: 477298234}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6483,9 +6647,9 @@ GameObject:
   m_Component:
   - component: {fileID: 490055060}
   - component: {fileID: 490055061}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6567,9 +6731,9 @@ GameObject:
   m_Component:
   - component: {fileID: 493212441}
   - component: {fileID: 493212440}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6651,9 +6815,9 @@ GameObject:
   m_Component:
   - component: {fileID: 506570166}
   - component: {fileID: 506570165}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6735,9 +6899,9 @@ GameObject:
   m_Component:
   - component: {fileID: 510633982}
   - component: {fileID: 510633983}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (84)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6819,9 +6983,9 @@ GameObject:
   m_Component:
   - component: {fileID: 516440300}
   - component: {fileID: 516440299}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (23)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6903,9 +7067,9 @@ GameObject:
   m_Component:
   - component: {fileID: 520840358}
   - component: {fileID: 520840359}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (85)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7187,7 +7351,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &529426727
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7265,9 +7429,9 @@ GameObject:
   m_Component:
   - component: {fileID: 535482260}
   - component: {fileID: 535482259}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (51)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7350,9 +7514,9 @@ GameObject:
   - component: {fileID: 536077317}
   - component: {fileID: 536077316}
   - component: {fileID: 536077318}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWandEnde (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7448,9 +7612,9 @@ GameObject:
   m_Component:
   - component: {fileID: 538832848}
   - component: {fileID: 538832847}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7538,7 +7702,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &544091710
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7622,7 +7786,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &545473274
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7700,9 +7864,9 @@ GameObject:
   m_Component:
   - component: {fileID: 546080274}
   - component: {fileID: 546080275}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (74)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7866,9 +8030,9 @@ GameObject:
   m_Component:
   - component: {fileID: 550492028}
   - component: {fileID: 550492027}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (61)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8045,9 +8209,9 @@ GameObject:
   m_Component:
   - component: {fileID: 569102558}
   - component: {fileID: 569102557}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: "TrenchesDeckeDepthEckeAu\xDFen (2)"
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8129,9 +8293,9 @@ GameObject:
   m_Component:
   - component: {fileID: 573678277}
   - component: {fileID: 573678276}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8297,9 +8461,9 @@ GameObject:
   m_Component:
   - component: {fileID: 586040493}
   - component: {fileID: 586040492}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8381,9 +8545,9 @@ GameObject:
   m_Component:
   - component: {fileID: 589888596}
   - component: {fileID: 589888597}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8510,8 +8674,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1216760885
+  m_SortingLayer: 6
   m_SortingOrder: 4
   m_Sprite: {fileID: -5842355194824685203, guid: 7dfed27643e624b41965a511bde07ccc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8550,9 +8714,9 @@ GameObject:
   - component: {fileID: 626080247}
   - component: {fileID: 626080246}
   - component: {fileID: 626080248}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWandEnde (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8903,9 +9067,9 @@ GameObject:
   m_Component:
   - component: {fileID: 664237005}
   - component: {fileID: 664237004}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (56)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9071,9 +9235,9 @@ GameObject:
   m_Component:
   - component: {fileID: 673166996}
   - component: {fileID: 673166995}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeiteSpiegel (12)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9155,9 +9319,9 @@ GameObject:
   m_Component:
   - component: {fileID: 677420965}
   - component: {fileID: 677420964}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9239,9 +9403,9 @@ GameObject:
   m_Component:
   - component: {fileID: 690530797}
   - component: {fileID: 690530796}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (62)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9323,9 +9487,9 @@ GameObject:
   m_Component:
   - component: {fileID: 708525700}
   - component: {fileID: 708525699}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (41)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9407,9 +9571,9 @@ GameObject:
   m_Component:
   - component: {fileID: 710780094}
   - component: {fileID: 710780093}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (66)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9491,9 +9655,9 @@ GameObject:
   m_Component:
   - component: {fileID: 714008628}
   - component: {fileID: 714008627}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthEckeInnen
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9631,8 +9795,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1216760885
+  m_SortingLayer: 6
   m_SortingOrder: 4
   m_Sprite: {fileID: 4295788680315307517, guid: af72223179df922498a9cbc5e1eabb51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9671,9 +9835,9 @@ GameObject:
   - component: {fileID: 719476765}
   - component: {fileID: 719476764}
   - component: {fileID: 719476766}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWandEnde (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9769,9 +9933,9 @@ GameObject:
   m_Component:
   - component: {fileID: 734604387}
   - component: {fileID: 734604386}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10047,9 +10211,9 @@ GameObject:
   m_Component:
   - component: {fileID: 740468923}
   - component: {fileID: 740468922}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeiteSpiegel
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10131,9 +10295,9 @@ GameObject:
   m_Component:
   - component: {fileID: 741939697}
   - component: {fileID: 741939698}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (75)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10215,9 +10379,9 @@ GameObject:
   m_Component:
   - component: {fileID: 745994141}
   - component: {fileID: 745994140}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10383,9 +10547,9 @@ GameObject:
   m_Component:
   - component: {fileID: 747707208}
   - component: {fileID: 747707209}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (89)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10467,9 +10631,9 @@ GameObject:
   m_Component:
   - component: {fileID: 749500137}
   - component: {fileID: 749500138}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10551,9 +10715,9 @@ GameObject:
   m_Component:
   - component: {fileID: 753892062}
   - component: {fileID: 753892063}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (76)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10827,9 +10991,9 @@ GameObject:
   m_Component:
   - component: {fileID: 762800697}
   - component: {fileID: 762800698}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (72)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10911,9 +11075,9 @@ GameObject:
   m_Component:
   - component: {fileID: 767988685}
   - component: {fileID: 767988684}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (17)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11077,9 +11241,9 @@ GameObject:
   m_Component:
   - component: {fileID: 771295178}
   - component: {fileID: 771295177}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: "TrenchesWandEckeAu\xDFen (3)"
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11161,9 +11325,9 @@ GameObject:
   m_Component:
   - component: {fileID: 781655616}
   - component: {fileID: 781655615}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (49)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11319,6 +11483,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 401533447}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &791442225 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 630394782220751185, guid: ee13322fd97f3074cbd6bd3fd12c7c7c, type: 3}
+  m_PrefabInstance: {fileID: 1806261922}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &792488907
 GameObject:
   m_ObjectHideFlags: 0
@@ -11329,9 +11498,9 @@ GameObject:
   m_Component:
   - component: {fileID: 792488909}
   - component: {fileID: 792488908}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: "TrenchesDeckeDepthEckeAu\xDFen"
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11689,9 +11858,9 @@ GameObject:
   m_Component:
   - component: {fileID: 822972990}
   - component: {fileID: 822972989}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11788,6 +11957,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 422916286}
     - target: {fileID: 1145143035794446689, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+      propertyPath: uiHealthBar
+      value: 
+      objectReference: {fileID: 2062244437}
+    - target: {fileID: 1145143035794446689, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 422916284}
+    - target: {fileID: 1145143035794446689, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
       propertyPath: uiMagazineInfo
       value: 
       objectReference: {fileID: 1806261925}
@@ -11856,6 +12033,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1783724558}
     - target: {fileID: 6900153239382377449, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+      propertyPath: reloadTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6900153239382377449, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+      propertyPath: ammoReserve
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 6900153239382377449, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+      propertyPath: magazineFill
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6900153239382377449, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+      propertyPath: magazineSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6900153239382377449, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
       propertyPath: muzzleFlashFx
       value: 
       objectReference: {fileID: 0}
@@ -11908,9 +12101,9 @@ GameObject:
   m_Component:
   - component: {fileID: 830989512}
   - component: {fileID: 830989511}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11992,9 +12185,9 @@ GameObject:
   m_Component:
   - component: {fileID: 831001005}
   - component: {fileID: 831001006}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12082,7 +12275,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &836850840
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12160,9 +12353,9 @@ GameObject:
   m_Component:
   - component: {fileID: 842614476}
   - component: {fileID: 842614475}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeiteSpiegel (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12250,7 +12443,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &845230907
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12328,9 +12521,9 @@ GameObject:
   m_Component:
   - component: {fileID: 853701317}
   - component: {fileID: 853701316}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (43)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12412,9 +12605,9 @@ GameObject:
   m_Component:
   - component: {fileID: 859962641}
   - component: {fileID: 859962640}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWandEckeInnen (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12496,9 +12689,9 @@ GameObject:
   m_Component:
   - component: {fileID: 864339687}
   - component: {fileID: 864339688}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (79)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12711,11 +12904,11 @@ EdgeCollider2D:
   - {x: 12.939497, y: 1.4514252}
   - {x: 14.832046, y: 2.5498772}
   - {x: 13.58445, y: 3.3039503}
-  - {x: 17.036915, y: 5.2515264}
-  - {x: 18.90128, y: 4.2323685}
-  - {x: 20.680227, y: 5.2237377}
-  - {x: 22.363333, y: 4.322653}
-  - {x: 23.993671, y: 5.3888135}
+  - {x: 17.058296, y: 5.2729053}
+  - {x: 18.879442, y: 4.2613316}
+  - {x: 20.645903, y: 5.292386}
+  - {x: 22.314522, y: 4.322653}
+  - {x: 24.11919, y: 5.374867}
   - {x: 19.742825, y: 8.019037}
   - {x: 17.254799, y: 6.4509416}
   - {x: 13.943422, y: 8.360754}
@@ -12784,16 +12977,16 @@ EdgeCollider2D:
   - {x: 14.821716, y: 14.642329}
   - {x: 23.43478, y: 9.687015}
   - {x: 21.66745, y: 8.52752}
-  - {x: 27.211666, y: 5.410824}
-  - {x: 22.116053, y: 2.5783505}
-  - {x: 20.057037, y: 3.7251537}
-  - {x: 10.173237, y: -2.0402095}
-  - {x: 10.026834, y: -1.9147208}
-  - {x: 7.603694, y: -0.43051207}
-  - {x: 1.4756246, y: -3.965176}
+  - {x: 27.260508, y: 5.36896}
+  - {x: 22.076548, y: 2.4203277}
+  - {x: 20.003454, y: 3.5979807}
+  - {x: 10.266894, y: -2.1970298}
+  - {x: 9.947905, y: -1.9735689}
+  - {x: 7.59971, y: -0.47433734}
+  - {x: 1.4918933, y: -4.0058503}
   - {x: 1.3670068, y: -3.924444}
   - {x: -0.958066, y: -2.4474845}
-  - {x: -0.9400873, y: -2.4247112}
+  - {x: -0.9628992, y: -2.4247112}
   - {x: 6.25341, y: 1.678594}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
@@ -12824,9 +13017,9 @@ GameObject:
   m_Component:
   - component: {fileID: 877716622}
   - component: {fileID: 877716623}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeiteSpiegel (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12908,9 +13101,9 @@ GameObject:
   m_Component:
   - component: {fileID: 879605199}
   - component: {fileID: 879605198}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13037,8 +13230,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1216760885
+  m_SortingLayer: 6
   m_SortingOrder: 4
   m_Sprite: {fileID: 674167144205794926, guid: 7dfed27643e624b41965a511bde07ccc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -13076,9 +13269,9 @@ GameObject:
   m_Component:
   - component: {fileID: 891999653}
   - component: {fileID: 891999654}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (78)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13289,8 +13482,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1216760885
+  m_SortingLayer: 6
   m_SortingOrder: 4
   m_Sprite: {fileID: 4295788680315307517, guid: af72223179df922498a9cbc5e1eabb51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -13328,9 +13521,9 @@ GameObject:
   m_Component:
   - component: {fileID: 901500876}
   - component: {fileID: 901500877}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (69)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13412,9 +13605,9 @@ GameObject:
   m_Component:
   - component: {fileID: 904584396}
   - component: {fileID: 904584395}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (50)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13580,9 +13773,9 @@ GameObject:
   m_Component:
   - component: {fileID: 931530664}
   - component: {fileID: 931530663}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (18)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13774,9 +13967,9 @@ GameObject:
   m_Component:
   - component: {fileID: 943167569}
   - component: {fileID: 943167568}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13858,9 +14051,9 @@ GameObject:
   m_Component:
   - component: {fileID: 944849394}
   - component: {fileID: 944849393}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (20)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14026,9 +14219,9 @@ GameObject:
   m_Component:
   - component: {fileID: 966648684}
   - component: {fileID: 966648683}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (15)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14116,7 +14309,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &967453823
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14239,8 +14432,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1216760885
+  m_SortingLayer: 6
   m_SortingOrder: 4
   m_Sprite: {fileID: 1051240490547381564, guid: 7dfed27643e624b41965a511bde07ccc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -14446,9 +14639,9 @@ GameObject:
   m_Component:
   - component: {fileID: 982148372}
   - component: {fileID: 982148371}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (28)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14530,9 +14723,9 @@ GameObject:
   m_Component:
   - component: {fileID: 987147976}
   - component: {fileID: 987147975}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (25)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14614,9 +14807,9 @@ GameObject:
   m_Component:
   - component: {fileID: 997076958}
   - component: {fileID: 997076957}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (31)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14698,9 +14891,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1038597769}
   - component: {fileID: 1038597768}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (13)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15117,9 +15310,9 @@ GameObject:
   - component: {fileID: 1064415500}
   - component: {fileID: 1064415499}
   - component: {fileID: 1064415501}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWandEnde (11)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15215,9 +15408,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1076597974}
   - component: {fileID: 1076597973}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (22)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15299,9 +15492,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1080439177}
   - component: {fileID: 1080439176}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (14)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15383,9 +15576,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1084677813}
   - component: {fileID: 1084677812}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (12)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15467,9 +15660,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1089959923}
   - component: {fileID: 1089959922}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15551,9 +15744,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1097145069}
   - component: {fileID: 1097145068}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (55)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15635,9 +15828,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1098117783}
   - component: {fileID: 1098117782}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (21)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15719,9 +15912,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1100889990}
   - component: {fileID: 1100889991}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (82)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15877,6 +16070,82 @@ Transform:
   m_Children: []
   m_Father: {fileID: 401533447}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1110526208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1110526209}
+  - component: {fileID: 1110526211}
+  - component: {fileID: 1110526210}
+  m_Layer: 5
+  m_Name: HealthInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1110526209
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110526208}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2062244436}
+  m_Father: {fileID: 791442225}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -70, y: 30}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1110526210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110526208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 9d61d220e140e8d43b26fc95fe5e4107, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1110526211
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110526208}
+  m_CullTransparentMesh: 1
 --- !u!1 &1117549990
 GameObject:
   m_ObjectHideFlags: 0
@@ -16053,9 +16322,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1125113284}
   - component: {fileID: 1125113283}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthEckeInnen (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16137,9 +16406,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1126815280}
   - component: {fileID: 1126815281}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (68)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16221,9 +16490,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1132332531}
   - component: {fileID: 1132332532}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (88)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16471,9 +16740,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1151270250}
   - component: {fileID: 1151270251}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (70)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16555,9 +16824,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1163857252}
   - component: {fileID: 1163857251}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (42)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16639,9 +16908,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1164242344}
   - component: {fileID: 1164242343}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16723,9 +16992,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1171744233}
   - component: {fileID: 1171744232}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16807,9 +17076,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1175513278}
   - component: {fileID: 1175513277}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (18)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16978,9 +17247,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1188634816}
   - component: {fileID: 1188634817}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (80)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17150,7 +17419,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1213145751
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17228,9 +17497,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1215018477}
   - component: {fileID: 1215018478}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (91)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17312,9 +17581,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1215183316}
   - component: {fileID: 1215183315}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (37)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17396,9 +17665,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1224426247}
   - component: {fileID: 1224426246}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthEckeInnen (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17480,9 +17749,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1227026752}
   - component: {fileID: 1227026751}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (20)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17564,9 +17833,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1232987495}
   - component: {fileID: 1232987494}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (57)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17732,9 +18001,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1236510120}
   - component: {fileID: 1236510121}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (83)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17816,9 +18085,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1259677012}
   - component: {fileID: 1259677013}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17982,9 +18251,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1272532240}
   - component: {fileID: 1272532239}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (12)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18066,9 +18335,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1280124630}
   - component: {fileID: 1280124629}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (34)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18150,9 +18419,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1283242655}
   - component: {fileID: 1283242654}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (12)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18234,9 +18503,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1285620418}
   - component: {fileID: 1285620417}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (27)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18318,9 +18587,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1286577401}
   - component: {fileID: 1286577400}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeiteSpiegel (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18486,9 +18755,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1303571230}
   - component: {fileID: 1303571231}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18571,9 +18840,9 @@ GameObject:
   - component: {fileID: 1316838234}
   - component: {fileID: 1316838233}
   - component: {fileID: 1316838235}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWandEnde (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18669,9 +18938,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1326366404}
   - component: {fileID: 1326366403}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18966,9 +19235,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1361663884}
   - component: {fileID: 1361663885}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: "TrenchesDeckeDepthEckeAu\xDFen (3)"
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19051,9 +19320,9 @@ GameObject:
   - component: {fileID: 1365105091}
   - component: {fileID: 1365105090}
   - component: {fileID: 1365105092}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWandEnde (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19149,9 +19418,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1367956286}
   - component: {fileID: 1367956285}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19233,9 +19502,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1368254646}
   - component: {fileID: 1368254645}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (47)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19401,9 +19670,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1383401349}
   - component: {fileID: 1383401348}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19485,9 +19754,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1392696046}
   - component: {fileID: 1392696047}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19569,9 +19838,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1394587275}
   - component: {fileID: 1394587274}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (11)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19653,9 +19922,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1398149810}
   - component: {fileID: 1398149809}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (60)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19737,9 +20006,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1402937465}
   - component: {fileID: 1402937464}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeiteSpiegel (11)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19950,8 +20219,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1216760885
+  m_SortingLayer: 6
   m_SortingOrder: 4
   m_Sprite: {fileID: 4295788680315307517, guid: af72223179df922498a9cbc5e1eabb51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -20034,8 +20303,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1216760885
+  m_SortingLayer: 6
   m_SortingOrder: 4
   m_Sprite: {fileID: -5248373974793979196, guid: 7dfed27643e624b41965a511bde07ccc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -20462,9 +20731,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1448169172}
   - component: {fileID: 1448169171}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20591,8 +20860,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1216760885
+  m_SortingLayer: 6
   m_SortingOrder: 4
   m_Sprite: {fileID: -7273193805361957237, guid: af72223179df922498a9cbc5e1eabb51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -20630,9 +20899,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1480599453}
   - component: {fileID: 1480599452}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20908,9 +21177,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1526940714}
   - component: {fileID: 1526940715}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (90)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20992,9 +21261,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1529957299}
   - component: {fileID: 1529957298}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (11)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21082,7 +21351,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1549665858
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21204,9 +21473,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1554091410}
   - component: {fileID: 1554091409}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (26)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21288,9 +21557,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1556252337}
   - component: {fileID: 1556252336}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (21)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21517,9 +21786,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1567629353}
   - component: {fileID: 1567629352}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (52)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21602,9 +21871,9 @@ GameObject:
   - component: {fileID: 1573021369}
   - component: {fileID: 1573021368}
   - component: {fileID: 1573021370}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWandEnde
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21706,7 +21975,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1573572946
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21784,9 +22053,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1587187575}
   - component: {fileID: 1587187574}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (14)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21868,9 +22137,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1587295819}
   - component: {fileID: 1587295818}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (63)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21952,9 +22221,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1587460113}
   - component: {fileID: 1587460112}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (33)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22120,9 +22389,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1619678440}
   - component: {fileID: 1619678439}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (16)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22204,9 +22473,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1640982491}
   - component: {fileID: 1640982490}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22288,9 +22557,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1648866615}
   - component: {fileID: 1648866614}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (53)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22372,9 +22641,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1660920836}
   - component: {fileID: 1660920835}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (39)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22540,9 +22809,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1664893868}
   - component: {fileID: 1664893869}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22876,9 +23145,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1704728361}
   - component: {fileID: 1704728360}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23238,9 +23507,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1724143528}
   - component: {fileID: 1724143527}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWandEckeInnen (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23322,9 +23591,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1725544979}
   - component: {fileID: 1725544978}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23406,9 +23675,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1747441947}
   - component: {fileID: 1747441948}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (71)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23490,9 +23759,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1751227183}
   - component: {fileID: 1751227184}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (86)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23574,9 +23843,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1758696284}
   - component: {fileID: 1758696283}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23742,9 +24011,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1763758538}
   - component: {fileID: 1763758537}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (18)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23827,9 +24096,9 @@ GameObject:
   - component: {fileID: 1765528141}
   - component: {fileID: 1765528140}
   - component: {fileID: 1765528142}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWandEnde (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24107,9 +24376,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1776079321}
   - component: {fileID: 1776079320}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24269,9 +24538,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1787733701}
   - component: {fileID: 1787733700}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (14)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24353,9 +24622,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1793883524}
   - component: {fileID: 1793883523}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24533,7 +24802,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 630394782220751185, guid: ee13322fd97f3074cbd6bd3fd12c7c7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1110526209}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee13322fd97f3074cbd6bd3fd12c7c7c, type: 3}
 --- !u!114 &1806261923 stripped
@@ -24579,9 +24851,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1810632264}
   - component: {fileID: 1810632265}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (93)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24663,9 +24935,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1811766827}
   - component: {fileID: 1811766828}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (29)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24747,9 +25019,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1812255878}
   - component: {fileID: 1812255879}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (87)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24831,9 +25103,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1816594726}
   - component: {fileID: 1816594727}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (26)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24915,9 +25187,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1822600530}
   - component: {fileID: 1822600529}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (19)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25251,9 +25523,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1860484509}
   - component: {fileID: 1860484508}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (17)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25530,9 +25802,9 @@ GameObject:
   - component: {fileID: 1874967457}
   - component: {fileID: 1874967456}
   - component: {fileID: 1874967458}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWandEnde (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25712,9 +25984,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1891282540}
   - component: {fileID: 1891282539}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeiteSpiegel (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25807,9 +26079,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1896917687}
   - component: {fileID: 1896917686}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeiteSpiegel (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25891,9 +26163,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1897810603}
   - component: {fileID: 1897810602}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (15)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25975,9 +26247,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1908634605}
   - component: {fileID: 1908634606}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (73)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26059,9 +26331,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1910037677}
   - component: {fileID: 1910037676}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (17)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26225,9 +26497,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1916378919}
   - component: {fileID: 1916378918}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26309,9 +26581,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1922075453}
   - component: {fileID: 1922075452}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWand (16)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26393,9 +26665,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1923071079}
   - component: {fileID: 1923071078}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesWandEckeInnen (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26606,8 +26878,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1216760885
+  m_SortingLayer: 6
   m_SortingOrder: 4
   m_Sprite: {fileID: 674167144205794926, guid: 7dfed27643e624b41965a511bde07ccc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -26651,7 +26923,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1937313203
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26735,7 +27007,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1938564927
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26897,9 +27169,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1945221577}
   - component: {fileID: 1945221576}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeiteSpiegel (13)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27063,9 +27335,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1967879512}
   - component: {fileID: 1967879511}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (13)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27147,9 +27419,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1989428836}
   - component: {fileID: 1989428835}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeiteSpiegel (14)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27231,9 +27503,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1989682434}
   - component: {fileID: 1989682435}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (92)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27597,9 +27869,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2052159348}
   - component: {fileID: 2052159347}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeiteSpiegel (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27687,7 +27959,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &2061007331
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27765,9 +28037,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2061126517}
   - component: {fileID: 2061126518}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27839,6 +28111,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2062244435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2062244436}
+  - component: {fileID: 2062244438}
+  - component: {fileID: 2062244437}
+  m_Layer: 5
+  m_Name: Bar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2062244436
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062244435}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1110526209}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -50, y: 50}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2062244437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062244435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5bda1539bdaccf047a8ce29b3f212aed, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2062244438
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062244435}
+  m_CullTransparentMesh: 1
 --- !u!1 &2065138669
 GameObject:
   m_ObjectHideFlags: 0
@@ -27933,9 +28280,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2082205977}
   - component: {fileID: 2082205976}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (19)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28017,9 +28364,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2091534318}
   - component: {fileID: 2091534319}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeiteSpiegel (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28101,9 +28448,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2116435813}
   - component: {fileID: 2116435812}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: "TrenchesDeckeDepthEckeAu\xDFen (1)"
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28353,9 +28700,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2125147025}
   - component: {fileID: 2125147024}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeiteSpiegel (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28437,9 +28784,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2141521293}
   - component: {fileID: 2141521292}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDeckeDepthSeite (13)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28521,9 +28868,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2144073156}
   - component: {fileID: 2144073155}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (29)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28689,9 +29036,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2147364941}
   - component: {fileID: 2147364940}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrenchesDecke (58)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28781,6 +29128,7 @@ SceneRoots:
   - {fileID: 823869465}
   - {fileID: 1806261922}
   - {fileID: 866378246}
+  - {fileID: 201308186}
   - {fileID: 41779149}
   - {fileID: 342053830}
   - {fileID: 1552994713}

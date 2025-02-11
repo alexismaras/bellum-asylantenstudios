@@ -54,7 +54,7 @@ public class GoreMeter : MonoBehaviour
     public void RaiseGoremeter()
     {
         // Funktion um den goreMeterScore von anderen Scripts aus zu erhöhren
-        if (goreMeterScore <= goreMeterLimit)
+        if (goreMeterScore < goreMeterLimit)
         {
             goreMeterScore += 10;
         }

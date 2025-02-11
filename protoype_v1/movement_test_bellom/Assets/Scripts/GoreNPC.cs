@@ -39,7 +39,7 @@ public class GoreNPC : MonoBehaviour
     
     Vector3 circleCastOrigin;
     Vector3 circleCastOrigin2;
-    string approachColliderHitTag;
+    bool approachWindow = false;
 
     public Vector3 viewDir;    
 
@@ -94,19 +94,34 @@ public class GoreNPC : MonoBehaviour
 
     void NpcApproachSystem()
     {
-        float distance = Vector3.Distance(transform.position, player.transform.position);
-        Debug.Log(distance);
 
-        if (distance <= 1f)
+        GameObject sideQuest = transform.Find("SidequestSign").gameObject;
+        SpriteRenderer sideQuestRenderer = sideQuest.GetComponent<SpriteRenderer>();
+        float distance = Vector3.Distance(transform.position, player.transform.position);
+
+        if (distance <= 1.5f)
         {
+            approachWindow = true;
             StartCoroutine(ApproachTimeWindow());
+            if (!sideQuestRenderer.enabled)
+            {
+                sideQuestRenderer.enabled = true;
+            }
+        }
+        else
+        {
+            approachWindow = false;
+            if (sideQuestRenderer.enabled)
+            {
+                sideQuestRenderer.enabled = false;
+            }
         }
 
     }
     
     IEnumerator ApproachTimeWindow()
     {
-        while (approachColliderHitTag == "Player")
+        while (approachWindow)
         {
             yield return null;
             if (!dialogManager.approachActive)
@@ -140,7 +155,6 @@ public class GoreNPC : MonoBehaviour
     void NpcCombatSystem()
     {
         float distance = Vector3.Distance(transform.position, player.transform.position);
-        Debug.Log(distance);
 
         if (distance <= 6f)
         {

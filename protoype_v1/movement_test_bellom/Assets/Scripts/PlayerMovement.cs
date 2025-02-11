@@ -11,8 +11,7 @@ public class PlayerMovement : MonoBehaviour
     
     float verticalInput;
     public bool moving;
-
-    public float health = 10;
+    public float health;
 
     
     

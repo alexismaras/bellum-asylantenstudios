@@ -16,6 +16,9 @@ public class BulletManager : MonoBehaviour
     public int magazineFill;
     public int ammoReserve;
 
+    [SerializeField] float reloadTime;
+    bool isRealoading = false;
+
     [SerializeField] float initialShootingInterval;
     public float shootingInterval;
 
@@ -49,7 +52,7 @@ public class BulletManager : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (shooting == true && performing == false && magazineFill > 0)
+        if (shooting && !isRealoading && !performing && magazineFill > 0)
         {
             magazineFill -= 1;
             StartCoroutine(BulletInstantiate());
@@ -91,30 +94,39 @@ public class BulletManager : MonoBehaviour
 
     void MagazineReload()
     {
-        if (magazineFill < magazineSize && Input.GetKeyDown(KeyCode.R))
+        if (magazineFill < magazineSize && Input.GetKeyDown(KeyCode.R) && !isRealoading)
         {
             gameSounds.PlayReload();
-            
-            if (ammoReserve >= magazineSize)
-            {
-                ammoReserve = ammoReserve - (magazineSize - magazineFill);
-                magazineFill = magazineSize;
-            }
-            else if (ammoReserve < magazineSize && ammoReserve > 0)
-            {   
-                if (ammoReserve >= (magazineSize - magazineFill))
-                {
-                    ammoReserve = ammoReserve - (magazineSize - magazineFill);
-                    magazineFill += magazineSize - magazineFill;
-                }
-                else if (ammoReserve < (magazineSize - magazineFill))
-                {
-                    magazineFill += ammoReserve;
-                    ammoReserve = 0;
-                }
-                
-            }
+            isRealoading = true;
+            StartCoroutine(ReloadDelay());
         }
         
+    }
+
+    IEnumerator ReloadDelay()
+    {
+        yield return new WaitForSeconds(reloadTime);
+
+        if (ammoReserve >= magazineSize)
+        {
+            ammoReserve = ammoReserve - (magazineSize - magazineFill);
+            magazineFill = magazineSize;
+        }
+        else if (ammoReserve < magazineSize && ammoReserve > 0)
+        {   
+            if (ammoReserve >= (magazineSize - magazineFill))
+            {
+                ammoReserve = ammoReserve - (magazineSize - magazineFill);
+                magazineFill += magazineSize - magazineFill;
+            }
+            else if (ammoReserve < (magazineSize - magazineFill))
+            {
+                magazineFill += ammoReserve;
+                ammoReserve = 0;
+            }
+            
+        }
+
+        isRealoading = false;
     }
 }

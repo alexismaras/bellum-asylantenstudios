@@ -25,8 +25,8 @@ TagManager:
   - ObjectCollider
   - Player
   - Dummy
-  - 
-  - 
+  - FillerSprites
+  - PlayerHitbox
   - 
   - 
   - 
@@ -95,4 +95,7 @@ TagManager:
     locked: 0
   - name: ForegroundTrenchesDecke
     uniqueID: 2972556121
+    locked: 0
+  - name: Icons
+    uniqueID: 1052018719
     locked: 0

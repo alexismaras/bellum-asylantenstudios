@@ -14,8 +14,9 @@ public class EnemyBulletBehaviour : MonoBehaviour
     [SerializeField] GoreNPC goreNpc;
     [SerializeField] EnemyBulletManager enemyBulletManager;
 
-    LayerMask layerMaskEntity;
     LayerMask layerMaskObjectCollider;
+    LayerMask layerMaskPlayerHitbox;
+    LayerMask layerMaskFillerSprites;
 
     float bulletSpeed;
     public float volume;
@@ -40,9 +41,8 @@ public class EnemyBulletBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // if (transform.parent != null)
-        // {Debug.Log("a");}
-        // parentEnemy = transform.parent.gameObject;
+        layerMaskPlayerHitbox = LayerMask.GetMask("PlayerHitbox");
+        layerMaskFillerSprites = LayerMask.GetMask("FillerSprites");
         goreNpc = parentEnemy.GetComponent<GoreNPC>();
         enemyBulletManager = parentEnemy.GetComponentInChildren<EnemyBulletManager>();
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
@@ -107,7 +107,7 @@ public class EnemyBulletBehaviour : MonoBehaviour
         for (var i = 0; i<raycastSegments; i++)
         {
             float dist = (Vector3.Distance(previousPosition, currentPosition))/raycastSegments;
-            RaycastHit2D hit = Physics2D.Raycast(previousPosition + ((currentPosition-previousPosition)/raycastSegments) * i, currentPosition-previousPosition, dist);
+            RaycastHit2D hit = Physics2D.Raycast(previousPosition + ((currentPosition-previousPosition)/raycastSegments) * i, currentPosition-previousPosition, dist, layerMaskPlayerHitbox | layerMaskFillerSprites);
             if (hit)
             {  
                 if (hit.collider.tag == "PlayerHitbox")
