@@ -12065,6 +12065,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 422916284}
     - target: {fileID: 7223763861895164449, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+      propertyPath: goreMeterActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223763861895164449, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
       propertyPath: animationManager
       value: 
       objectReference: {fileID: 2115635149}
