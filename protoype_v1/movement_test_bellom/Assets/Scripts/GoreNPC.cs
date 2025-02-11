@@ -25,6 +25,9 @@ public class GoreNPC : MonoBehaviour
     [SerializeField] float rotationSpeed;
     [SerializeField] float moveSpeed;
 
+    [SerializeField] float attackDistance = 6;
+    [SerializeField] float backupDistance = 3;
+
     EnemyBulletManager enemyBulletManager;
 
     NpcOrientation npcOrientation;
@@ -55,6 +58,8 @@ public class GoreNPC : MonoBehaviour
     void Update()
     {
         HealthSystem();
+
+        Debug.Log(health);
 
         viewDir = orientation.up * 1f;
 
@@ -156,16 +161,16 @@ public class GoreNPC : MonoBehaviour
     {
         float distance = Vector3.Distance(transform.position, player.transform.position);
 
-        if (distance <= 6f)
+        if (distance <= attackDistance)
         {
             npcOrientation.RotateNpc(player.transform.position, rotationSpeed);
             enemyBulletManager.shooting = true;
-            if (distance >= 4f && distance <= 6f)
+            if (distance >= (backupDistance)+1 && distance <= attackDistance)
             {
                 FollowPlayer(player.transform.position);
                 
             }
-            else if (distance <= 3f)
+            else if (distance <= backupDistance)
             {
                 BackUpFromPlayer(player.transform.position);
             }

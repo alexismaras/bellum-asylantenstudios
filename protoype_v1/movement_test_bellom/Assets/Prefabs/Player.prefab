@@ -67,6 +67,56 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.2}
   m_Size: {x: 0.7, y: 1.6}
   m_Direction: 0
+--- !u!1 &631761722186019876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1409337473304650344}
+  - component: {fileID: 2533538056787974181}
+  m_Layer: 0
+  m_Name: AnimationManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1409337473304650344
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631761722186019876}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.809003, y: 0.99500537, z: -0.053120583}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3291487562952715421}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2533538056787974181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631761722186019876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3040695a8d0903144b7920df24266ca1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 5077648617839463600}
+  playerOrientation: {fileID: 7453812993703928488}
+  animator: {fileID: 3567788004541874953}
+  goreMeterMultiplier: 0
+  initAnimSpeed: 2
+  maxAnimSpeed: 2.5
 --- !u!1 &1353902178546207379
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,10 +269,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameSounds: {fileID: 0}
   shooting: 0
-  magazineSize: 100
-  magazineFill: 0
-  ammoReserve: 10000
-  reloadTime: 0
+  magazineSize: 30
+  magazineFill: 30
+  ammoReserve: 240
+  reloadTime: 1
   initialShootingInterval: 0.2
   shootingInterval: 0
   initialBulletSpeed: 1
@@ -509,10 +559,11 @@ Transform:
   m_GameObject: {fileID: 8029545739234312277}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.791397, y: -2.4195657, z: 0}
+  m_LocalPosition: {x: -4.07, y: -2.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1409337473304650344}
   - {fileID: 2749363601068963813}
   - {fileID: 6407344423061086553}
   - {fileID: 3746817876201292924}
@@ -539,7 +590,7 @@ MonoBehaviour:
   inputDir: {x: 0, y: 0, z: 0}
   viewDir: {x: 0, y: 0, z: 0}
   camera: {fileID: 0}
-  bulletManager: {fileID: 3494744321183668234}
+  sceneSwitcher: {fileID: 0}
   goreMeterMultiplier: 0
   moveSpeed: 0.1
   walkingShootMultiplier: 0.5
