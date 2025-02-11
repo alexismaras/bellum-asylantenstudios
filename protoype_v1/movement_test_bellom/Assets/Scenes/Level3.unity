@@ -10509,6 +10509,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1431624656772518247, guid: ee13322fd97f3074cbd6bd3fd12c7c7c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8943610916788519492, guid: ee13322fd97f3074cbd6bd3fd12c7c7c, type: 3}
       propertyPath: m_Name
       value: UiCanvas
