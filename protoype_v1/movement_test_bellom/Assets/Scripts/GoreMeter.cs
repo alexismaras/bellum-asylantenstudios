@@ -14,7 +14,6 @@ public class GoreMeter : MonoBehaviour
     [SerializeField]
     AnimationManager animationManager;
 
-    [SerializeField]
     public bool goreMeterActive;
 
     public int goreMeterScore;
@@ -52,9 +51,12 @@ public class GoreMeter : MonoBehaviour
         }
     }
 
-    public void RaiseGoremeter(int raise)
+    public void RaiseGoremeter()
     {
-        // Funktion um den goreMeterScore von anderen Scripts aus um "rais" zu erhöhren
-        goreMeterScore += raise;
+        // Funktion um den goreMeterScore von anderen Scripts aus zu erhöhren
+        if (goreMeterScore <= goreMeterLimit)
+        {
+            goreMeterScore += 10;
+        }
     }
 }

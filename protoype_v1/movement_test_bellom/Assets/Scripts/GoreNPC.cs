@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class GoreNPC : MonoBehaviour
 {
+    [SerializeField] GameObject player;
 
     [SerializeField] Sprite deadEnemySprite;
     [SerializeField] GameSounds gameSounds;
 
     [SerializeField] MainManager mainManager;
-
-    [SerializeField] EnemyBulletManager enemyBulletManager;
 
     [SerializeField] GoreMeter goreMeter;
 
@@ -21,12 +20,14 @@ public class GoreNPC : MonoBehaviour
     [SerializeField] bool npcApproachable;
     [SerializeField] int dialogIndex;
 
-    [SerializeField] NpcOrientation npcOrientation;
-
     [SerializeField] bool fightsBack;
 
     [SerializeField] float rotationSpeed;
     [SerializeField] float moveSpeed;
+
+    EnemyBulletManager enemyBulletManager;
+
+    NpcOrientation npcOrientation;
 
     SpriteRenderer spriteRenderer;
 
@@ -37,12 +38,15 @@ public class GoreNPC : MonoBehaviour
     public float health = 4;
     
     Vector3 circleCastOrigin;
+    Vector3 circleCastOrigin2;
     string approachColliderHitTag;
 
     public Vector3 viewDir;    
 
     void Start()
     {
+        npcOrientation = GetComponentInChildren<NpcOrientation>();
+        enemyBulletManager = GetComponentInChildren<EnemyBulletManager>();
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
         playerLayerMask = LayerMask.GetMask("Player");
@@ -70,22 +74,34 @@ public class GoreNPC : MonoBehaviour
         
     }
 
+    // void NpcApproachSystem()
+    // {
+    //     circleCastOrigin = new Vector3(transform.position.x, transform.position.y - 0.7f, transform.position.z);
+    //     RaycastHit2D hit = Physics2D.CircleCast(circleCastOrigin, 1, Vector3.zero, 0, playerLayerMask);
+    //     if (hit)
+    //     {
+    //         approachColliderHitTag = hit.collider.tag;
+    //         if (hit.collider.tag == "Player")
+    //         {
+    //             StartCoroutine(ApproachTimeWindow());
+    //         }
+    //     }
+    //     else
+    //     {
+    //         approachColliderHitTag = "";
+    //     }
+    // }
+
     void NpcApproachSystem()
     {
-        circleCastOrigin = new Vector3(transform.position.x, transform.position.y - 0.7f, transform.position.z);
-        RaycastHit2D hit = Physics2D.CircleCast(circleCastOrigin, 1, Vector3.zero, 0, playerLayerMask);
-        if (hit)
+        float distance = Vector3.Distance(transform.position, player.transform.position);
+        Debug.Log(distance);
+
+        if (distance <= 1f)
         {
-            approachColliderHitTag = hit.collider.tag;
-            if (hit.collider.tag == "Player")
-            {
-                StartCoroutine(ApproachTimeWindow());
-            }
+            StartCoroutine(ApproachTimeWindow());
         }
-        else
-        {
-            approachColliderHitTag = "";
-        }
+
     }
     
     IEnumerator ApproachTimeWindow()
@@ -102,28 +118,55 @@ public class GoreNPC : MonoBehaviour
         dialogManager.approachActive = false;
     }
 
+    // void NpcCombatSystem()
+    // {
+    //     circleCastOrigin = new Vector3(transform.position.x, transform.position.y - 0.7f, transform.position.z);
+
+    //     Collider2D hitCollider = Physics2D.OverlapCircle(circleCastOrigin, 4f, playerLayerMask);
+
+    //     // Debug.Log(hitCollider.gameObject.name);
+    //     if (hitCollider != null && hitCollider.tag == "Player")
+    //     {
+    //         npcOrientation.RotateNpc(hitCollider.transform.position, rotationSpeed);
+    //         FollowPlayer(hitCollider.transform.position);
+    //         enemyBulletManager.shooting = true;
+    //     }
+    //     else
+    //     {
+    //         enemyBulletManager.shooting = false;
+    //     }
+    // }
+
     void NpcCombatSystem()
     {
-        circleCastOrigin = new Vector3(transform.position.x, transform.position.y - 0.7f, transform.position.z);
+        float distance = Vector3.Distance(transform.position, player.transform.position);
+        Debug.Log(distance);
 
-        Collider2D hitCollider = Physics2D.OverlapCircle(circleCastOrigin, 4f, playerLayerMask);
-
-        // Debug.Log(hitCollider.gameObject.name);
-        if (hitCollider != null && hitCollider.tag == "Player")
+        if (distance <= 6f)
         {
-            npcOrientation.RotateNpc(hitCollider.transform.position, rotationSpeed);
-            FollowPlayer(hitCollider.transform.position);
+            npcOrientation.RotateNpc(player.transform.position, rotationSpeed);
             enemyBulletManager.shooting = true;
-        }
-        else
-        {
-            enemyBulletManager.shooting = false;
+            if (distance >= 4f && distance <= 6f)
+            {
+                FollowPlayer(player.transform.position);
+                
+            }
+            else if (distance <= 3f)
+            {
+                BackUpFromPlayer(player.transform.position);
+            }
         }
     }
 
     void FollowPlayer(Vector3 playerTransform)
     {
         Vector3 moveDir = (playerTransform - transform.position);
+        rigidbody2D.MovePosition(transform.position + moveDir * moveSpeed);
+    }
+
+    void BackUpFromPlayer(Vector3 playerTransform)
+    {
+        Vector3 moveDir = (transform.position- playerTransform);
         rigidbody2D.MovePosition(transform.position + moveDir * moveSpeed);
     }
 
@@ -138,7 +181,7 @@ public class GoreNPC : MonoBehaviour
     }
     void OnDestroy()
     {
-        goreMeter.RaiseGoremeter(10);
+        goreMeter.RaiseGoremeter();
     }
 
     void CreateDeadbodyInstance()
@@ -167,7 +210,11 @@ public class GoreNPC : MonoBehaviour
         {
             circleCastOrigin = new Vector3(transform.position.x, transform.position.y - 0.7f, transform.position.z);
             Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(circleCastOrigin, 4f);
+            Gizmos.DrawWireSphere(circleCastOrigin, 5f);
+
+            circleCastOrigin2 = new Vector3(transform.position.x, transform.position.y - 0.7f, transform.position.z);
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireSphere(circleCastOrigin2, 3f);
         }
     }
 }

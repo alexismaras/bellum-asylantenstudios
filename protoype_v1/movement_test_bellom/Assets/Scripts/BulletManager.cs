@@ -76,7 +76,7 @@ public class BulletManager : MonoBehaviour
 
     void RaiseShootingIntervalByGoremeter()
     {
-        shootingInterval = (shootingInterval-(shootingInterval*goreMeterMultiplier));
+        shootingInterval = (initialShootingInterval-(initialShootingInterval*goreMeterMultiplier*0.2f));
     }
 
     IEnumerator BulletInstantiate()
