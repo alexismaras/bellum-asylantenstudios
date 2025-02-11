@@ -21658,12 +21658,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameSounds: {fileID: 590881037}
-  bullet: {fileID: 1777654230}
-  muzzleFlashFx: {fileID: 406554363}
   shooting: 0
   magazineSize: 100
   magazineFill: 0
   ammoReserve: 10000
+  reloadTime: 0
   initialShootingInterval: 0.2
   shootingInterval: 0
   initialBulletSpeed: 1
@@ -27375,7 +27374,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 1113841108}
-  bulletManager: {fileID: 438638628}
   animationManager: {fileID: 937474671}
   goreMeterActive: 1
   goreMeterScore: 0
@@ -27593,7 +27591,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDialogInfo: {fileID: 2083313485}
   playerMovement: {fileID: 1113841108}
+  dialogActive: 0
   approachActive: 0
+  dialogIndex: 0
 --- !u!1 &562477634
 GameObject:
   m_ObjectHideFlags: 0
@@ -29332,8 +29332,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f05a3467007e909478b485ec692fb624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 0}
   hitmarker: {fileID: 590881035}
   gunshot: {fileID: 590881038}
+  reload: {fileID: 0}
+  walking1: {fileID: 0}
+  walking2: {fileID: 0}
+  walking3: {fileID: 0}
 --- !u!82 &590881038
 AudioSource:
   m_ObjectHideFlags: 0
@@ -43947,8 +43952,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e61ce52d8597cf443a2127a3bc503a30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level_completed: 0
-  sceneSwitcher: {fileID: 1783375181}
 --- !u!4 &851383829
 Transform:
   m_ObjectHideFlags: 0
@@ -57266,10 +57269,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orientation: {fileID: 470877745}
   moving: 0
+  health: 0
   inputDir: {x: 0, y: 0, z: 0}
   viewDir: {x: 0, y: 0, z: 0}
   camera: {fileID: 519420028}
-  bulletManager: {fileID: 438638628}
+  sceneSwitcher: {fileID: 0}
   goreMeterMultiplier: 0
   moveSpeed: 0.1
   walkingShootMultiplier: 0.5
@@ -57350,7 +57354,7 @@ SpriteRenderer:
   m_Size: {x: 8, y: 8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!60 &1113841113
@@ -78850,7 +78854,7 @@ SpriteRenderer:
   m_Size: {x: 8, y: 8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &1531253281
@@ -79092,14 +79096,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df8ee074d555a9843a1cbe057240ba0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
+  deadEnemySprite: {fileID: 0}
   gameSounds: {fileID: 590881037}
   mainManager: {fileID: 851383828}
   goreMeter: {fileID: 553884229}
   dialogManager: {fileID: 560422570}
+  orientation: {fileID: 0}
   npcApproachable: 0
-  sceneSwitcher: {fileID: 1783375181}
+  dialogIndex: 0
+  fightsBack: 0
+  rotationSpeed: 0
+  moveSpeed: 0
+  attackDistance: 6
+  backupDistance: 3
   health: 20
+  viewDir: {x: 0, y: 0, z: 0}
 --- !u!4 &1531253284
 Transform:
   m_ObjectHideFlags: 0
@@ -90940,14 +90952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1ec4807a82184e42b5eda3ac214d4ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1113841104}
-  bulletManager: {fileID: 438638628}
-  playerMovement: {fileID: 1113841108}
   gameSounds: {fileID: 590881037}
-  spriteRenderer: {fileID: 0}
-  layerMaskEntity:
-    serializedVersion: 2
-    m_Bits: 0
   volume: 0
 --- !u!4 &1777654232
 Transform:
@@ -91213,7 +91218,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e82eb0279d3604448e1e556e36073db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  next_scene: 1
+  nextScene: 0
+  animator: {fileID: 0}
 --- !u!4 &1783375182
 Transform:
   m_ObjectHideFlags: 0
@@ -109373,8 +109379,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiMagazineInfo: {fileID: 854809064}
   uiGoreMeterInfo: {fileID: 2030100607}
+  uiHealthBar: {fileID: 0}
+  uiHealthFrame: {fileID: 0}
+  uiBossHealthBar: {fileID: 0}
+  uiBossHealthFrame: {fileID: 0}
   bulletManager: {fileID: 438638628}
   goreMeter: {fileID: 553884229}
+  playerMovement: {fileID: 0}
+  boss: {fileID: 0}
+  bossLevel: 0
 --- !u!1 &2120345809
 GameObject:
   m_ObjectHideFlags: 0
