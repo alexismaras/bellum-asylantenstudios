@@ -7,12 +7,12 @@ public class EnemyBulletBehaviour : MonoBehaviour
 {
     [SerializeField] GameSounds gameSounds;
 
-    [SerializeField] SpriteRenderer spriteRenderer;
+    SpriteRenderer spriteRenderer;
 
-    [SerializeField] Light2D bulletLight;
-    [SerializeField] GameObject parentEnemy;
-    [SerializeField] GoreNPC goreNpc;
-    [SerializeField] EnemyBulletManager enemyBulletManager;
+    Light2D bulletLight;
+    GameObject parentEnemy;
+    GoreNPC goreNpc;
+    EnemyBulletManager enemyBulletManager;
 
     LayerMask layerMaskObjectCollider;
     LayerMask layerMaskPlayerHitbox;
@@ -43,6 +43,7 @@ public class EnemyBulletBehaviour : MonoBehaviour
     {
         layerMaskPlayerHitbox = LayerMask.GetMask("PlayerHitbox");
         layerMaskFillerSprites = LayerMask.GetMask("FillerSprites");
+        parentEnemy = transform.parent.gameObject;
         goreNpc = parentEnemy.GetComponent<GoreNPC>();
         enemyBulletManager = parentEnemy.GetComponentInChildren<EnemyBulletManager>();
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();

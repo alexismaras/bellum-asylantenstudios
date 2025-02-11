@@ -5,14 +5,10 @@ using UnityEngine;
 public class GoreMeter : MonoBehaviour
 {
 
-    [SerializeField]
-    PlayerMovement playerMovement;
-
-    [SerializeField]
+    [SerializeField] PlayerMovement playerMovement;
     BulletManager bulletManager;
 
-    [SerializeField]
-    AnimationManager animationManager;
+    [SerializeField] AnimationManager animationManager;
 
     public bool goreMeterActive;
 
@@ -23,6 +19,7 @@ public class GoreMeter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        bulletManager = playerMovement.gameObject.GetComponentInChildren<BulletManager>();
         goreMeterScore = 0;
     }
 

@@ -76,6 +76,7 @@ public class EnemyBulletManager : MonoBehaviour
         performing = true;
         gameSounds.PlayGunshot();
         GameObject enemyBulletInstance = GameObject.Instantiate(enemyBullet) as GameObject;
+        enemyBulletInstance.transform.SetParent(parentEnemy.transform);
         enemyBulletInstance.tag = "ProjectileInstance";
         yield return new WaitForSeconds(shootingInterval);
         performing = false;

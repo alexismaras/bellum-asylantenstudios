@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     public Vector3 viewDir;
     [SerializeField] GameObject camera;
 
-    [SerializeField] BulletManager bulletManager;
+    BulletManager bulletManager;
 
     public float goreMeterMultiplier;
 
@@ -36,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        bulletManager = GetComponentInChildren<BulletManager>();
         rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
     }
 

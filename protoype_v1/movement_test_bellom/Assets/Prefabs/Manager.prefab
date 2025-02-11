@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 0}
-  bulletManager: {fileID: 6900153239382377449}
+  bulletManager: {fileID: 0}
   animationManager: {fileID: 954583160936097492}
   goreMeterActive: 1
   goreMeterScore: 0
@@ -714,7 +714,6 @@ Transform:
   - {fileID: 8766058964784008352}
   - {fileID: 8838813652019957783}
   - {fileID: 3585239939304021951}
-  - {fileID: 2002162072596292398}
   - {fileID: 9036338333029645080}
   - {fileID: 8440117488802764437}
   - {fileID: 7443127855285629792}
@@ -765,7 +764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e82eb0279d3604448e1e556e36073db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: 2
+  nextScene: 3
 --- !u!1 &1629061314157179954
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,64 +858,6 @@ MonoBehaviour:
   dialogActive: 0
   approachActive: 0
   dialogIndex: 0
---- !u!1 &3084754831795735916
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2002162072596292398}
-  - component: {fileID: 6900153239382377449}
-  m_Layer: 0
-  m_Name: BulletManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2002162072596292398
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3084754831795735916}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.645964, y: -2.7444916, z: 0.08206522}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2378310705550037498}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6900153239382377449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3084754831795735916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d720cadecc180d846ad85fd3c88b10e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameSounds: {fileID: 6648151630408651547}
-  bullet: {fileID: 0}
-  shooting: 0
-  magazineSize: 100
-  magazineFill: 0
-  ammoReserve: 10000
-  initialShootingInterval: 0.2
-  shootingInterval: 0
-  initialBulletSpeed: 1
-  bulletSpeed: 0
-  initialVolume: 1
-  volume: 0
-  goreMeterMultiplier: 0
-  muzzleFlashTime: 0.03
 --- !u!1 &6512678378121638859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,5 +954,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiMagazineInfo: {fileID: 0}
   uiGoreMeterInfo: {fileID: 0}
-  bulletManager: {fileID: 6900153239382377449}
+  uiHealthBar: {fileID: 0}
+  bulletManager: {fileID: 0}
   goreMeter: {fileID: 7223763861895164449}
+  playerMovement: {fileID: 0}

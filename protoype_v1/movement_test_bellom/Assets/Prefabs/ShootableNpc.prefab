@@ -446,11 +446,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameSounds: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  bulletLight: {fileID: 0}
-  parentEnemy: {fileID: 3565114187253810609}
-  goreNpc: {fileID: 0}
-  enemyBulletManager: {fileID: 0}
   volume: 0
 --- !u!212 &8427427440627900748
 SpriteRenderer:

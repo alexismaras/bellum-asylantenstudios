@@ -7,7 +7,9 @@ public class BulletManager : MonoBehaviour
 {
     [SerializeField] GameSounds gameSounds;
 
-    [SerializeField] GameObject bullet;
+    GameObject parentPlayer;
+
+    GameObject playerBullet;
 
     [SerializeField] public bool shooting;
     bool performing;
@@ -36,6 +38,8 @@ public class BulletManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        parentPlayer = transform.parent.gameObject;
+        playerBullet = parentPlayer.GetComponentInChildren<BulletBehaviour>().gameObject;
         shooting = false;
         performing = false;
         previousGoremeterMultiplier = goreMeterMultiplier;
@@ -86,8 +90,9 @@ public class BulletManager : MonoBehaviour
     {
         performing = true;
         gameSounds.PlayGunshot();
-        GameObject bulletInstance = GameObject.Instantiate(bullet) as GameObject;
-        bulletInstance.tag = "ProjectileInstance";
+        GameObject playerBulletInstance = GameObject.Instantiate(playerBullet) as GameObject;
+        playerBulletInstance.transform.SetParent(parentPlayer.transform);
+        playerBulletInstance.tag = "ProjectileInstance";
         yield return new WaitForSeconds(shootingInterval);
         performing = false;
     }

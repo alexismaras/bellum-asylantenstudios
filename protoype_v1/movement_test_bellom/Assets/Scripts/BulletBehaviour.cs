@@ -5,17 +5,17 @@ using UnityEngine.Rendering.Universal;
 
 public class BulletBehaviour : MonoBehaviour
 {
-    [SerializeField] GameObject player;
-
-    [SerializeField] BulletManager bulletManager;
-
-    [SerializeField] PlayerMovement playerMovement;
-
     [SerializeField] GameSounds gameSounds;
+    GameObject parentPlayer;
 
-    [SerializeField] SpriteRenderer spriteRenderer;
+    BulletManager playerBulletManager;
 
-    [SerializeField] Light2D bulletLight;
+    PlayerMovement playerMovement;
+
+
+    SpriteRenderer spriteRenderer;
+
+    Light2D bulletLight;
 
     LayerMask layerMaskEntity;
     LayerMask layerMaskObjectCollider;
@@ -44,14 +44,17 @@ public class BulletBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        parentPlayer = transform.parent.gameObject;
+        playerMovement = parentPlayer.GetComponent<PlayerMovement>();
+        playerBulletManager = parentPlayer.GetComponentInChildren<BulletManager>();
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         bulletLight = gameObject.GetComponentInChildren<Light2D>();
         if (gameObject.tag =="ProjectileInstance")
         {   
             spriteRenderer.enabled = false;
             bulletLight.enabled = false;
-            bulletSpeed = bulletManager.bulletSpeed;
-            volume = bulletManager.volume;
+            bulletSpeed = playerBulletManager.bulletSpeed;
+            volume = playerBulletManager.volume;
             layerMaskEntity = LayerMask.GetMask("Entity");
             layerMaskObjectCollider = LayerMask.GetMask("ObjectCollider");
             layerMaskFillerSprites = LayerMask.GetMask("FillerSprites");
@@ -70,7 +73,7 @@ public class BulletBehaviour : MonoBehaviour
                 bulletDir.x += Random.Range(-0.03f, 0.03f);
                 bulletDir.y += Random.Range(-0.03f, 0.03f);
             }
-            transform.position = player.transform.position;
+            transform.position = parentPlayer.transform.position;
             currentPosition = transform.position;
             previousPosition = currentPosition;
             transform.rotation = Quaternion.LookRotation(Vector3.forward, bulletDir);
