@@ -44,7 +44,7 @@ public class DialogManager : MonoBehaviour
     List<(int, string)> dialog3 = new List<(int, string)>
     {
         ( 1, "Can't screw this up again... just follow orders." ),
-        ( 5, "Der Gore Meter: Unsere neueste Erfindung! Das Subjekt wird schneller, stärker und präsiser als jeder andere Soldat! Alles was er dazu tun muss, ist es Feinde auszulöschen." )
+        ( 5, "The Gore Meter: Our latest invention! The subject will become faster, stronger, and more precise than any other soldier! All they have to do is eliminate enemies." )
     };
 
     List<(int, string)> dialog4 = new List<(int, string)>
