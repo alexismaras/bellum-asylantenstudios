@@ -348,8 +348,13 @@ EdgeCollider2D:
   m_Points:
   - {x: -1.0695186, y: 3.6598864}
   - {x: -0.627635, y: 3.4085739}
-  - {x: 0.35311222, y: 4.010666}
-  - {x: -0.096775055, y: 4.2619376}
+  - {x: 0.3191905, y: 4.0479794}
+  - {x: 0.309484, y: 4.384449}
+  - {x: 0.24736643, y: 4.4325433}
+  - {x: 0.25583267, y: 4.5155115}
+  - {x: -0.01554966, y: 4.6114693}
+  - {x: -0.7141495, y: 4.2110553}
+  - {x: -1.0637426, y: 3.9082828}
   - {x: -1.0857406, y: 3.6633627}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
@@ -393,7 +398,9 @@ EdgeCollider2D:
   - {x: -7.467729, y: 2.21421}
   - {x: -6.5620313, y: 1.6277614}
   - {x: -6.111498, y: 1.85053}
-  - {x: -7.050964, y: 2.468546}
+  - {x: -6.120088, y: 2.095793}
+  - {x: -7.123375, y: 2.7762928}
+  - {x: -7.434543, y: 2.733093}
   - {x: -7.470976, y: 2.22866}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
@@ -436,8 +443,14 @@ EdgeCollider2D:
   m_Points:
   - {x: -2.753661, y: 0.4775386}
   - {x: -2.2779067, y: 0.23179674}
-  - {x: -0.44490242, y: 1.2567327}
-  - {x: -1.0095015, y: 1.4750111}
+  - {x: -0.48359537, y: 1.2567327}
+  - {x: -0.48955107, y: 1.7327487}
+  - {x: -0.8340578, y: 1.8960353}
+  - {x: -1.0288482, y: 1.6878209}
+  - {x: -1.6147192, y: 1.4134343}
+  - {x: -2.15944, y: 1.161733}
+  - {x: -2.3602617, y: 0.98872876}
+  - {x: -2.6911337, y: 0.71893644}
   - {x: -2.7199156, y: 0.48357153}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
@@ -478,17 +491,17 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -4.6007934, y: 2.4128397}
-  - {x: -4.2428355, y: 2.1643066}
-  - {x: -3.7831745, y: 2.116959}
-  - {x: -3.2433403, y: 2.271277}
-  - {x: -2.798522, y: 2.5836086}
+  - {x: -4.524829, y: 2.4508219}
+  - {x: -4.165087, y: 2.3111644}
+  - {x: -3.8263679, y: 2.2810943}
+  - {x: -3.31245, y: 2.38358}
+  - {x: -3.031767, y: 2.626802}
   - {x: -3.1324613, y: 2.9389696}
   - {x: -3.5213618, y: 2.992199}
   - {x: -3.8681216, y: 3.0273495}
   - {x: -4.3784475, y: 2.927864}
-  - {x: -4.576768, y: 2.7807765}
-  - {x: -4.5949244, y: 2.402484}
+  - {x: -4.5150466, y: 2.7665331}
+  - {x: -4.5340753, y: 2.4825163}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -5004,7 +5017,7 @@ EdgeCollider2D:
   - {x: -3.8681216, y: 3.0273495}
   - {x: -4.3784475, y: 2.927864}
   - {x: -4.576768, y: 2.7807765}
-  - {x: -4.5949244, y: 2.402484}
+  - {x: -4.606007, y: 2.3914013}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -9358,6 +9371,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5784721568014750525, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+      propertyPath: m_Volume
+      value: 0.019
+      objectReference: {fileID: 0}
     - target: {fileID: 6648151630408651547, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
       propertyPath: playerAnimator
       value: 
@@ -11477,10 +11494,10 @@ MonoBehaviour:
   dialogIndex: 0
   fightsBack: 1
   rotationSpeed: 0.05
-  moveSpeed: 0.05
+  moveSpeed: 0.005
   attackDistance: 8
-  backupDistance: 3
-  health: 20
+  backupDistance: 2.5
+  health: 25
   viewDir: {x: 0, y: 0, z: 0}
 --- !u!1 &2045962273014498804
 GameObject:
@@ -11705,7 +11722,7 @@ Transform:
   m_GameObject: {fileID: 2082806878348063736}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.016, y: -0.287, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11726,8 +11743,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameSounds: {fileID: 1833218143}
   shooting: 0
-  shootingInterval: 0.4
-  bulletSpeed: 0.8
+  shootingInterval: 0.04
+  bulletSpeed: 0.05
   volume: 1
 --- !u!95 &5159497728263329091
 Animator:
