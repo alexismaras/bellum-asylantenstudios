@@ -44,7 +44,11 @@ public class GoreNPC : MonoBehaviour
     Vector3 circleCastOrigin2;
     bool approachWindow = false;
 
-    public Vector3 viewDir;    
+    public Vector3 viewDir;
+
+    public bool FlashWhite;
+    SpriteRenderer spriteRendererFlash;
+    Color originalColor;
 
     void Start()
     {
@@ -53,6 +57,8 @@ public class GoreNPC : MonoBehaviour
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
         playerLayerMask = LayerMask.GetMask("Player");
+        spriteRendererFlash = gameObject.GetComponentInChildren<SpriteRenderer>(); //Holt sich die Componente vom Child Object
+        originalColor = spriteRendererFlash.color;   // Speichert die aktuellen Color Daten
     }
 
     void Update()
@@ -64,6 +70,8 @@ public class GoreNPC : MonoBehaviour
         viewDir = orientation.up * 1f;
 
         Debug.DrawRay(transform.position, viewDir * 20f, Color.white, 0.0f, false);
+
+        Debug.Log(FlashWhite);
     }
 
     void FixedUpdate()
@@ -76,7 +84,14 @@ public class GoreNPC : MonoBehaviour
         {
             NpcCombatSystem();
         }
-        
+
+        if (spriteRendererFlash != null)
+        {
+            if (FlashWhite == true)
+            {
+                StartCoroutine(PlopFlash());  // Wenn ein SpriteRend Component gefunden wurde und FlashWhite true ist, dann spielt die Coroutine ab
+            }
+        }
     }
 
     // void NpcApproachSystem()
@@ -137,6 +152,14 @@ public class GoreNPC : MonoBehaviour
         }
         dialogManager.approachActive = false;
     }
+    IEnumerator PlopFlash()   // CoRoutine damit der gegner kurz aufflasht (bzw. Transparent wird)
+    {
+        spriteRendererFlash.color = new Color(originalColor.r - 1, originalColor.g - 1, originalColor.b - 1, 1); // Sprite wird kurz transparent gemacht
+        yield return new WaitForSeconds(0.1f);  // 0.1 sekunden lang
+        spriteRendererFlash.color = originalColor;  // Dann wieder zurückgesetzt
+        FlashWhite = false;  // Und der Bool wird wieder auf false, wartend auf die nächste Kugel
+    }
+
 
     // void NpcCombatSystem()
     // {

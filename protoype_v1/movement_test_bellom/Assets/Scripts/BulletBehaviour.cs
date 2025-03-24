@@ -124,6 +124,20 @@ public class BulletBehaviour : MonoBehaviour
                     goreNPC.health -= volume;
                     volume = 0;
 
+                    if (goreNPC != null)
+                    {
+                        Debug.Log("Bullet trifft Gegner! Rufe FlashWhite auf!");
+                        if (goreNPC.FlashWhite == false)
+                        {
+                            goreNPC.FlashWhite = true;    // Wenn Gegner getroffen wird, dann schauen ob GoreNPC Skript dran ist, danach kurzer DebugLog
+                                                          // und nur wenn der Bool auf Falsch ist, sendet er dem GoreNPC Skript, dass er aufflashen soll
+                        }
+                    }
+                    else
+                    {
+                        Debug.LogWarning("Fehler: Enemy-Skript nicht gefunden!");
+                    }
+
                     Vector3 debugSegmentRayStart = previousPosition + ((currentPosition-previousPosition)/raycastSegments) * i;
                     Vector3 debugSegmentRayDirection = (currentPosition-previousPosition)/raycastSegments;
                     Debug.DrawRay(debugSegmentRayStart, debugSegmentRayDirection, Color.white, 10f, false);
