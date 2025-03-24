@@ -9271,6 +9271,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 512134155594369745, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 833049746231469526, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
       propertyPath: m_Name
       value: Manager
@@ -9371,6 +9375,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4638693144269405971, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+      propertyPath: m_Volume
+      value: 0.072
+      objectReference: {fileID: 0}
     - target: {fileID: 5784721568014750525, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
       propertyPath: m_Volume
       value: 0.019
@@ -9399,6 +9407,10 @@ PrefabInstance:
       propertyPath: animationManager
       value: 
       objectReference: {fileID: 1697862731}
+    - target: {fileID: 8576036630522534422, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+      propertyPath: m_Volume
+      value: 0.119
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

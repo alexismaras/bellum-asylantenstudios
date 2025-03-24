@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GoreMeter : MonoBehaviour
@@ -7,8 +8,9 @@ public class GoreMeter : MonoBehaviour
 
     [SerializeField] PlayerMovement playerMovement;
     BulletManager bulletManager;
-
+    
     [SerializeField] AnimationManager animationManager;
+    [SerializeField] CameraGore cameraGore;
 
     public bool goreMeterActive;
 
@@ -37,6 +39,8 @@ public class GoreMeter : MonoBehaviour
 
             animationManager.goreMeterMultiplier = internalGoreMeterMultiplier;
 
+            cameraGore.goreMeterMultiplier = internalGoreMeterMultiplier;
+
         }
 
         // goreMeterMultiplier 0 setzen, um ZeroDivision zu vermeiden
@@ -45,6 +49,7 @@ public class GoreMeter : MonoBehaviour
             playerMovement.goreMeterMultiplier = 0;
             bulletManager.goreMeterMultiplier = 0;
             animationManager.goreMeterMultiplier = 0;
+            cameraGore.goreMeterMultiplier = 0;
         }
     }
 
