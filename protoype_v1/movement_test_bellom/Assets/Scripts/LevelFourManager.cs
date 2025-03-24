@@ -8,11 +8,13 @@ public class LevelFourManager : MonoBehaviour
 
     [SerializeField] SceneSwitcher sceneSwitcher;
 
+    [SerializeField] GameSounds gameSounds;
+
     bool dialogStarted = false;
     // Start is called before the first frame update
     void Start()
     {
-        
+        dialogStarted = false;
     }
 
     // Update is called once per frame
@@ -25,6 +27,7 @@ public class LevelFourManager : MonoBehaviour
 
         if (!dialogManager.dialogActive && dialogStarted)
         {
+            gameSounds.PlayDramaticGunshot();
             sceneSwitcher.ChangeScene();
         }
 

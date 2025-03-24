@@ -15,6 +15,8 @@ public class GameSounds : MonoBehaviour
     [SerializeField] AudioSource walking2;
     [SerializeField] AudioSource walking3;
 
+    public AudioSource DramaticGunshot;
+
     bool playWalkingAudio = false;
 
     // Start is called before the first frame update
@@ -33,6 +35,10 @@ public class GameSounds : MonoBehaviour
         }
     }
 
+    public void PlayDramaticGunshot()
+    {
+        DramaticGunshot.Play();
+    }
     public void PlayHitmarker()
     {
         hitmarker.Play();
