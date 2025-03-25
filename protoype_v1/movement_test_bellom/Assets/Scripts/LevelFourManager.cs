@@ -23,15 +23,16 @@ public class LevelFourManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (dialogManager.dialogActive && !dialogStarted)
         {
             dialogStarted = true;
         }
 
-        if (!dialogManager.dialogActive && dialogStarted)
+        if (!dialogManager.dialogActive && dialogStarted && !gunshotAlreadyPlayed)
         {
+            Debug.Log("Jetzt sollte der Sounds spielen");
             dramaticGunshotPlay();
             sceneSwitcher.ChangeScene();
         }
@@ -42,9 +43,4 @@ public class LevelFourManager : MonoBehaviour
         gameSounds.PlayDramaticGunshot();
         gunshotAlreadyPlayed = true;
     }
-
-    //if (playGunshot)
-        //{
-          //  StartCoroutine(dramaticGunshotPlay());
-        //}
 }

@@ -37,6 +37,7 @@ public class GameSounds : MonoBehaviour
 
     public void PlayDramaticGunshot()
     {
+        DramaticGunshot.Stop();
         DramaticGunshot.Play();
     }
 
