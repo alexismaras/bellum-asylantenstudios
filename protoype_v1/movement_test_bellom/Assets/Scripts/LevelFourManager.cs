@@ -14,12 +14,13 @@ public class LevelFourManager : MonoBehaviour
 
     bool dialogStarted = false;
 
-    bool playGunshot;
+    public GameObject blackScreen;
 
     // Start is called before the first frame update
     void Start()
     {
         dialogStarted = false;
+        blackScreen.SetActive(false);
     }
 
     // Update is called once per frame
@@ -33,6 +34,7 @@ public class LevelFourManager : MonoBehaviour
         if (!dialogManager.dialogActive && dialogStarted && !gunshotAlreadyPlayed)
         {
             Debug.Log("Jetzt sollte der Sounds spielen");
+            blackScreen.SetActive(true);
             dramaticGunshotPlay();
             sceneSwitcher.ChangeScene();
         }
