@@ -10,7 +10,12 @@ public class LevelFourManager : MonoBehaviour
 
     [SerializeField] GameSounds gameSounds;
 
+    bool gunshotAlreadyPlayed;
+
     bool dialogStarted = false;
+
+    bool playGunshot;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,9 +32,19 @@ public class LevelFourManager : MonoBehaviour
 
         if (!dialogManager.dialogActive && dialogStarted)
         {
-            gameSounds.PlayDramaticGunshot();
+            dramaticGunshotPlay();
             sceneSwitcher.ChangeScene();
         }
-
     }
+
+    private void dramaticGunshotPlay()
+    {
+        gameSounds.PlayDramaticGunshot();
+        gunshotAlreadyPlayed = true;
+    }
+
+    //if (playGunshot)
+        //{
+          //  StartCoroutine(dramaticGunshotPlay());
+        //}
 }

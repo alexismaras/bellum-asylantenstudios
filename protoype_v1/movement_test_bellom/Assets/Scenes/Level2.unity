@@ -6050,6 +6050,10 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 5077648617839463600, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5077648617839463600, guid: 35adb66f9bd4d5746bd90562b9f265ef, type: 3}
       propertyPath: camera
       value: 
       objectReference: {fileID: 1438843117}
@@ -12455,7 +12459,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b98097409fb268b4d85631ba17a12f1f, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.259
   m_Pitch: 1
   Loop: 0

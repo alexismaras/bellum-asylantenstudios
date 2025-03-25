@@ -4144,6 +4144,7 @@ MonoBehaviour:
   backupDistance: 3
   health: 4
   viewDir: {x: 0, y: 0, z: 0}
+  FlashWhite: 0
 --- !u!212 &655181464
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12754,6 +12755,7 @@ MonoBehaviour:
   backupDistance: 3
   health: 4
   viewDir: {x: 0, y: 0, z: 0}
+  FlashWhite: 0
 --- !u!114 &1864210287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14585,6 +14587,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 512134155594369745, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 833049746231469526, guid: 6c8ce5fbac52c4947ace134b72d61549, type: 3}
       propertyPath: m_Name
       value: Manager

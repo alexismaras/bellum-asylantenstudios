@@ -119,6 +119,7 @@ public class EnemyBulletBehaviour : MonoBehaviour
                     PlayerMovement playerMovement = parentTransform.GetComponent<PlayerMovement>();
                     playerMovement.health -= volume;
                     volume = 0;
+                    playerMovement.FlashWhite = true;
 
                     Vector3 debugSegmentRayStart = previousPosition + ((currentPosition-previousPosition)/raycastSegments) * i;
                     Vector3 debugSegmentRayDirection = (currentPosition-previousPosition)/raycastSegments;

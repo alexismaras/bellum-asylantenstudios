@@ -15,7 +15,7 @@ public class GameSounds : MonoBehaviour
     [SerializeField] AudioSource walking2;
     [SerializeField] AudioSource walking3;
 
-    public AudioSource DramaticGunshot;
+    [SerializeField] AudioSource DramaticGunshot;
 
     bool playWalkingAudio = false;
 
@@ -39,6 +39,7 @@ public class GameSounds : MonoBehaviour
     {
         DramaticGunshot.Play();
     }
+
     public void PlayHitmarker()
     {
         hitmarker.Play();

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -34,12 +35,20 @@ public class PlayerMovement : MonoBehaviour
 
     public bool playerDialogActive = false;
 
-    
+    // flashwhite
+
+    public bool FlashWhite;
+    SpriteRenderer spriteRendererFlash;
+    Color originalColor;
+
+
     // Start is called before the first frame update
     void Start()
     {
         bulletManager = GetComponentInChildren<BulletManager>();
         rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
+        spriteRendererFlash = gameObject.GetComponentInChildren<SpriteRenderer>(); //Holt sich die Componente vom Child Object
+        originalColor = spriteRendererFlash.color;   // Speichert die aktuellen Color Daten
     }
 
 
@@ -66,6 +75,7 @@ public class PlayerMovement : MonoBehaviour
         Debug.DrawRay(transform.position, viewDir * 20f, Color.white, 0.0f, false);
    
     }
+
     void MovePlayer()
     {
         rigidbody2D.MovePosition(transform.position + inputDir * (moveSpeed+(moveSpeed*goreMeterMultiplier)) * (bulletManager.shooting? walkingShootMultiplier : 1));
@@ -95,6 +105,22 @@ public class PlayerMovement : MonoBehaviour
             MovePlayer();
             ShootGun();
         }
+
+        if (spriteRendererFlash != null)
+        {
+            if (FlashWhite == true)
+            {
+                StartCoroutine(PlopFlash());  // Wenn ein SpriteRend Component gefunden wurde und FlashWhite true ist, dann spielt die Coroutine ab
+            }
+        }
+    }
+
+    IEnumerator PlopFlash()   // CoRoutine damit der gegner kurz aufflasht (bzw. Transparent wird)
+    {
+        spriteRendererFlash.color = new Color(originalColor.r - 1, originalColor.g - 1, originalColor.b - 1, 1); // Sprite wird kurz schwarz gemacht
+        yield return new WaitForSeconds(0.1f);  // 0.1 sekunden lang
+        spriteRendererFlash.color = originalColor;  // Dann wieder zurückgesetzt
+        FlashWhite = false;  // Und der Bool wird wieder auf false, wartend auf die nächste Kugel
     }
 
 }

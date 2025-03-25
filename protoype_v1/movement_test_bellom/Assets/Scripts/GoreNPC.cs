@@ -154,7 +154,7 @@ public class GoreNPC : MonoBehaviour
     }
     IEnumerator PlopFlash()   // CoRoutine damit der gegner kurz aufflasht (bzw. Transparent wird)
     {
-        spriteRendererFlash.color = new Color(originalColor.r - 1, originalColor.g - 1, originalColor.b - 1, 1); // Sprite wird kurz transparent gemacht
+        spriteRendererFlash.color = new Color(originalColor.r - 1, originalColor.g - 1, originalColor.b - 1, 1); // Sprite wird kurz schwarz gemacht
         yield return new WaitForSeconds(0.1f);  // 0.1 sekunden lang
         spriteRendererFlash.color = originalColor;  // Dann wieder zurückgesetzt
         FlashWhite = false;  // Und der Bool wird wieder auf false, wartend auf die nächste Kugel
