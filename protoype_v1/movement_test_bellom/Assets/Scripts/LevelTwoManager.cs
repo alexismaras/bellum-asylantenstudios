@@ -12,6 +12,12 @@ public class LevelTwoManager : MonoBehaviour
     [SerializeField] GoreNPC shootableNpc4;
     [SerializeField] NextLevelTrigger nextLevelTrigger;
 
+    public bool activateLeftPathWall;
+    public bool activateRightPathWall;
+
+    [SerializeField] GameObject leftWallblock;
+    [SerializeField] GameObject rightWallblock;
+
     void Start()
     {
         
@@ -23,6 +29,16 @@ public class LevelTwoManager : MonoBehaviour
         if (shootableNpc1.health <= 0 && shootableNpc1.health <= 0 && shootableNpc3.health <= 0 && shootableNpc4.health <= 0 && !nextLevelTrigger.isAvailable)
         {
             nextLevelTrigger.isAvailable = true;
+        }
+
+        if (activateLeftPathWall)
+        {
+            leftWallblock.SetActive(true);
+        }
+
+        if (activateRightPathWall)
+        {
+            rightWallblock.SetActive(true);
         }
     }
 }
