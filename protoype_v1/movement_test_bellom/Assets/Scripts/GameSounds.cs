@@ -17,6 +17,8 @@ public class GameSounds : MonoBehaviour
 
     [SerializeField] AudioSource DramaticGunshot;
 
+    [SerializeField] AudioSource rockBreak;
+
     bool playWalkingAudio = false;
 
     // Start is called before the first frame update
@@ -35,6 +37,11 @@ public class GameSounds : MonoBehaviour
         }
     }
 
+    public void PlayRockBreak()
+    {
+        rockBreak.Stop();
+        rockBreak.Play();
+    }
     public void PlayDramaticGunshot()
     {
         DramaticGunshot.Stop();

@@ -18,6 +18,10 @@ public class LevelTwoManager : MonoBehaviour
     [SerializeField] GameObject leftWallblock;
     [SerializeField] GameObject rightWallblock;
 
+    [SerializeField] GameSounds gameSounds;
+
+    bool rockBreakAlreadyPlayed;
+
     void Start()
     {
         
@@ -33,12 +37,24 @@ public class LevelTwoManager : MonoBehaviour
 
         if (activateLeftPathWall)
         {
+            RockBreakPlay();
             leftWallblock.SetActive(true);
         }
 
         if (activateRightPathWall)
         {
+            RockBreakPlay();
             rightWallblock.SetActive(true);
         }
+    }
+
+    private void RockBreakPlay()
+    {
+        if (!rockBreakAlreadyPlayed)
+        {
+            gameSounds.PlayRockBreak();
+            rockBreakAlreadyPlayed = true;
+        }
+
     }
 }
